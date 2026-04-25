@@ -16,7 +16,7 @@ env/
 .venv/
 
 # Datos sensibles y grandes
-data/raw/
+#data/raw/
 data/embeddings/
 data/vector_store/
 models/
