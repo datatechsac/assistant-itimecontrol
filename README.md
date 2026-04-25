@@ -2,6 +2,10 @@
 
 > Tesis: *"Asistente conversacional inteligente basado en fine-tuning para mejorar consultas operativas en el Sistema iTimeControl"*
 
+## 📋 Autor
+
+Jose Luis Espinoza Garcia
+
 ## 📋 Descripción
 
 Este proyecto implementa un asistente conversacional inteligente que combina **Fine-Tuning** y **RAG (Retrieval-Augmented Generation)** para responder consultas operativas sobre el sistema iTimeControl. Se entrenó un modelo de lenguaje sobre documentación específica del sistema para mejorar la precisión y relevancia de las respuestas.
