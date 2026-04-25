@@ -1,0 +1,101 @@
+# ============================================================
+# itimecontrol-assistant — config.yaml
+# Configuración global del proyecto
+# ============================================================
+
+project:
+  name: "itimecontrol-assistant"
+  description: "Asistente conversacional para el sistema iTimeControl"
+  language: "es"
+
+# ----- Rutas -----
+paths:
+  raw_data:       "data/raw"
+  processed_data: "data/processed"
+  chunks_dir:     "data/chunks"
+  embeddings_dir: "data/embeddings"
+  datasets_dir:   "data/datasets"
+  vector_store:   "data/vector_store"
+  models_dir:     "models/checkpoints"
+  logs_dir:       "logs"
+
+# ----- Preprocesamiento -----
+preprocessing:
+  min_text_length: 50          # caracteres mínimos para considerar un bloque de texto
+  remove_headers_footers: true
+  normalize_whitespace: true
+  remove_page_numbers: true
+
+# ----- Chunking -----
+chunking:
+  chunk_size: 512              # tokens por chunk
+  chunk_overlap: 64            # tokens de overlap entre chunks
+  separators: ["\n\n", "\n", ". ", " "]
+
+# ----- Dataset -----
+dataset:
+  train_ratio: 0.85
+  val_ratio:   0.10
+  test_ratio:  0.05
+  format: "alpaca"             # alpaca | chatml | llama2
+
+# ----- Modelo base -----
+model:
+  base_model: "mistralai/Mistral-7B-Instruct-v0.2"
+  # Alternativas ligeras:
+  # base_model: "microsoft/phi-2"
+  # base_model: "google/gemma-2b-it"
+  tokenizer_max_length: 2048
+  output_dir: "models/checkpoints"
+  load_in_4bit: true
+
+# ----- LoRA -----
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+# ----- Entrenamiento -----
+training:
+  num_epochs: 3
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  gradient_accumulation_steps: 2
+  learning_rate: 2.0e-4
+  warmup_ratio: 0.03
+  lr_scheduler_type: "cosine"
+  weight_decay: 0.001
+  fp16: false
+  bf16: true
+  logging_steps: 10
+  eval_steps: 50
+  save_steps: 100
+  max_grad_norm: 0.3
+  seed: 42
+
+# ----- RAG -----
+rag:
+  embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  # Alternativa más potente:
+  # embedding_model: "intfloat/multilingual-e5-large"
+  vector_store_type: "faiss"   # faiss | chromadb
+  top_k: 5
+  similarity_threshold: 0.6
+  max_context_length: 1024
+
+# ----- API -----
+api:
+  host: "0.0.0.0"
+  port: 8000
+  max_new_tokens: 512
+  temperature: 0.7
+  top_p: 0.9
+  repetition_penalty: 1.1
+
+# ----- Evaluación -----
+evaluation:
+  metrics: ["rouge1", "rouge2", "rougeL", "bleu", "exact_match"]
+  benchmark_file: "data/datasets/benchmark_questions.json"
