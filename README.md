@@ -6,6 +6,20 @@
 
 Jose Luis Espinoza Garcia
 
+---
+
+## 📊 Estado del Proyecto — Entregables
+
+| Entregable | Estado | Archivo |
+|---|---|---|
+| README estructurado | ✅ Completo | `README.md` |
+| Notebook EDA | ✅ Completo | `notebooks/02_EDA.ipynb` |
+| Baseline mínimo ejecutado | ✅ Completo | `notebooks/03_baseline.ipynb` |
+| Resultados y gráfica central | ✅ Completo | `notebooks/03_baseline.ipynb` |
+| Pipeline corriendo | ✅ Completo | `run_pipeline.py` |
+
+---
+
 ## 📋 Descripción
 
 Este proyecto implementa un asistente conversacional inteligente que combina **Fine-Tuning** y **RAG (Retrieval-Augmented Generation)** para responder consultas operativas sobre el sistema iTimeControl. Se entrenó un modelo de lenguaje sobre documentación específica del sistema para mejorar la precisión y relevancia de las respuestas.
@@ -220,3 +234,55 @@ El dataset de entrenamiento se construye automáticamente desde los PDFs de iTim
 ## 📄 Licencia
 
 Este proyecto es de uso académico. Ver `LICENSE` para más detalles.
+
+---
+
+## 🎓 Entregables Académicos
+
+### 📓 Notebooks disponibles
+
+| Notebook | Propósito |
+|---|---|
+| `notebooks/02_EDA.ipynb` | EDA completo: estadísticas, distribuciones, riesgos |
+| `notebooks/03_baseline.ipynb` | Baseline: TF-IDF, Naive Bayes, KNN + métricas |
+| `notebooks/01_explore_data.ipynb` | Exploración rápida del corpus |
+| `notebooks/02_finetune_experiment.ipynb` | Experimento de entrenamiento |
+| `notebooks/03_rag_experiment.ipynb` | Experimento RAG |
+
+### ⚠️ Riesgos identificados en el EDA
+
+| Riesgo | Descripción | Mitigación |
+|---|---|---|
+| **Data Leakage** | Las preguntas QA se generan del mismo texto que se indexa | Split estricto train/val/test; benchmark con preguntas externas |
+| **Desbalance** | Un PDF puede dominar el corpus si es mucho más extenso | Sub-muestreo o ponderación de chunks por fuente |
+| **Concept Drift** | El software iTimeControl puede actualizarse | Versionar documentos junto con el modelo; re-indexar en cada versión |
+
+### 🏁 Baseline establecido
+
+Modelos de referencia evaluados con ROUGE, BLEU y Precision@K:
+- **TF-IDF + Coseno** — mejor baseline clásico
+- **Naive Bayes** — clasificación de intención
+- **KNN** — similitud por vecinos más cercanos
+
+El sistema propuesto (RAG + Fine-Tuning) debe superar estos resultados.
+
+### 🖥️ Guía para Demo Interna (5–10 min)
+
+```bash
+# 1. Mostrar estructura del proyecto (1 min)
+ls src/
+
+# 2. Ejecutar preprocesamiento en vivo (2 min)
+python src/preprocessing/pdf_extractor.py
+python src/preprocessing/chunker.py
+
+# 3. Mostrar logs generados (1 min)
+cat logs/app.log
+
+# 4. Abrir notebooks en Jupyter (3 min)
+jupyter notebook notebooks/02_EDA.ipynb        # mostrar gráficas
+jupyter notebook notebooks/03_baseline.ipynb   # mostrar resultados baseline
+
+# 5. Demo del pipeline completo (2 min)
+python run_pipeline.py --stage preprocess
+```
