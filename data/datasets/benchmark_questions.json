@@ -1,0 +1,18 @@
+[
+  {
+    "question": "¿Puedes explicar lo siguiente sobre iTimeControl: se exportará el reporte perfil en archivo CSV?",
+    "answer": "se exportará el reporte perfil en archivo CSV. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nal dar clic en el botón se exportará el reporte perfil en PDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de perfil.\n7.2.2 Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\ndel perfil y dar clic en el botón :\nDatos\nRegistrar el perfil,descripcion,nivel y estado.\nData Technologies S.A.C."
+  },
+  {
+    "question": "¿Puedes explicar lo siguiente sobre iTimeControl: o generar una incidencia de \"marcación omitida\", dependiendo de la configuración?",
+    "answer": "o generar una incidencia de \"marcación omitida\", dependiendo de la configuración. 3. ¿Cómo se valida una marcación duplicada?\nSe valida comparando el tipo de evento y el rango de tiempo. Si existen dos\nmarcaciones consecutivas del mismo tipo en un intervalo corto, se considera duplicada\nen el dispositivo biométrico.\n4. ¿Qué pasa si un trabajador marca fuera de su horario?\nSe evalúa según reglas: puede considerarse tardanza, horas extras o marcación inválida.\n5. ¿Se pueden registrar marcaciones manualmente?\nSí, mediante un usuario autorizado, quedando registro de auditoría.\nHorarios"
+  },
+  {
+    "question": "¿Puedes explicar lo siguiente sobre iTimeControl: de faltas?",
+    "answer": "de faltas. 18. ¿Qué pasa si un trabajador marca durante vacaciones? La marcación puede ser ignorada o generar una alerta.\nPermisos y Licencias\n19. ¿Qué es un permiso?\nEs una autorización temporal para no cumplir el horario laboral.\n20. ¿Qué diferencia hay entre permiso y licencia?\nEl permiso suele ser de corto plazo, mientras que la licencia puede ser prolongada.\nReglas y Configuración\n21. ¿Qué son las reglas de cálculo?\nSon configuraciones que determinan cómo se procesan marcaciones, tardanzas y horas\nextras."
+  },
+  {
+    "question": "¿Puedes explicar lo siguiente sobre iTimeControl: para eliminar dar clic en el botón : Data Technologies S?",
+    "answer": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.11 FERIADO\n3.11.1. Listado\nMuestra los datos de Feriado creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de Feriado en Excel.\nal dar clic en el botón se exportará el reporte de Feriado en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de Feriado en PDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de Feriado.\nData Technologies S.A.C."
+  }
+]

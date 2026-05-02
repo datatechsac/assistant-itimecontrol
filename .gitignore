@@ -43,3 +43,4 @@ wandb/
 
 # Huggingface cache
 .cache/
+*.tmp
