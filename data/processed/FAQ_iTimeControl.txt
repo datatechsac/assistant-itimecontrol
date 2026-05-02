@@ -1,12 +1,11 @@
---- Página 1 ---
-FAQ – Sistema iTime Control de Asistencia
+FAQ Sistema iTime Control de Asistencia
 Marcaciones
 1. ¿Qué es una marcación de asistencia?
 Es el registro de la hora en la que un trabajador realiza como ingreso, salida, inicio o fin
 de refrigerio. Este registro es capturado desde un dispositivo de reloj biométrico (huella
 o facial) o desde el portal del empleado.
 2. ¿Qué sucede si un trabajador no marca su ingreso?
-El sistema puede registrar una falta o generar una incidencia de “marcación omitida”,
+El sistema puede registrar una falta o generar una incidencia de "marcación omitida",
 dependiendo de la configuración.
 3. ¿Cómo se valida una marcación duplicada?
 Se valida comparando el tipo de evento y el rango de tiempo. Si existen dos
@@ -23,9 +22,7 @@ trabajador.
 7. ¿Qué tipos de horarios existen?
 En el sistema iTimeControl existen 3 tipos de horarios (Fijos, rotativos y flexibles).
 Primero, los horarios fijos se establecen con una fecha de inicio y una fecha fin.
-1
 
---- Página 2 ---
 Segundo, los horarios rotativos permiten que el usuario pueda asignar de forma
 simétrica el orden de los horarios a partir por semana o mensual hasta una fecha final.
 Por último, los horarios flexibles o indefinidos indican que el trabajador tiene asignado
@@ -51,9 +48,7 @@ Se calcula el tiempo trabajado fuera del horario establecido, validando si está
 autorizado.
 13. ¿Las horas extras se calculan automáticamente?
 Sí, según reglas de negocio, aunque pueden requerir aprobación.
-2
 
---- Página 3 ---
 Ausencias
 14. ¿Qué es una ausencia?
 Es la falta de marcación en un día laboral sin justificación, el sistema mostrará en el
@@ -76,9 +71,7 @@ Reglas y Configuración
 21. ¿Qué son las reglas de cálculo?
 Son configuraciones que determinan cómo se procesan marcaciones, tardanzas y horas
 extras.
-3
 
---- Página 4 ---
 22. ¿Se pueden personalizar las reglas por empresa?
 Sí, cada empresa puede definir sus propias políticas.
 23. ¿Qué es un turno nocturno?
@@ -99,4 +92,3 @@ El sistema debe reordenarlas cronológicamente antes del cálculo.
 Puede considerarse como horas extras o ignorarse según configuración.
 30. ¿Qué pasa si un trabajador tiene dos horarios en un día?
 Se deben evaluar ambos bloques de tiempo por separado.
-4

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "26c7db15-9ca9-48b2-ac75-de785358fe1d",
+    "text": "Nuestro Software WEB \"iTime Control\" es una poderosa herramienta para la gestión de\nRecursos Humanos. El Sistema realiza el proceso integral del cálculo de horas laboradas por\nel personal, el usuario puede ingresar al sistema desde cualquier navegador web con niveles\nde acceso a cada módulo del sistema, el sistema puede alojarse en la nube (Internet) para tener\nacceso las 24 horas con reportes en línea.\nEl sistema es compatible con todos los dispositivos biométricos del mercado y también se",
+    "source": "SistemaItimecontrol_ServicioWeb.txt",
+    "chunk_index": 0,
+    "total_chunks": 6,
+    "char_count": 495,
+    "word_count": 80
+  },
+  {
+    "id": "e7c13397-a52a-452f-b65b-10961e24f8b4",
+    "text": "compatible con todos los dispositivos biométricos del mercado y también se puede personalizar a gusto de nuestro cliente.\nArquitectura de Solución",
+    "source": "SistemaItimecontrol_ServicioWeb.txt",
+    "chunk_index": 1,
+    "total_chunks": 6,
+    "char_count": 146,
+    "word_count": 21
+  },
+  {
+    "id": "ec39a533-3ba3-437e-9cd6-3454ce199b97",
+    "text": "puede personalizar a gusto de nuestro cliente. Arquitectura de Solución Web iTimeControl es un sistema de Control de Asistencias, que permite la administración y\ncontrol de los movimientos de ingresos y salidas de los trabajadores de la empresa;\nrespondiendo a preguntas frecuentes como: ¿quiénes asistieron a laborar hoy?, ¿quiénes\nllegaron tarde?, ¿quiénes tuvieron horas extras?, ¿quiénes estuvieron de comisión, permiso o\nvacaciones?, etc.\nEl sistema, se integra con cualquier Reloj de identificación automática como: Códigos de",
+    "source": "SistemaItimecontrol_ServicioWeb.txt",
+    "chunk_index": 2,
+    "total_chunks": 6,
+    "char_count": 532,
+    "word_count": 76
+  },
+  {
+    "id": "ded6f0b2-dd67-441e-a9ae-537d347f24c8",
+    "text": "se integra con cualquier Reloj de identificación automática como: Códigos de barras, banda magnética, tarjetas de proximidad (RFID) o sistemas biométricos de huella\ndigital.\nEl sistema de control de asistencia ha sido creado para brindar facilidades a los usuarios a\ntravés de su entorno gráfico amigable, y en su desarrollo se ha tomado como base casos reales\nde diversas empresas de nuestro medio.\nMódulos\nAdministración: Permite insertar todos los elementos del Control de Asistencia\n(Empresa, Local, Area, Sub Area, Cargo, Clase Personal, Horario, Ausencia y\nFeriado).",
+    "source": "SistemaItimecontrol_ServicioWeb.txt",
+    "chunk_index": 3,
+    "total_chunks": 6,
+    "char_count": 572,
+    "word_count": 86
+  },
+  {
+    "id": "13d89aaa-d22b-4c2d-8507-52b78a96fd37",
+    "text": "Local, Area, Sub Area, Cargo, Clase Personal, Horario, Ausencia y Feriado). Asignación: Permite asignar el Horario, asignar ausencias y controlar las\nmarcaciones del personal.\nReportes: Permite ver los reportes de Asistencia, Inasistencia, Tardanza,\nConsolidado y Asistencia Detallado.\nConfiguración: Permite configurar las marcaciones de acuerdo al horario o\nmarcas por personas.",
+    "source": "SistemaItimecontrol_ServicioWeb.txt",
+    "chunk_index": 4,
+    "total_chunks": 6,
+    "char_count": 380,
+    "word_count": 50
+  },
+  {
+    "id": "6374e548-b305-44ac-99c2-30f7c38631af",
+    "text": "configurar las marcaciones de acuerdo al horario o marcas por personas. Seguridad: Permite otorgar permisos de acceso a los menús de ciertos usuarios o\nperfiles.\nBeneficios del software\nMejora en los procesos de Gestión del Personal.\nMenor tiempo de generación de reportes.\nReducción del tiempo de procesos en el control del personal.\nAplicativo Web (Información en tiempo real).\nAcceso Multi-Usuario.\nPermite acceder a la información en tiempo real.",
+    "source": "SistemaItimecontrol_ServicioWeb.txt",
+    "chunk_index": 5,
+    "total_chunks": 6,
+    "char_count": 450,
+    "word_count": 68
+  }
+]

@@ -1,15 +1,13 @@
---- Página 1 ---
 Web iTimeControl
-Manual de Usuario
+
 Lima, 2018
 
---- Página 2 ---
 Sistema iTime Control Manual Usuario v1.0
 INTRODUCCION
-El sistema “Web iTime Control” es un software diseñado y
+El sistema "Web iTime Control" es un software diseñado y
 desarrollado para la gestión del Control de Asistencia del
 personal.
-El sistema “Web iTime Control” tiene como finalidad
+El sistema "Web iTime Control" tiene como finalidad
 brindar información sobre las asistencias, tardanzas, horas extras
 e inasistencias a partir de las marcaciones realizadas por el
 personal en los terminales (relojes) y de los datos que el usuario
@@ -22,15 +20,13 @@ las opciones del sistema, así como también los pasos a seguir
 para realizar cada una de las operaciones y emisión de reportes.
 Data Technologies S.A.C.
 
---- Página 3 ---
 Sistema iTime Control Manual Usuario v1.0
 1. INGRESO SISTEMA
-Para acceder al sistema “Web iTimeControl” debe hacerlo a través de un
+Para acceder al sistema "Web iTimeControl" debe hacerlo a través de un
 navegador Web (Chrome, Firefox, Opera, Internet Explorer) y escribir la siguiente
 url: http://timecontrol.datatech.com.pe
 Data Technologies S.A.C.
 
---- Página 4 ---
 Sistema iTime Control Manual Usuario v1.0
 2. PÁGINA PRINCIPAL
 Se muestra los diferentes módulos del Sistema en la parte izquierda, en la parte central se
@@ -38,23 +34,21 @@ muestra las últimas marcaciones registradas. En la parte inferior central mostr
 de porcentaje de asistencia del personal en el mes actual.
 Data Technologies S.A.C.
 
---- Página 5 ---
 Sistema iTime Control Manual Usuario v1.0
 3. MODULO ADMINISTRACION
 Data Technologies S.A.C.
 
---- Página 6 ---
 Sistema iTime Control Manual Usuario v1.0
 Permite ingresar los datos generales para el Control de Asistencia del personal,
 como Empresa, Local, Área, Sub Área, Cargo, Personal, Horario, Ausencia y Feriado.
 3.1 EMPRESA
 3.1.1. Listado
 Muestra los datos de las Empresas creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de empresas en
+al dar clic en el botón se exportará el reporte de empresas en
 Excel.
- al dar clic en el botón se exportará el reporte de empresas en
+al dar clic en el botón se exportará el reporte de empresas en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de empresas en
+al dar clic en el botón se exportará el reporte de empresas en
 PDF.
 3.1.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar la
@@ -64,7 +58,6 @@ Registrar los datos generales de la empresa (como razón social, ruc,
 departamento, logo, etc.)
 Data Technologies S.A.C.
 
---- Página 7 ---
 Sistema iTime Control Manual Usuario v1.0
 Datos Configuraciones
 En esta ventana de se registra Codigo Marcacion, el tiempo de horas
@@ -72,7 +65,6 @@ trabajadas, horas extras, jordana semanal, jornada diaria y consideracion horas
 nocturnas.
 Data Technologies S.A.C.
 
---- Página 8 ---
 Sistema iTime Control Manual Usuario v1.0
 Datos Módulos
 Registrar los modulos otorgados a la empresa y dar clic en guardar
@@ -81,53 +73,47 @@ Dar clic en el botón y se abrirá la ventana para actualizar la empresa y
 dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 9 ---
 Sistema iTime Control Manual Usuario v1.0
 3.1.4. Eliminar
 Data Technologies S.A.C.
 
---- Página 10 ---
 Sistema iTime Control Manual Usuario v1.0
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 3.2 LOCAL
 3.2.1. Listado
 Muestra los datos de Local creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de locales en Excel.
- al dar clic en el botón se exportará el reporte de locales en archivo
+al dar clic en el botón se exportará el reporte de locales en Excel.
+al dar clic en el botón se exportará el reporte de locales en archivo
 CSV.
- al dar clic en el botón se exportará el reporte de locales en PDF.
+al dar clic en el botón se exportará el reporte de locales en PDF.
 Data Technologies S.A.C.
 
---- Página 11 ---
 Sistema iTime Control Manual Usuario v1.0
 3.2.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
 de local y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 12 ---
 Sistema iTime Control Manual Usuario v1.0
 3.2.3. Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 local y dar clic en el botón :
 3.2.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 13 ---
 Sistema iTime Control Manual Usuario v1.0
 3.2 AREA
 3.3.2 Listado
 Muestra los datos de Área creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de áreas en Excel.
- al dar clic en el botón se exportará el reporte de áreas en archivo
+al dar clic en el botón se exportará el reporte de áreas en Excel.
+al dar clic en el botón se exportará el reporte de áreas en archivo
 CSV.
- al dar clic en el botón se exportará el reporte de áreas en PDF.
+al dar clic en el botón se exportará el reporte de áreas en PDF.
 Data Technologies S.A.C.
 
---- Página 14 ---
 Sistema iTime Control Manual Usuario v1.0
 3.3.3 Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -138,23 +124,21 @@ Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 area y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 15 ---
 Sistema iTime Control Manual Usuario v1.0
 3.3.5 Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 3.4 SUBAREA
 Data Technologies S.A.C.
 
---- Página 16 ---
 Sistema iTime Control Manual Usuario v1.0
 3.4.2 Listado
 Muestra los datos de Sub Área creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de sub áreas en
+al dar clic en el botón se exportará el reporte de sub áreas en
 Excel.
- al dar clic en el botón se exportará el reporte de sub áreas en
+al dar clic en el botón se exportará el reporte de sub áreas en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de sub áreas en
+al dar clic en el botón se exportará el reporte de sub áreas en
 PDF.
 3.4.3 Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -162,30 +146,27 @@ de sub área y dar clic en el botón :
 Datos Generales
 Data Technologies S.A.C.
 
---- Página 17 ---
 Sistema iTime Control Manual Usuario v1.0
 3.4.4 Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 sub area y dar clic en el botón :
 3.4.5 Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 18 ---
 Sistema iTime Control Manual Usuario v1.0
 3.5 CARGO
 3.5.1. Listado
 Muestra los datos de Cargo creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de cargo en Excel.
- al dar clic en el botón se exportará el reporte de cargo en archivo
+al dar clic en el botón se exportará el reporte de cargo en Excel.
+al dar clic en el botón se exportará el reporte de cargo en archivo
 CSV.
- al dar clic en el botón se exportará el reporte de cargo en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte de cargo en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de cargo.
 Data Technologies S.A.C.
 
---- Página 19 ---
 Sistema iTime Control Manual Usuario v1.0
 3.5.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -193,32 +174,29 @@ de cargo y dar clic en el botón :
 Datos Generales
 Data Technologies S.A.C.
 
---- Página 20 ---
 Sistema iTime Control Manual Usuario v1.0
 3.5.3. Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 cargo y dar clic en el botón :
 3.5.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 21 ---
 Sistema iTime Control Manual Usuario v1.0
 3.6 CLASE PERSONAL
 3.6.1. Listado
 Muestra los datos de Clase Personal creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de clase personal
+al dar clic en el botón se exportará el reporte de clase personal
 en Excel.
- al dar clic en el botón se exportará el reporte de clase personal en
+al dar clic en el botón se exportará el reporte de clase personal en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de clase personal en
+al dar clic en el botón se exportará el reporte de clase personal en
 PDF.
- Escribir en la casilla para filtrar los campos de la
+Escribir en la casilla para filtrar los campos de la
 grilla de clase personal.
 Data Technologies S.A.C.
 
---- Página 22 ---
 Sistema iTime Control Manual Usuario v1.0
 3.6.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -229,25 +207,23 @@ Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 clase personal y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 23 ---
 Sistema iTime Control Manual Usuario v1.0
 3.6.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 3.7 CENTRO COSTO
 Data Technologies S.A.C.
 
---- Página 24 ---
 Sistema iTime Control Manual Usuario v1.0
 3.7.1. Listado
 Muestra los datos de Centro Costo creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de Centro costo en
+al dar clic en el botón se exportará el reporte de Centro costo en
 Excel.
- al dar clic en el botón se exportará el reporte de centro costo en
+al dar clic en el botón se exportará el reporte de centro costo en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de centro costo en
+al dar clic en el botón se exportará el reporte de centro costo en
 PDF.
- Escribir en la casilla para filtrar los campos de la
+Escribir en la casilla para filtrar los campos de la
 grilla de centro costo.
 3.7.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -255,7 +231,6 @@ de centro costo y dar clic en el botón :
 Datos Generales
 Data Technologies S.A.C.
 
---- Página 25 ---
 Sistema iTime Control Manual Usuario v1.0
 3.7.3. Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
@@ -263,23 +238,21 @@ centro costo y dar clic en el botón :
 3.7.4. Eliminar
 Data Technologies S.A.C.
 
---- Página 26 ---
 Sistema iTime Control Manual Usuario v1.0
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 3.8 PERSONAL
 3.8.1. Listado
 Muestra los datos de Personal creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de personal en
+al dar clic en el botón se exportará el reporte de personal en
 Excel.
- al dar clic en el botón se exportará el reporte de personal en
+al dar clic en el botón se exportará el reporte de personal en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de personal en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte de personal en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de personal.
 Data Technologies S.A.C.
 
---- Página 27 ---
 Sistema iTime Control Manual Usuario v1.0
 3.8.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -289,14 +262,12 @@ Registrar los datos generales del personal (como código, marcación, nombres,
 apellidos, tipo documento, numero documento foto, etc.)
 Data Technologies S.A.C.
 
---- Página 28 ---
 Sistema iTime Control Manual Usuario v1.0
 Datos Laborables
 Registrar los datos laborales del personal (como Empresa, local, área, cargo,
 clase personal, fecha ingreso, etc.)
 Data Technologies S.A.C.
 
---- Página 29 ---
 Sistema iTime Control Manual Usuario v1.0
 3.8.3. Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
@@ -304,22 +275,20 @@ personal y dar clic en el botón :
 3.8.4. Eliminar
 Data Technologies S.A.C.
 
---- Página 30 ---
 Sistema iTime Control Manual Usuario v1.0
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 3.9 HORARIO
 3.9.1. Listado
 Muestra los datos de horario creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de horario en Excel.
- al dar clic en el botón se exportará el reporte de horario en
+al dar clic en el botón se exportará el reporte de horario en Excel.
+al dar clic en el botón se exportará el reporte de horario en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de horario en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte de horario en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de horario.
 Data Technologies S.A.C.
 
---- Página 31 ---
 Sistema iTime Control Manual Usuario v1.0
 3.9.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -329,49 +298,43 @@ Registrar el código, nombre, estado, tolerancia de ingreso, extra salida, extra
 ingreso y refrigerio del horario.
 Data Technologies S.A.C.
 
---- Página 32 ---
 Sistema iTime Control Manual Usuario v1.0
 Detalle
 Seleccionar los días que se asignara al horario, ingresar hora de ingreso,
 ingresar hora de salida y dar clic en el botón
 Data Technologies S.A.C.
 
---- Página 33 ---
 Sistema iTime Control Manual Usuario v1.0
 Detalle
 Se mostrará los días agregados en la grilla días, se podrá eliminar un ítem de
 la grilla dando clic en el botón , por último dar clic en botón .
 Data Technologies S.A.C.
 
---- Página 34 ---
 Sistema iTime Control Manual Usuario v1.0
 3.9.3. Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 horario y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 35 ---
 Sistema iTime Control Manual Usuario v1.0
 Data Technologies S.A.C.
 
---- Página 36 ---
 Sistema iTime Control Manual Usuario v1.0
 3.9.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 3.10 AUSENCIA
 3.10.1. Listado
 Muestra los datos de Ausencia creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de Ausencia en
+al dar clic en el botón se exportará el reporte de Ausencia en
 Excel.
- al dar clic en el botón se exportará el reporte de Ausencia en
+al dar clic en el botón se exportará el reporte de Ausencia en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de Ausencia en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte de Ausencia en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de Ausencia.
 Data Technologies S.A.C.
 
---- Página 37 ---
 Sistema iTime Control Manual Usuario v1.0
 3.10.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -379,30 +342,27 @@ de ausencia y dar clic en el botón :
 Datos Generales
 Data Technologies S.A.C.
 
---- Página 38 ---
 Sistema iTime Control Manual Usuario v1.0
 3.10.3. Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 ausencia y dar clic en el botón :
 3.10.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 39 ---
 Sistema iTime Control Manual Usuario v1.0
 3.11 FERIADO
 3.11.1. Listado
 Muestra los datos de Feriado creadas en el Sistema:
- al dar clic en el botón se exportará el reporte de Feriado en Excel.
- al dar clic en el botón se exportará el reporte de Feriado en
+al dar clic en el botón se exportará el reporte de Feriado en Excel.
+al dar clic en el botón se exportará el reporte de Feriado en
 archivo CSV.
- al dar clic en el botón se exportará el reporte de Feriado en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte de Feriado en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de Feriado.
 Data Technologies S.A.C.
 
---- Página 40 ---
 Sistema iTime Control Manual Usuario v1.0
 3.11.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -413,14 +373,12 @@ Dar clic en el botón y se abrirá la ventana para actualizar los datos de
 feriado y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 41 ---
 Sistema iTime Control Manual Usuario v1.0
 3.11.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 42 ---
 Sistema iTime Control Manual Usuario v1.0
 4. MODULO ASIGNACIÓN
 5. MODULO REPORTES
@@ -431,15 +389,14 @@ Permite registrar un usuario en el Sistema, los usuarios son asignados a
 una o más empresas.
 7.1.1. Listado
 Muestra los datos de Local creadas en el Sistema:
- al dar clic en el botón se exportará el reporte usuario en Excel.
- al dar clic en el botón se exportará el reporte usuario en archivo
+al dar clic en el botón se exportará el reporte usuario en Excel.
+al dar clic en el botón se exportará el reporte usuario en archivo
 CSV.
- al dar clic en el botón se exportará el reporte usuario en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte usuario en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de usuario.
 Data Technologies S.A.C.
 
---- Página 43 ---
 Sistema iTime Control Manual Usuario v1.0
 7.1.2. Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -451,7 +408,6 @@ permitirá acceder al sistema).
 Asignacion Empresa
 Data Technologies S.A.C.
 
---- Página 44 ---
 Sistema iTime Control Manual Usuario v1.0
 Seleccionar la empresa a asignar y dar clic el boton
 Podrá eliminar un ítem de la grilla dando clic en el botón , por último
@@ -461,29 +417,26 @@ Dar clic en el botón y se abrirá la ventana para actualizar los datos del
 usuario y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 45 ---
 Sistema iTime Control Manual Usuario v1.0
 Data Technologies S.A.C.
 
---- Página 46 ---
 Sistema iTime Control Manual Usuario v1.0
 7.1.4. Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 7.2 PERFIL
 Permite registrar un perfil y otorgar permisos a un perfil para acceder a
 los módulos o menús del sistema.
 7.2.1 Listado
 Muestra los datos de Local creadas en el Sistema:
- al dar clic en el botón se exportará el reporte perfil en Excel.
- al dar clic en el botón se exportará el reporte perfil en archivo
+al dar clic en el botón se exportará el reporte perfil en Excel.
+al dar clic en el botón se exportará el reporte perfil en archivo
 CSV.
 Data Technologies S.A.C.
 
---- Página 47 ---
 Sistema iTime Control Manual Usuario v1.0
- al dar clic en el botón se exportará el reporte perfil en PDF.
- Escribir en la casilla para filtrar los campos de la
+al dar clic en el botón se exportará el reporte perfil en PDF.
+Escribir en la casilla para filtrar los campos de la
 grilla de perfil.
 7.2.2 Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -492,48 +445,42 @@ Datos
 Registrar el perfil,descripcion,nivel y estado.
 Data Technologies S.A.C.
 
---- Página 48 ---
 Sistema iTime Control Manual Usuario v1.0
 Permisos
 Seleccionara los permisos a que modulos (administración asignación, reportes,
 configuración y seguridad) y menús tendra acceso el perfil.
 Data Technologies S.A.C.
 
---- Página 49 ---
 Sistema iTime Control Manual Usuario v1.0
 7.2.3 Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos del
 perfil y dar clic en el botón
 Data Technologies S.A.C.
 
---- Página 50 ---
 Sistema iTime Control Manual Usuario v1.0
 Data Technologies S.A.C.
 
---- Página 51 ---
 Sistema iTime Control Manual Usuario v1.0
 7.2.4 Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 52 ---
 Sistema iTime Control Manual Usuario v1.0
 7.3 USUARIO PERFIL
 Permite asignar a un usuario uno o más perfiles.
 7.3.1 Listado
 Muestra los datos de Local creadas en el Sistema:
- al dar clic en el botón se exportará el reporte usuario perfil en
+al dar clic en el botón se exportará el reporte usuario perfil en
 Excel.
- al dar clic en el botón se exportará el reporte usuario perfil en
+al dar clic en el botón se exportará el reporte usuario perfil en
 archivo CSV.
- al dar clic en el botón se exportará el reporte usuario perfil en
+al dar clic en el botón se exportará el reporte usuario perfil en
 PDF.
- Escribir en la casilla para filtrar los campos de la
+Escribir en la casilla para filtrar los campos de la
 grilla de usuario perfil.
 Data Technologies S.A.C.
 
---- Página 53 ---
 Sistema iTime Control Manual Usuario v1.0
 7.3.2 Nuevo
 Dar clic en el botón y se abrirá la ventana para registrar los datos
@@ -545,16 +492,14 @@ Podrá eliminar un ítem de la grilla dando clic en el botón , por último
 dar clic en botón
 Data Technologies S.A.C.
 
---- Página 54 ---
 Sistema iTime Control Manual Usuario v1.0
 7.3.3 Editar
 Dar clic en el botón y se abrirá la ventana para actualizar los datos del
 usuario perfil y dar clic en el botón :
 Data Technologies S.A.C.
 
---- Página 55 ---
 Sistema iTime Control Manual Usuario v1.0
 7.3.4 Eliminar
-Dar clic en el botón y mostrará la ventana “Si Desea Eliminar Registro”,
+Dar clic en el botón y mostrará la ventana "Si Desea Eliminar Registro",
 para eliminar dar clic en el botón :
 Data Technologies S.A.C.

@@ -1,5 +1,4 @@
---- Página 1 ---
-Nuestro Software WEB “iTime Control” es una poderosa herramienta para la gestión de
+Nuestro Software WEB "iTime Control" es una poderosa herramienta para la gestión de
 Recursos Humanos. El Sistema realiza el proceso integral del cálculo de horas laboradas por
 el personal, el usuario puede ingresar al sistema desde cualquier navegador web con niveles
 de acceso a cada módulo del sistema, el sistema puede alojarse en la nube (Internet) para tener
@@ -8,7 +7,6 @@ El sistema es compatible con todos los dispositivos biométricos del mercado y t
 puede personalizar a gusto de nuestro cliente.
 Arquitectura de Solución
 
---- Página 2 ---
 Web iTimeControl es un sistema de Control de Asistencias, que permite la administración y
 control de los movimientos de ingresos y salidas de los trabajadores de la empresa;
 respondiendo a preguntas frecuentes como: ¿quiénes asistieron a laborar hoy?, ¿quiénes
@@ -21,25 +19,23 @@ El sistema de control de asistencia ha sido creado para brindar facilidades a lo
 través de su entorno gráfico amigable, y en su desarrollo se ha tomado como base casos reales
 de diversas empresas de nuestro medio.
 Módulos
- Administración: Permite insertar todos los elementos del Control de Asistencia
+Administración: Permite insertar todos los elementos del Control de Asistencia
 (Empresa, Local, Area, Sub Area, Cargo, Clase Personal, Horario, Ausencia y
 Feriado).
 
---- Página 3 ---
- Asignación: Permite asignar el Horario, asignar ausencias y controlar las
+Asignación: Permite asignar el Horario, asignar ausencias y controlar las
 marcaciones del personal.
- Reportes: Permite ver los reportes de Asistencia, Inasistencia, Tardanza,
+Reportes: Permite ver los reportes de Asistencia, Inasistencia, Tardanza,
 Consolidado y Asistencia Detallado.
- Configuración: Permite configurar las marcaciones de acuerdo al horario o
+Configuración: Permite configurar las marcaciones de acuerdo al horario o
 marcas por personas.
 
---- Página 4 ---
- Seguridad: Permite otorgar permisos de acceso a los menús de ciertos usuarios o
+Seguridad: Permite otorgar permisos de acceso a los menús de ciertos usuarios o
 perfiles.
 Beneficios del software
- Mejora en los procesos de Gestión del Personal.
- Menor tiempo de generación de reportes.
- Reducción del tiempo de procesos en el control del personal.
- Aplicativo Web (Información en tiempo real).
- Acceso Multi-Usuario.
- Permite acceder a la información en tiempo real.
+Mejora en los procesos de Gestión del Personal.
+Menor tiempo de generación de reportes.
+Reducción del tiempo de procesos en el control del personal.
+Aplicativo Web (Información en tiempo real).
+Acceso Multi-Usuario.
+Permite acceder a la información en tiempo real.
