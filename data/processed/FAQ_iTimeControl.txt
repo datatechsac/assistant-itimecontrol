@@ -1,0 +1,102 @@
+--- Página 1 ---
+FAQ – Sistema iTime Control de Asistencia
+Marcaciones
+1. ¿Qué es una marcación de asistencia?
+Es el registro de la hora en la que un trabajador realiza como ingreso, salida, inicio o fin
+de refrigerio. Este registro es capturado desde un dispositivo de reloj biométrico (huella
+o facial) o desde el portal del empleado.
+2. ¿Qué sucede si un trabajador no marca su ingreso?
+El sistema puede registrar una falta o generar una incidencia de “marcación omitida”,
+dependiendo de la configuración.
+3. ¿Cómo se valida una marcación duplicada?
+Se valida comparando el tipo de evento y el rango de tiempo. Si existen dos
+marcaciones consecutivas del mismo tipo en un intervalo corto, se considera duplicada
+en el dispositivo biométrico.
+4. ¿Qué pasa si un trabajador marca fuera de su horario?
+Se evalúa según reglas: puede considerarse tardanza, horas extras o marcación inválida.
+5. ¿Se pueden registrar marcaciones manualmente?
+Sí, mediante un usuario autorizado, quedando registro de auditoría.
+Horarios
+6. ¿Qué es un horario laboral?
+Es la configuración de horas de ingreso, salida, tolerancias y descansos asignados a un
+trabajador.
+7. ¿Qué tipos de horarios existen?
+En el sistema iTimeControl existen 3 tipos de horarios (Fijos, rotativos y flexibles).
+Primero, los horarios fijos se establecen con una fecha de inicio y una fecha fin.
+1
+
+--- Página 2 ---
+Segundo, los horarios rotativos permiten que el usuario pueda asignar de forma
+simétrica el orden de los horarios a partir por semana o mensual hasta una fecha final.
+Por último, los horarios flexibles o indefinidos indican que el trabajador tiene asignado
+un horario o más horarios sin fechas definidas el sistema internamente calcula que
+horario es el más próximo para asignarlo en el proceso de marcas.
+8. ¿Cómo se asigna un horario a un trabajador?
+Se asigna directamente desde el módulo de Operación y menú asignación de horario,
+puedes realizarlo por una persona o por un filtro de un grupo(local, área, subarea, tipo
+personal) agregas a las personas y luego seleccionas el tipo de horario(Fijos, rotativos y
+flexibles).
+9. ¿Qué es la tolerancia en un horario?
+Es el tiempo permitido después de la hora de ingreso sin considerar tardanza. La
+tolerancia debe configurarse en el módulo Administración en el menú Horario.
+10. ¿Qué ocurre si no hay horario asignado?
+El sistema iTimeControl tomará al trabajador como que no tiene una responsabilidad
+fiscalizada por lo tanto no podrá realizar el cálculo de las horas trabajadas.
+Tardanzas y Horas Extras
+11. ¿Cómo se calcula una tardanza?
+Se calcula como la diferencia entre la hora de ingreso y la hora real de marcación,
+descontando la tolerancia.
+12. ¿Cómo se calculan las horas extras?
+Se calcula el tiempo trabajado fuera del horario establecido, validando si está
+autorizado.
+13. ¿Las horas extras se calculan automáticamente?
+Sí, según reglas de negocio, aunque pueden requerir aprobación.
+2
+
+--- Página 3 ---
+Ausencias
+14. ¿Qué es una ausencia?
+Es la falta de marcación en un día laboral sin justificación, el sistema mostrará en el
+reporte como FALTA.
+15. ¿Cómo se justifica una ausencia?
+Mediante permisos, licencias o vacaciones registradas en el sistema.
+16. ¿Qué tipos de ausencia existen?
+Justificadas e injustificadas.
+Vacaciones
+17. ¿Cómo se gestionan las vacaciones?
+Se registran solicitudes aprobadas que bloquean la generación de faltas.
+18. ¿Qué pasa si un trabajador marca durante vacaciones?
+La marcación puede ser ignorada o generar una alerta.
+Permisos y Licencias
+19. ¿Qué es un permiso?
+Es una autorización temporal para no cumplir el horario laboral.
+20. ¿Qué diferencia hay entre permiso y licencia?
+El permiso suele ser de corto plazo, mientras que la licencia puede ser prolongada.
+Reglas y Configuración
+21. ¿Qué son las reglas de cálculo?
+Son configuraciones que determinan cómo se procesan marcaciones, tardanzas y horas
+extras.
+3
+
+--- Página 4 ---
+22. ¿Se pueden personalizar las reglas por empresa?
+Sí, cada empresa puede definir sus propias políticas.
+23. ¿Qué es un turno nocturno?
+Es un horario que cruza medianoche.
+Reportes
+24. ¿Qué tipos de reportes existen?
+Asistencia diaria, tardanzas, horas extras, ausencias y consolidado mensual.
+25. ¿Se pueden exportar los reportes?
+Sí, en formatos como Excel o PDF.
+Casos Especiales
+26. ¿Qué pasa si un trabajador marca ingreso pero no salida?
+Se puede completar automáticamente o generar una incidencia.
+27. ¿Cómo se manejan múltiples marcaciones en un día?
+Se agrupan por pares de entrada y salida.
+28. ¿Qué sucede si hay marcaciones desordenadas?
+El sistema debe reordenarlas cronológicamente antes del cálculo.
+29. ¿Cómo se calcula asistencia en feriados?
+Puede considerarse como horas extras o ignorarse según configuración.
+30. ¿Qué pasa si un trabajador tiene dos horarios en un día?
+Se deben evaluar ambos bloques de tiempo por separado.
+4
