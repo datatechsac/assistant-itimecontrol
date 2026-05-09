@@ -6,7 +6,7 @@
 
 ## 👤 Autor
 
-**[Jose Luis Espinoza Garcia]**
+**Jose Luis Espinoza Garcia**
 - Universidad: Universidad Nacional de Ingeniería (UNI).
 - Carrera: Maestría en Inteligencia Artificial
 - Año: 2026
