@@ -2,9 +2,20 @@
 
 > Tesis: *"Asistente conversacional inteligente basado en fine-tuning para mejorar consultas operativas en el Sistema iTimeControl"*
 
-## 📋 Autor
+---
 
-Jose Luis Espinoza Garcia
+## 👤 Autor
+
+**[Jose Luis Espinoza Garcia]**
+- Universidad: Universidad Nacional de Ingeniería (UNI).
+- Carrera: Maestría en Inteligencia Artificial
+- Año: 2026
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso académico. Ver `LICENSE` para más detalles.
 
 ---
 
@@ -219,21 +230,6 @@ El dataset de entrenamiento se construye automáticamente desde los PDFs de iTim
   "output": "Para registrar la asistencia en iTimeControl, debe ingresar al módulo de..."
 }
 ```
-
----
-
-## 👤 Autor
-
-**[Tu Nombre]**
-- Universidad: [Nombre de tu Universidad]
-- Carrera: [Ingeniería de Sistemas / Informática]
-- Año: 2024-2025
-
----
-
-## 📄 Licencia
-
-Este proyecto es de uso académico. Ver `LICENSE` para más detalles.
 
 ---
 
