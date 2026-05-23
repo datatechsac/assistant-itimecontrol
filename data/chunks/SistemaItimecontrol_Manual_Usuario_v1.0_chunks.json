@@ -1,6 +1,6 @@
 [
   {
-    "id": "568e995c-44db-4026-be8f-21c032b08263",
+    "id": "3c9e8823-e7ea-4d80-9db1-3f642bceecab",
     "text": "Web iTimeControl\n\nLima, 2018",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 0,
@@ -9,7 +9,7 @@
     "word_count": 4
   },
   {
-    "id": "e3e9dc92-559a-4547-8ad3-f17d89fef652",
+    "id": "8fd06200-f005-4fd2-8482-c34eba8b687f",
     "text": "Web iTimeControl Lima, 2018 Sistema iTime Control Manual Usuario v1.0\nINTRODUCCION\nEl sistema \"Web iTime Control\" es un software diseñado y\ndesarrollado para la gestión del Control de Asistencia del\npersonal.\nEl sistema \"Web iTime Control\" tiene como finalidad\nbrindar información sobre las asistencias, tardanzas, horas extras\ne inasistencias a partir de las marcaciones realizadas por el\npersonal en los terminales (relojes) y de los datos que el usuario\ndel sistema deberá ingresar, como asignación de horarios,",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 1,
@@ -18,7 +18,7 @@
     "word_count": 77
   },
   {
-    "id": "123a8d97-016e-4081-ad8e-7550afd0fdbe",
+    "id": "e076ae41-935b-47c1-9e8b-4c28f015e88a",
     "text": "que el usuario del sistema deberá ingresar, como asignación de horarios, asignación de ausencias autorizadas y asignación de horas\nextras; después de lo cual podrá procesar los diferentes tipos de\nreportes existentes.\nEn el presente documento se detalla cada una de\nlas opciones del sistema, así como también los pasos a seguir\npara realizar cada una de las operaciones y emisión de reportes.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 2,
@@ -27,7 +27,7 @@
     "word_count": 66
   },
   {
-    "id": "ef479622-669b-42a1-8b91-6164deac5de3",
+    "id": "5a710bfc-3def-4b59-9dc2-5190f156b593",
     "text": "una de las operaciones y emisión de reportes. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n1. INGRESO SISTEMA\nPara acceder al sistema \"Web iTimeControl\" debe hacerlo a través de un\nnavegador Web (Chrome, Firefox, Opera, Internet Explorer) y escribir la siguiente\nurl: http://timecontrol.datatech.com.pe\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 3,
@@ -36,7 +36,7 @@
     "word_count": 48
   },
   {
-    "id": "eba01554-fe4e-41ce-8232-07372e0bc483",
+    "id": "028c51f5-89d7-4491-b661-45648ff7fc73",
     "text": "Internet Explorer) y escribir la siguiente url: http://timecontrol.datatech.com.pe Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n2. PÁGINA PRINCIPAL\nSe muestra los diferentes módulos del Sistema en la parte izquierda, en la parte central se\nmuestra las últimas marcaciones registradas. En la parte inferior central mostrará un gráfico\nde porcentaje de asistencia del personal en el mes actual.\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n3. MODULO ADMINISTRACION\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 4,
@@ -45,7 +45,7 @@
     "word_count": 74
   },
   {
-    "id": "4dbd00f9-92ae-4460-85b4-58443073e330",
+    "id": "149f7d30-848f-49fe-b776-287a5bc43aff",
     "text": "iTime Control Manual Usuario v1.0 3. MODULO ADMINISTRACION Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nPermite ingresar los datos generales para el Control de Asistencia del personal,\ncomo Empresa, Local, Área, Sub Área, Cargo, Personal, Horario, Ausencia y Feriado.\n3.1 EMPRESA\n3.1.1. Listado\nMuestra los datos de las Empresas creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de empresas en\nExcel.\nal dar clic en el botón se exportará el reporte de empresas en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de empresas en\nPDF.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 5,
@@ -54,7 +54,7 @@
     "word_count": 98
   },
   {
-    "id": "e32133e6-b199-41b1-96f7-d39c73f0a76f",
+    "id": "27b17100-fc1f-4ade-bfd1-f46b0d4b94df",
     "text": "en el botón se exportará el reporte de empresas en PDF. 3.1.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar la\nempresa:\nDatos Generales\nRegistrar los datos generales de la empresa (como razón social, ruc,\ndepartamento, logo, etc.)\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 6,
@@ -63,7 +63,7 @@
     "word_count": 46
   },
   {
-    "id": "813a6d47-8a02-46bf-8f99-f00777026618",
+    "id": "f0e23d10-59af-4cdb-bf1f-e16f1406c412",
     "text": "empresa (como razón social, ruc, departamento, logo, etc.) Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nDatos Configuraciones\nEn esta ventana de se registra Codigo Marcacion, el tiempo de horas\ntrabajadas, horas extras, jordana semanal, jornada diaria y consideracion horas\nnocturnas.\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\nDatos Módulos\nRegistrar los modulos otorgados a la empresa y dar clic en guardar\n3.1.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar la empresa y\ndar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 7,
@@ -72,7 +72,7 @@
     "word_count": 91
   },
   {
-    "id": "deb44015-bafe-448d-8aa1-ac01b151067d",
+    "id": "e52112b8-9645-4238-9019-96fc0aff57da",
     "text": "empresa y dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.1.4. Eliminar\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 8,
@@ -81,7 +81,7 @@
     "word_count": 22
   },
   {
-    "id": "ee6aa1f6-6e76-4c5c-9a74-d8941e9495bf",
+    "id": "02719945-3886-4ff8-99da-6aa62c4f15bc",
     "text": "Sistema iTime Control Manual Usuario v1.0 3.1.4. Eliminar Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n3.2 LOCAL\n3.2.1. Listado\nMuestra los datos de Local creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de locales en Excel.\nal dar clic en el botón se exportará el reporte de locales en archivo\nCSV.\nal dar clic en el botón se exportará el reporte de locales en PDF.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 9,
@@ -90,7 +90,7 @@
     "word_count": 97
   },
   {
-    "id": "cd0f197c-bb71-4aec-83fc-5144239914e5",
+    "id": "0c41f9e2-03c9-4fb5-b364-9e5d09ee56a9",
     "text": "se exportará el reporte de locales en PDF. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.2.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde local y dar clic en el botón :\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n3.2.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\nlocal y dar clic en el botón :\n3.2.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 10,
@@ -99,7 +99,7 @@
     "word_count": 102
   },
   {
-    "id": "e30b2c7e-e039-4392-a2a7-ea1e1e5f10cf",
+    "id": "276aff45-ca9f-4957-92cf-4b34b3dd8bf4",
     "text": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.2 AREA\n3.3.2 Listado\nMuestra los datos de Área creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de áreas en Excel.\nal dar clic en el botón se exportará el reporte de áreas en archivo\nCSV.\nal dar clic en el botón se exportará el reporte de áreas en PDF.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 11,
@@ -108,7 +108,7 @@
     "word_count": 76
   },
   {
-    "id": "290030da-c7fc-4c73-a9ee-14cd34e7a7c8",
+    "id": "5784f28d-787e-490d-9a59-d4c3edb2cf1e",
     "text": "se exportará el reporte de áreas en PDF. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.3.3 Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde área y dar clic en el botón :\nDatos Generales\n3.3.4 Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\narea y dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 12,
@@ -117,7 +117,7 @@
     "word_count": 72
   },
   {
-    "id": "4260b46e-d5b3-4e86-b0b1-dec66c27e843",
+    "id": "a8db4c2b-854f-423f-9015-5b23a4b08dc5",
     "text": "area y dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.3.5 Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n3.4 SUBAREA\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 13,
@@ -126,7 +126,7 @@
     "word_count": 45
   },
   {
-    "id": "ab395c60-0e25-4881-8b8f-13c843c75bb5",
+    "id": "269842ff-1590-4c00-948a-c53da32db532",
     "text": "dar clic en el botón : 3.4 SUBAREA Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.4.2 Listado\nMuestra los datos de Sub Área creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de sub áreas en\nExcel.\nal dar clic en el botón se exportará el reporte de sub áreas en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de sub áreas en\nPDF.\n3.4.3 Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde sub área y dar clic en el botón :\nDatos Generales\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 14,
@@ -135,7 +135,7 @@
     "word_count": 106
   },
   {
-    "id": "69455404-aee5-4b74-976d-ccd008d17d42",
+    "id": "606a847d-e328-40ec-8e3d-8940b591b27a",
     "text": "dar clic en el botón : Datos Generales Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.4.4 Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\nsub area y dar clic en el botón :\n3.4.5 Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 15,
@@ -144,7 +144,7 @@
     "word_count": 69
   },
   {
-    "id": "a52435d5-ac48-4d11-b954-beee8c04a3e1",
+    "id": "19da42cd-e3cb-4987-bef2-46e3d221c3dd",
     "text": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.5 CARGO\n3.5.1. Listado\nMuestra los datos de Cargo creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de cargo en Excel.\nal dar clic en el botón se exportará el reporte de cargo en archivo\nCSV.\nal dar clic en el botón se exportará el reporte de cargo en PDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de cargo.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 16,
@@ -153,7 +153,7 @@
     "word_count": 89
   },
   {
-    "id": "d6ce0a8f-c02a-4002-a205-ccb3ce56abe0",
+    "id": "e2c34fb3-2de7-4378-947b-1c5eed7c29ae",
     "text": "filtrar los campos de la grilla de cargo. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.5.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde cargo y dar clic en el botón :\nDatos Generales\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n3.5.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\ncargo y dar clic en el botón :\n3.5.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 17,
@@ -162,7 +162,7 @@
     "word_count": 104
   },
   {
-    "id": "8f12fb5f-7b92-49b5-a8e0-0cb505c9ae5e",
+    "id": "7122f051-3c69-439f-bb14-a8f278f47961",
     "text": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.6 CLASE PERSONAL\n3.6.1. Listado\nMuestra los datos de Clase Personal creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de clase personal\nen Excel.\nal dar clic en el botón se exportará el reporte de clase personal en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de clase personal en\nPDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de clase personal.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 18,
@@ -171,7 +171,7 @@
     "word_count": 95
   },
   {
-    "id": "ca7084f3-3a03-4414-ae42-7db5e18dd2a3",
+    "id": "4eaba125-5f02-466a-b5ee-8daf8dd6e88e",
     "text": "los campos de la grilla de clase personal. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.6.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde clase personal y dar clic en el botón :\nDatos Generales\n3.6.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\nclase personal y dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 19,
@@ -180,7 +180,7 @@
     "word_count": 74
   },
   {
-    "id": "1a0503e2-da45-4c9d-a88f-9f658c8a783d",
+    "id": "28434d5d-8b7a-4dbc-892f-22fa6cc25046",
     "text": "personal y dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.6.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n3.7 CENTRO COSTO\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 20,
@@ -189,7 +189,7 @@
     "word_count": 46
   },
   {
-    "id": "98d0efdd-8176-4852-94f8-4731a2de7351",
+    "id": "ab856147-6a21-4e6c-a2cd-9822a214e2a4",
     "text": "clic en el botón : 3.7 CENTRO COSTO Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.7.1. Listado\nMuestra los datos de Centro Costo creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de Centro costo en\nExcel.\nal dar clic en el botón se exportará el reporte de centro costo en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de centro costo en\nPDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de centro costo.\n3.7.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 21,
@@ -198,7 +198,7 @@
     "word_count": 105
   },
   {
-    "id": "e3a6eb8e-901a-407c-830b-688c5ddfeb92",
+    "id": "f1e40301-568d-48a2-b3ca-dfff95c3f621",
     "text": "el botón y se abrirá la ventana para registrar los datos de centro costo y dar clic en el botón :\nDatos Generales\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 22,
@@ -207,7 +207,7 @@
     "word_count": 26
   },
   {
-    "id": "9834aef8-832a-436e-99de-1e629714553a",
+    "id": "5c2246ad-d094-4fa9-99f6-da64019efa6e",
     "text": "dar clic en el botón : Datos Generales Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.7.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\ncentro costo y dar clic en el botón :\n3.7.4. Eliminar\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 23,
@@ -216,7 +216,7 @@
     "word_count": 48
   },
   {
-    "id": "326bf87d-89d4-41fc-9ad3-ac16bf4248ba",
+    "id": "75b976df-720a-460b-b695-5830807a2e3f",
     "text": "dar clic en el botón : 3.7.4. Eliminar Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n3.8 PERSONAL\n3.8.1. Listado\nMuestra los datos de Personal creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de personal en\nExcel.\nal dar clic en el botón se exportará el reporte de personal en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de personal en PDF.\nEscribir en la casilla para filtrar los campos de la",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 24,
@@ -225,7 +225,7 @@
     "word_count": 104
   },
   {
-    "id": "6facb418-30f6-4ed4-89b2-67cca6438695",
+    "id": "b6ccb1ee-864e-4ee6-8688-a162496359e1",
     "text": "PDF. Escribir en la casilla para filtrar los campos de la grilla de personal.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 25,
@@ -234,7 +234,7 @@
     "word_count": 17
   },
   {
-    "id": "964b2b8a-335f-41de-afc7-c0c29eb47bac",
+    "id": "b04b1467-1a3c-4302-b871-4121e2fceeb9",
     "text": "grilla de personal. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.8.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde personal y dar clic en el botón :\nDatos Generales\nRegistrar los datos generales del personal (como código, marcación, nombres,\napellidos, tipo documento, numero documento foto, etc.)\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 26,
@@ -243,7 +243,7 @@
     "word_count": 59
   },
   {
-    "id": "128fa264-7017-4e1b-bfd5-22ba38260310",
+    "id": "7a3ef8c0-7b62-4288-9d1c-e3fc1c9851ee",
     "text": "nombres, apellidos, tipo documento, numero documento foto, etc.) Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nDatos Laborables\nRegistrar los datos laborales del personal (como Empresa, local, área, cargo,\nclase personal, fecha ingreso, etc.)\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n3.8.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\npersonal y dar clic en el botón :\n3.8.4. Eliminar\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 27,
@@ -252,7 +252,7 @@
     "word_count": 74
   },
   {
-    "id": "e36585a4-9ff1-4015-a044-828a45a2e736",
+    "id": "a3196765-8ea8-4792-b89d-39cce0e52341",
     "text": "dar clic en el botón : 3.8.4. Eliminar Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n3.9 HORARIO\n3.9.1. Listado\nMuestra los datos de horario creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de horario en Excel.\nal dar clic en el botón se exportará el reporte de horario en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de horario en PDF.\nEscribir en la casilla para filtrar los campos de la",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 28,
@@ -261,7 +261,7 @@
     "word_count": 104
   },
   {
-    "id": "8afd2f84-b77e-472c-8bdc-a3882b944a82",
+    "id": "90c31b23-1db6-4aa6-b1bb-35cdc3c93326",
     "text": "PDF. Escribir en la casilla para filtrar los campos de la grilla de horario.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 29,
@@ -270,7 +270,7 @@
     "word_count": 17
   },
   {
-    "id": "13a9e2c4-0dc4-4dbb-a463-12e4696b8852",
+    "id": "bb7d2bd1-6a07-452e-92a6-6a43a08c179f",
     "text": "grilla de horario. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.9.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde horario y dar clic en el botón :\nHorario\nRegistrar el código, nombre, estado, tolerancia de ingreso, extra salida, extra\ningreso y refrigerio del horario.\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\nDetalle\nSeleccionar los días que se asignara al horario, ingresar hora de ingreso,\ningresar hora de salida y dar clic en el botón\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 30,
@@ -279,7 +279,7 @@
     "word_count": 89
   },
   {
-    "id": "abfd5076-51f6-45ca-a853-a15421aab97e",
+    "id": "7531c18a-ce5f-4916-abf6-22ce7c4c1bb9",
     "text": "de salida y dar clic en el botón Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nDetalle\nSe mostrará los días agregados en la grilla días, se podrá eliminar un ítem de\nla grilla dando clic en el botón , por último dar clic en botón .\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n3.9.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\nhorario y dar clic en el botón :\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 31,
@@ -288,7 +288,7 @@
     "word_count": 94
   },
   {
-    "id": "73cd9554-9237-4ca8-b3dd-05d9276dd9a7",
+    "id": "8c522450-798f-41d4-a09f-6d5153ba2005",
     "text": "Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0 Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.9.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n3.10 AUSENCIA\n3.10.1. Listado\nMuestra los datos de Ausencia creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de Ausencia en\nExcel.\nal dar clic en el botón se exportará el reporte de Ausencia en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de Ausencia en PDF.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 32,
@@ -297,7 +297,7 @@
     "word_count": 96
   },
   {
-    "id": "e9fa6a82-9b60-4326-929b-550a59488913",
+    "id": "b19f73e7-497e-47f7-a858-ec15c8dacab8",
     "text": "en el botón se exportará el reporte de Ausencia en PDF. Escribir en la casilla para filtrar los campos de la\ngrilla de Ausencia.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 33,
@@ -306,7 +306,7 @@
     "word_count": 27
   },
   {
-    "id": "b5d42af6-7143-4a46-bb51-20ec37611b97",
+    "id": "1157a2f0-495a-4b14-8bd6-85fbf68c412d",
     "text": "filtrar los campos de la grilla de Ausencia. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.10.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde ausencia y dar clic en el botón :\nDatos Generales\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 34,
@@ -315,7 +315,7 @@
     "word_count": 47
   },
   {
-    "id": "c7d0b47d-73ac-4eb9-9ae6-611b681e7663",
+    "id": "9cdfaddd-dd55-4e78-8b22-d41c00fb8a7f",
     "text": "dar clic en el botón : Datos Generales Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.10.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\nausencia y dar clic en el botón :\n3.10.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 35,
@@ -324,7 +324,7 @@
     "word_count": 68
   },
   {
-    "id": "ac236664-ebba-460c-be90-0185bf943864",
+    "id": "6241cb3f-da72-4a58-892f-cb9d6a4a3b33",
     "text": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.11 FERIADO\n3.11.1. Listado\nMuestra los datos de Feriado creadas en el Sistema:\nal dar clic en el botón se exportará el reporte de Feriado en Excel.\nal dar clic en el botón se exportará el reporte de Feriado en\narchivo CSV.\nal dar clic en el botón se exportará el reporte de Feriado en PDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de Feriado.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 36,
@@ -333,7 +333,7 @@
     "word_count": 89
   },
   {
-    "id": "7cc95541-a80e-4f37-8503-1f202ed89af5",
+    "id": "60f2764b-db3d-4f68-a75d-c8efce34f806",
     "text": "filtrar los campos de la grilla de Feriado. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.11.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\nde feriado y dar clic en el botón :\nDatos Generales\n3.11.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos de\nferiado y dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 37,
@@ -342,7 +342,7 @@
     "word_count": 72
   },
   {
-    "id": "59537949-db4b-417a-a296-4592e3c9f873",
+    "id": "36608f2a-5390-4688-80e2-b5954aa27810",
     "text": "feriado y dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n3.11.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 38,
@@ -351,7 +351,7 @@
     "word_count": 43
   },
   {
-    "id": "6699294f-56ad-44bc-bb75-08a6ddde2732",
+    "id": "5a29ea54-a844-4e8a-aaca-3f81e3056b36",
     "text": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n4. MODULO ASIGNACIÓN\n5. MODULO REPORTES\n6. MODULO CONFIGURACIÓN\n7. MODULO SEGURIDAD\n7.1 USUARIO\nPermite registrar un usuario en el Sistema, los usuarios son asignados a\nuna o más empresas.\n7.1.1. Listado\nMuestra los datos de Local creadas en el Sistema:\nal dar clic en el botón se exportará el reporte usuario en Excel.\nal dar clic en el botón se exportará el reporte usuario en archivo\nCSV.\nal dar clic en el botón se exportará el reporte usuario en PDF.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 39,
@@ -360,7 +360,7 @@
     "word_count": 98
   },
   {
-    "id": "1fa013af-cb06-4f86-9847-53119591a25c",
+    "id": "5f334017-2979-4e38-813c-63968077eae1",
     "text": "clic en el botón se exportará el reporte usuario en PDF. Escribir en la casilla para filtrar los campos de la\ngrilla de usuario.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 40,
@@ -369,7 +369,7 @@
     "word_count": 27
   },
   {
-    "id": "3cd38996-d323-4e1c-b800-dd3c102997d1",
+    "id": "78425207-9565-4a85-bc9e-94fbb2aafc0a",
     "text": "filtrar los campos de la grilla de usuario. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n7.1.2. Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\ndel usuario y dar clic en el botón :\nDatos Generales\nRegistrar el nombre, apellidos, usuario,contraseña, correo, estado y login (Si\nesta activado permitirá al usuario acceder al sistema caso contrario no\npermitirá acceder al sistema).\nAsignacion Empresa\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 41,
@@ -378,7 +378,7 @@
     "word_count": 74
   },
   {
-    "id": "68550255-8cc1-4b93-9ec8-eacaeb9aed19",
+    "id": "e58f8cba-7e97-4f28-b6b6-77cd63f6c650",
     "text": "contrario no permitirá acceder al sistema). Asignacion Empresa Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nSeleccionar la empresa a asignar y dar clic el boton\nPodrá eliminar un ítem de la grilla dando clic en el botón , por último\ndar clic en botón\n7.1.3. Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos del\nusuario y dar clic en el botón :\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 42,
@@ -387,7 +387,7 @@
     "word_count": 83
   },
   {
-    "id": "ba824036-3e68-4304-a592-5e245a61890a",
+    "id": "db8c7fb3-32a4-4552-a90e-b8bc6969dff0",
     "text": "Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0 Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n7.1.4. Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\n7.2 PERFIL\nPermite registrar un perfil y otorgar permisos a un perfil para acceder a\nlos módulos o menús del sistema.\n7.2.1 Listado\nMuestra los datos de Local creadas en el Sistema:\nal dar clic en el botón se exportará el reporte perfil en Excel.\nal dar clic en el botón se exportará el reporte perfil en archivo\nCSV.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 43,
@@ -396,7 +396,7 @@
     "word_count": 102
   },
   {
-    "id": "f454438a-92c5-4ece-93d0-bb5b015620fd",
+    "id": "07a8722d-0396-4b7e-8d7b-a52d9cb62b8a",
     "text": "se exportará el reporte perfil en archivo CSV. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nal dar clic en el botón se exportará el reporte perfil en PDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de perfil.\n7.2.2 Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\ndel perfil y dar clic en el botón :\nDatos\nRegistrar el perfil,descripcion,nivel y estado.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 44,
@@ -405,7 +405,7 @@
     "word_count": 77
   },
   {
-    "id": "2f06b725-6717-4f3d-943b-2c370dc677f9",
+    "id": "034d36a0-9970-4f79-ae5c-44510fa5064b",
     "text": "botón : Datos Registrar el perfil,descripcion,nivel y estado. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\nPermisos\nSeleccionara los permisos a que modulos (administración asignación, reportes,\nconfiguración y seguridad) y menús tendra acceso el perfil.\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n7.2.3 Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos del\nperfil y dar clic en el botón\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 45,
@@ -414,7 +414,7 @@
     "word_count": 81
   },
   {
-    "id": "48ffc75f-d155-4f00-96fe-fb5bcc906790",
+    "id": "1089b4c0-ce66-4721-bc38-bf0d8350a311",
     "text": "Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0 Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n7.2.4 Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 46,
@@ -423,7 +423,7 @@
     "word_count": 43
   },
   {
-    "id": "94eb3feb-c537-482c-ac5a-b83f56d9165d",
+    "id": "c4c8c36d-ea7c-4a79-ae59-0f7a26f59ab3",
     "text": "para eliminar dar clic en el botón : Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n7.3 USUARIO PERFIL\nPermite asignar a un usuario uno o más perfiles.\n7.3.1 Listado\nMuestra los datos de Local creadas en el Sistema:\nal dar clic en el botón se exportará el reporte usuario perfil en\nExcel.\nal dar clic en el botón se exportará el reporte usuario perfil en\narchivo CSV.\nal dar clic en el botón se exportará el reporte usuario perfil en\nPDF.\nEscribir en la casilla para filtrar los campos de la\ngrilla de usuario perfil.\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 47,
@@ -432,7 +432,7 @@
     "word_count": 100
   },
   {
-    "id": "52a301a0-2c39-4cc4-92ac-800d1d1426ba",
+    "id": "c8fca242-25c3-4fcc-8d2b-6a8ed656f8f5",
     "text": "los campos de la grilla de usuario perfil. Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n7.3.2 Nuevo\nDar clic en el botón y se abrirá la ventana para registrar los datos\ndel usuario perfil y dar clic en el botón :\nRegistro de usuario perfil\nSeleccionar el nombre del usuario, perfil y estado a asignar y dar clic\nel boton\nPodrá eliminar un ítem de la grilla dando clic en el botón , por último\ndar clic en botón\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 48,
@@ -441,7 +441,7 @@
     "word_count": 84
   },
   {
-    "id": "de8988fa-a787-4fc7-9b21-8bdabfd6d74d",
+    "id": "a9ae034d-e886-4159-85aa-fd67e651fd86",
     "text": "botón , por último dar clic en botón Data Technologies S.A.C. Sistema iTime Control Manual Usuario v1.0\n7.3.3 Editar\nDar clic en el botón y se abrirá la ventana para actualizar los datos del\nusuario perfil y dar clic en el botón :\nData Technologies S.A.C.\n\nSistema iTime Control Manual Usuario v1.0\n7.3.4 Eliminar\nDar clic en el botón y mostrará la ventana \"Si Desea Eliminar Registro\",\npara eliminar dar clic en el botón :\nData Technologies S.A.C.",
     "source": "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
     "chunk_index": 49,

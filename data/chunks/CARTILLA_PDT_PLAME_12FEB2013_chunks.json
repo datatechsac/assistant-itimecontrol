@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "8d756423-6e1f-41eb-816f-305443e180b6",
+    "text": "PPPDDDTTT PPPLLLAAANNNIIILLLLLLAAA EEELLLEEECCCTTTRRRÓÓÓNNNIIICCCAAA\nPPPLLLAAAMMMEEE\nNNNuuueeevvvooo PPPDDDTTT pppaaarrraaa eeelllaaabbbooorrraaarrr sssuuu dddeeeccclllaaarrraaaccciiióóónnn yyy\nlllaaa PPPlllaaannniiillllllaaa MMMeeennnsssuuuaaalll dddeee PPPaaagggooosss (((PPPLLLAAAMMMEEE)))\n(Actualizado al 12.02.2013)",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 0,
+    "total_chunks": 119,
+    "char_count": 320,
+    "word_count": 20
+  },
+  {
+    "id": "1aba1910-5cb9-4ede-804e-0841aba56a7e",
+    "text": "dddeeeccclllaaarrraaaccciiióóónnn yyy lllaaa PPPlllaaannniiillllllaaa MMMeeennnsssuuuaaalll dddeee PPPaaagggooosss (((PPPLLLAAAMMMEEE))) (Actualizado al 12.02.2013) ÍNDICE\nPág.\n1. ¿Qué es la Planilla Electrónica? 3\n2. ¿Qué componentes conforman la nueva Planilla Electrónica? 3\n3. ¿Qué es la Planilla Mensual de Pagos (PLAME)? 3\n4. ¿Qué es el PDT Planilla Electrónica PLAME? 3\n5. ¿Cómo obtener el PDT PLAME? 4\n6. ¿Cómo ingreso al PDT PLAME? 5\n7. Funcionalidades del PDT PLAME. 6-8\n8. ¿Cómo se ingresan en el PDT PLAME los datos del empleador? 8-11\n9. ¿Cómo se obtienen los datos de trabajadores, pensionistas, personal en 12-14",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 1,
+    "total_chunks": 119,
+    "char_count": 627,
+    "word_count": 93
+  },
+  {
+    "id": "3528c9cd-a6a1-451f-ba4c-c35cb76b9719",
+    "text": "¿Cómo se obtienen los datos de trabajadores, pensionistas, personal en 12-14 Formación y personal de terceros del T-REGISTRO al PDT PLAME?\n9.1 Sincronización de datos con el T-REGISTRO.\n12-13\n9.2 Importación de \"Archivo personalizado del T-REGISTRO\". 14\n10. Elaborar una nueva declaración. 14-21\n11. Declaraciones Registradas. 21-22\n11.1 Modificar una declaración.\n11.2 Eliminar una declaración.\n11.3 Copiar una declaración.\n11.4 Generar el \"Archivo de envío\" para presentar su declaración.\n12. Registrar declaraciones enviadas. 23",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 2,
+    "total_chunks": 119,
+    "char_count": 531,
+    "word_count": 74
+  },
+  {
+    "id": "f6b7bae0-e7bb-4e92-ab56-0ba3e85468cd",
+    "text": "de envío\" para presentar su declaración. 12. Registrar declaraciones enviadas. 23 13. Importación de Archivo Personalizado del T-REGISTRO. 23\n14. Mantenimiento de períodos. 24\n15. Generar y restaurar copias de seguridad. 24\n16. Administración de usuarios y cambio de contraseñas. 24\n17. Reportes que se generan en el PDT PLAME. 25\n18. Ayudas. 26",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 3,
+    "total_chunks": 119,
+    "char_count": 345,
+    "word_count": 54
+  },
+  {
+    "id": "22afd66d-fa6b-4112-a207-a5fa94362490",
+    "text": "que se generan en el PDT PLAME. 25 18. Ayudas. 26 PPDDTT PPLLAANNIILLLLAA EELLEECCTTRRÓÓNNIICCAA PPLLAAMMEE\n1. ¿Qué es la Planilla Electrónica?\nEs el documento llevado a través de los medios informáticos desarrollados por la SUNAT, en el que se\nencuentra la información de los empleadores, trabajadores, pensionistas, prestadores de servicios,\npersonal en formación -modalidad formativa laboral y otros, personal de terceros y derechohabientes.\n2. ¿Qué componentes conforman la nueva Planilla Electrónica?",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 4,
+    "total_chunks": 119,
+    "char_count": 505,
+    "word_count": 71
+  },
+  {
+    "id": "0cd5fc25-f6a6-4117-ae62-765c9cdecfe0",
+    "text": "terceros y derechohabientes. 2. ¿Qué componentes conforman la nueva Planilla Electrónica? A partir del 01.07.2011 la nueva Planilla Electrónica se encuentra conformada por la información del\nRegistro de Información Laboral (T-REGISTRO) y la Planilla Mensual de Pagos (PLAME) que se elabora\nobligatoriamente a partir de la información consignada en dicho Registro.\n3. ¿Qué es la Planilla Mensual de Pagos (PLAME)?\nEs el componente de la Planilla Electrónica que se elabora a partir de la información del T-REGISTRO, y",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 5,
+    "total_chunks": 119,
+    "char_count": 516,
+    "word_count": 78
+  },
+  {
+    "id": "d59eccdb-296f-4c49-872e-2d007002a92b",
+    "text": "que se elabora a partir de la información del T-REGISTRO, y que se debe presentar mensualmente de acuerdo al cronograma que establece la SUNAT. La PLAME\ncontiene la siguiente información mensual, según la categoría del prestador:\nTrabajador: Las remuneraciones e ingresos devengados y/o pagados, así como datos de la jornada\nlaboral, descuentos, tributos, aportes y contribuciones.\nPensionista: Los ingresos devengados y/o pagados, descuentos, tributos, aportes y contribuciones.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 6,
+    "total_chunks": 119,
+    "char_count": 479,
+    "word_count": 67
+  },
+  {
+    "id": "882a514b-376f-4849-ace2-8597f052a339",
+    "text": "Pensionista: Los ingresos devengados y/o pagados, descuentos, tributos, aportes y contribuciones. Prestador de servicio con rentas de cuarta categoría (PS 4ta categoría): el monto pagado por el\nservicio, así como los datos del comprobante.\nPersonal en formación: el monto pagado de la subvención económica o estipendio.\nPersonal de terceros: base de cálculo del aporte al Seguro Complementario de Trabajo de Riesgo\n(SCTR) a cargo del ESSALUD, la tasa y el aporte al SCTR contratado con EsSalud.\nEl detalle de la información de la PLAME por cada categoría se encuentra en el Anexo 1 aprobado por la",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 7,
+    "total_chunks": 119,
+    "char_count": 597,
+    "word_count": 96
+  },
+  {
+    "id": "f55cd65b-8593-4b72-86b0-d7fe64123786",
+    "text": "cada categoría se encuentra en el Anexo 1 aprobado por la R.M. N 121-2011-TR y norma modificatoria, el mismo que se encuentra publicado en el Portal\ninstitucional del Ministerio de Trabajo y Promoción del Empleo (MTPE) y de la SUNAT.\n4. ¿Qué es el PDT Planilla Electrónica PLAME?\nEs el medio informático aprobado por la SUNAT para cumplir con la presentación de la PLAME y con la\ndeclaración de las obligaciones que se generen a partir del mes de noviembre de 2011 a través del",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 8,
+    "total_chunks": 119,
+    "char_count": 477,
+    "word_count": 85
+  },
+  {
+    "id": "aaa521b5-d7b6-4e5d-b868-80f3c4216506",
+    "text": "a partir del mes de noviembre de 2011 a través del Formulario Virtual N 0601, y que deben ser presentadas a partir del mes de diciembre de 2011, así\ncomo efectuar el pago que corresponda, por los siguientes conceptos:\na) PLAME, la que deberá contener la información establecida en la R.M. N. 121-2011-TR o norma\nque la sustituya o modifique.\nb) Retenciones del Impuesto a la Renta de cuarta y quinta categoría.\nc) Información de los sujetos perceptores de rentas de cuarta categoría pagadas o puestas a",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 9,
+    "total_chunks": 119,
+    "char_count": 502,
+    "word_count": 87
+  },
+  {
+    "id": "0443a2ed-4da0-4e58-99ae-636a53f697d3",
+    "text": "sujetos perceptores de rentas de cuarta categoría pagadas o puestas a disposición aún cuando el Empleador no tenga la obligación de efectuar retenciones por dichas\nrentas.\nd) Impuesto Extraordinario de Solidaridad (IES) respecto de las remuneraciones correspondientes a\nlos trabajadores, en los casos que exista convenio de estabilidad.\ne) Contribuciones al EsSalud, respecto de las remuneraciones que correspondan a los trabajadores o\naportes de los asegurados regulares incorporados al EsSalud por mandato de una ley especia.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 10,
+    "total_chunks": 119,
+    "char_count": 527,
+    "word_count": 76
+  },
+  {
+    "id": "5c6ad09c-1e61-4aba-9886-cf6b3de47b9f",
+    "text": "asegurados regulares incorporados al EsSalud por mandato de una ley especia. f) Contribuciones al EsSalud por concepto de pensiones.\ng) Contribuciones a la ONP bajo el régimen del Decreto Ley N. 19990 y normas modificatorias.\nh) Prima por el concepto de \"+Vida Seguro de Accidentes\" respecto de los afiliados regulares al\nEsSalud que contraten el mencionado seguro.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 11,
+    "total_chunks": 119,
+    "char_count": 365,
+    "word_count": 57
+  },
+  {
+    "id": "6cdd71c1-99e7-427d-926b-61c18be39725",
+    "text": "de los afiliados regulares al EsSalud que contraten el mencionado seguro. i) Aportes al Fondo de Derechos Sociales del Artista - FDSA.\nj) SCTR contratado con el EsSalud para dar cobertura a los afiliados regulares del EsSalud.\nk) Contribución Solidaria para la Asistencia Previsional - COSAP, creada por el artículo 4 de la Ley\nN. 28046, Ley que crea el Fondo y la Contribución Solidaria para la Asistencia Previsional,\nprecisada por el Decreto Legislativo N. 948.\nl) Registro de Pensionistas del Régimen del Decreto Ley N. 20530, a los que se hace referencia en el",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 12,
+    "total_chunks": 119,
+    "char_count": 565,
+    "word_count": 95
+  },
+  {
+    "id": "fc097cc2-36ea-4594-be5e-eb0f2ce3f561",
+    "text": "Ley N. 20530, a los que se hace referencia en el artículo 11 de la Ley N. 28046, Ley que crea el Fondo y la COSAP, precisada por el Decreto\nLegislativo N. 948.\nm) Prima por el concepto \"Asegura tu pensión\", respecto de los afiliados obligatorios al Sistema\nNacional de Pensiones que contraten el mencionado seguro.\nn) Retenciones del aporte del trabajador minero, metalúrgico y siderúrgico cuyas actividades se\nencuentren comprendidas en los Decretos Supremos N. 029-89-TR y el Decreto Supremo N.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 13,
+    "total_chunks": 119,
+    "char_count": 496,
+    "word_count": 82
+  },
+  {
+    "id": "78fd7089-2757-4687-b56f-991507b567e1",
+    "text": "en los Decretos Supremos N. 029-89-TR y el Decreto Supremo N. 164-2001-EF y sus normas modificatorias, al Fondo Complementario de Jubilación Minera,\nMetalúrgica y Siderúrgica a que se refiere la Ley N. 29741.\no) Retenciones del aporte del trabajador minero, metalúrgico y siderúrgico cuyas actividades se\nencuentren comprendidas en los Decretos Supremos N.s 029-89-TR y el Decreto Supremo N.\n164-2001-EF y sus normas modificatorias, al Fondo Complementario de Jubilación Minera,\nMetalúrgica y Siderúrgica a que se refiere la Ley N. 29741. (Incorporado por R.S. N. 138-",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 14,
+    "total_chunks": 119,
+    "char_count": 568,
+    "word_count": 86
+  },
+  {
+    "id": "ad2afc69-4e14-484e-99e8-f641228ceea5",
+    "text": "se refiere la Ley N. 29741. (Incorporado por R.S. N. 138- 2012/SUNAT).\np) Cuotas del fraccionamiento de los aportes del trabajador minero, metalúrgico y siderúrgico al\nFondo Complementario de Jubilación Minera, Metalúrgica y Siderúrgica, otorgado por la Primera\nDisposición Complementaria Final del Reglamento de la Ley N. 29741. Aprobado por Decreto\nSupremo N. 006-2012-TR. (Incorporado por R.S. N. 181-2012/SUNAT).\nEl PDT Planilla Electrónica PLAME, en adelante PDT PLAME, será utilizado gradualmente a partir del\nperíodo noviembre de 2011, de acuerdo a lo siguiente:",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 15,
+    "total_chunks": 119,
+    "char_count": 569,
+    "word_count": 83
+  },
+  {
+    "id": "cd7a1a49-4147-4e7b-99c5-da4c9edfad80",
+    "text": "partir del período noviembre de 2011, de acuerdo a lo siguiente: Universo Opcional Obligatorio\nEmpleadores que en el período a declarar cuentan A partir de 11/2011.\núnicamente con PS 4ta categoría.\nDel Sector Público que en el período a declarar cuenten con De 11/2011 a 12/2012 A partir de 01/2013\ntrabajadores, pensionistas, prestadores de servicio (PS 4ta-5ta\ncategoría y asegurados regulares del EsSalud incorporados por\nmandato de una ley especial), personal en formación y\npersonal de terceros.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 16,
+    "total_chunks": 119,
+    "char_count": 500,
+    "word_count": 77
+  },
+  {
+    "id": "42ac6e2b-b397-47be-9bed-5d0a8f81650a",
+    "text": "de una ley especial), personal en formación y personal de terceros. Del Sector privado y O. Entidades que en el período a declarar cuenten con trabajadores, pensionistas,\nprestadores de servicio (PS 4ta-5ta categoría y asegurados regulares del EsSalud incorporados por mandato de\nuna ley especial), personal en formación y personal de terceros.\nHasta 5 personas De 11/2011 a 09/2012. A partir de 10/2012.\nEntre 6 y 50 personas De 11/2011 a 10/2012. A partir de 11/2012.\nA partir de 12/2012.\nEntre 51 y 1000 De 11/2011 a 11/2012.\nA partir de 01/2013.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 17,
+    "total_chunks": 119,
+    "char_count": 549,
+    "word_count": 92
+  },
+  {
+    "id": "36caccde-7eee-461e-82dd-982c620a5dd8",
+    "text": "51 y 1000 De 11/2011 a 11/2012. A partir de 01/2013. Más de 1000 De 11/2011 a 12/2012.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 18,
+    "total_chunks": 119,
+    "char_count": 86,
+    "word_count": 18
+  },
+  {
+    "id": "e4c785ea-dfe5-4f56-bd79-3343774f6bb3",
+    "text": "Más de 1000 De 11/2011 a 12/2012. 5. ¿Cómo obtener el PDT PLAME?\nPara obtener el PDT PLAME ingrese a http://. En la sección Declaración y Pago\nencontrará la opción \"Descarga del PDT\" donde encontrará información sobre los PDT desarrollados por\nla SUNAT.\nIngrese a la opción \"Módulos independientes\" y encontrará el PDT Planilla Electrónica PLAME.\nPara instalar el PDT PLAME, previamente debe instalar el \"Adobe Air Runtime\", y luego ejecute el auto\ninstalador del PDT.\n6. ¿Cómo ingreso al PDT PLAME?",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 19,
+    "total_chunks": 119,
+    "char_count": 499,
+    "word_count": 82
+  },
+  {
+    "id": "86a39b50-9ea8-48cb-9ef7-336bd736683e",
+    "text": "el auto instalador del PDT. 6. ¿Cómo ingreso al PDT PLAME? Para utilizar el PDT PLAME ingresará al aplicativo con el N. de RUC del empleador, y contará con 2\nopciones de autenticación:\nCon clave SOL: Se ingresa el número de RUC, código de usuario y clave SOL, y al pulsar el botón\n\"Acceder\" se validarán dichos datos. Esta opción le permite ejecutar las opciones para validar y\ndescargar datos en línea o sincronizar con el T-REGISTRO los datos del empleador y de sus\ntrabajadores, pensionistas, personal en formación y personal de terceros para elaborar su",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 20,
+    "total_chunks": 119,
+    "char_count": 557,
+    "word_count": 96
+  },
+  {
+    "id": "000a494b-68cd-4474-ad32-3f657a2e775c",
+    "text": "pensionistas, personal en formación y personal de terceros para elaborar su declaración mensual.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 21,
+    "total_chunks": 119,
+    "char_count": 96,
+    "word_count": 13
+  },
+  {
+    "id": "abf6ca01-3772-4271-b9b2-4867f539e1f3",
+    "text": "declaración mensual. Sin clave SOL: Al ingresar por primera vez al PDT PLAME, a través de esta opción, debe ingresar el\nN. de RUC del empleador y por defecto el aplicativo generará el usuario Administrador\n(\"ADMINIST\") cuya contraseña inicial será \"ADMINIST\".\nPara efectos de la seguridad de su información, dicha contraseña inicial debe ser cambiada\ningresando al módulo \"Utilitarios\", opción \"Cambiar contraseña\". Asimismo, para el usuario",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 22,
+    "total_chunks": 119,
+    "char_count": 441,
+    "word_count": 66
+  },
+  {
+    "id": "409dcbb7-2484-446b-a66e-06d72f5b2467",
+    "text": "ingresando al módulo \"Utilitarios\", opción \"Cambiar contraseña\". Asimismo, para el usuario Administrador, el PDT habilita la opción \"Administración de usuarios\", a través de la cual podrá\ngenerar nuevos usuarios del PDT que puedan acceder \"Sin Clave SOL\" a la información del\nempleador. Dicha opción se encuentra en el módulo \"Utilitarios\".\nDebe tener en cuenta que al ingresar \"Sin clave SOL\", no podrá realizar sincronizar con T-REGISTRO,\nno obstante sí podrá importar un \"Archivo Personalizado del T-REGISTRO\" para la elaboración de sus\ndeclaraciones.\n7. Funcionalidades del PDT PLAME",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 23,
+    "total_chunks": 119,
+    "char_count": 587,
+    "word_count": 87
+  },
+  {
+    "id": "50645843-57bc-4be6-ad9f-d3a176c1bb03",
+    "text": "para la elaboración de sus declaraciones. 7. Funcionalidades del PDT PLAME El PDT PLAME cuenta con los siguientes módulos:\nDentro de cada módulo existen opciones que le permitirán utilizar el aplicativo en forma adecuada para\nla elaboración, consulta, y generación de sus declaraciones, así como disponer de reportes de datos de\nlas mismas, entre otros.\nEmpleador\nEste módulo tiene opciones que permiten:\n- Validar si el empleador se encuentra inscrito en el T-REGISTRO y al sincronizar, en automático se\ndescargarán los datos del empleador necesarios para elaborar el PDT.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 24,
+    "total_chunks": 119,
+    "char_count": 573,
+    "word_count": 89
+  },
+  {
+    "id": "0c34a36b-37d8-4c10-8996-96ed713cd6c5",
+    "text": "se descargarán los datos del empleador necesarios para elaborar el PDT. - Seleccionar en el PDT los conceptos remunerativos, ingresos y descuentos que utilizará para la\nelaboración de la PLAME y su declaración, a través de la sección Mantenimiento de conceptos.\n- Señalar si el empleador del sector privado tiene convenio de estabilidad tributaria vigente por\nIES, en cuyo caso deberá registrar la tasa establecida en su convenio.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 25,
+    "total_chunks": 119,
+    "char_count": 430,
+    "word_count": 68
+  },
+  {
+    "id": "84fa84a4-37e2-4362-b2c4-999ffff4e12a",
+    "text": "en cuyo caso deberá registrar la tasa establecida en su convenio. - Modificar datos del empleador, excepto los que son tomados del T-REGISTRO, los que deberán\nser modificados en este aplicativo y actualizados en el PDT.\n- Eliminar el RUC del empleador en el PDT, opción que elimina toda su información.\n- Consultar y generar reportes de los datos del empleador que han sido actualizados en el PDT.\nDeclaraciones Juradas\nEste módulo del PDT presenta funcionalidades que permiten:\n- Elaborar una nueva declaración. En la declaración se cuenta con opciones para obtener del T-",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 26,
+    "total_chunks": 119,
+    "char_count": 573,
+    "word_count": 94
+  },
+  {
+    "id": "fc150f05-22d9-4577-aab4-24c2d3d0faa4",
+    "text": "En la declaración se cuenta con opciones para obtener del T- REGISTRO la relación de trabajadores, pensionistas, personal en formación y personal de\nterceros, así como información necesaria para elaborar su declaración, sincronizando con el T-\nREGISTRO o importando el Archivo personalizado del T-REGISTRO. Los datos de los PS 4ta\ncategoría se ingresan directamente al PDT.\n- Modificar una declaración registrada. Los datos que se modifican o actualizan en el T-REGISTRO\ndeberán ser actualizados al PDT.\n- Eliminar una declaración registrada.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 27,
+    "total_chunks": 119,
+    "char_count": 542,
+    "word_count": 81
+  },
+  {
+    "id": "ba19cc83-94dd-4ae3-abcb-40c4a314b5cf",
+    "text": "T-REGISTRO deberán ser actualizados al PDT. - Eliminar una declaración registrada. - Copiar una declaración. Para copiar una declaración, primero se deberá crear la declaración\ndestino completando los datos de la pestaña \"Información General\" que incluye la relación de\nlos trabajadores, pensionistas, personal en formación y personal de terceros a considerar en la\ndeclaración. Luego de ello, se ingresa al módulo \"Declaraciones Registradas\", se identifica la\ndeclaración origen desde donde se copiarán los datos y se ejecuta la opción \"copiar\", el",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 28,
+    "total_chunks": 119,
+    "char_count": 549,
+    "word_count": 81
+  },
+  {
+    "id": "34c929f3-e99b-42e2-9975-6fbc502e2a83",
+    "text": "se copiarán los datos y se ejecuta la opción \"copiar\", el aplicativo solicitará se indique el período de la declaración destino para proceder a copiar datos.\n- Generar archivo de envío. Dicha opción se habilita cuando la declaración se encuentre\nregistrada sin inconsistencias, y permite generar el archivo que contiene la declaración a\npresentar.\n- Registrar el N. de orden de la declaración. Una vez presentada la declaración ingrese el N. de\norden en esta sección del aplicativo, así llevará un registro de los PDT presentados.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 29,
+    "total_chunks": 119,
+    "char_count": 530,
+    "word_count": 86
+  },
+  {
+    "id": "440964b1-e420-4a7c-b580-eed93ec5b8d1",
+    "text": "sección del aplicativo, así llevará un registro de los PDT presentados. - Recuperar los datos de un archivo de envío generado en el PDT.\nReportes\nEl PDT PLAME le permite generar y administrar los siguientes tipos de reportes:\n- De sus declaraciones.\n- De inconsistencias de su declaración, que podrá ser generado al validar su declaración.\n- De inconsistencias de la importación de los archivos del detalle de su declaración.\n- Resumen del archivo de envío generado.\nParámetros\nSe muestran los parámetros utilizados por el PDT PLAME.\nUtilitarios",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 30,
+    "total_chunks": 119,
+    "char_count": 545,
+    "word_count": 88
+  },
+  {
+    "id": "b2988277-746b-457e-9dfc-c0359170055a",
+    "text": "Parámetros Se muestran los parámetros utilizados por el PDT PLAME. Utilitarios Se brindan algunas funcionalidades que facilitan el uso del PDT:\n- Generar copia de seguridad de los datos del PDT correspondientes al empleador, lo que le\npermite contar con un \"back-up\" de la información del empleador ante cualquier eventualidad.\n- Restaurar copia de seguridad al PDT.\n- Importar el \"Archivo Personalizado del T-REGISTRO\" (generado en SOL).",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 31,
+    "total_chunks": 119,
+    "char_count": 438,
+    "word_count": 67
+  },
+  {
+    "id": "9a8ed6de-fe2d-4a3b-8ccb-999e6c5a6e2f",
+    "text": "PDT. - Importar el \"Archivo Personalizado del T-REGISTRO\" (generado en SOL). - Mantenimiento de períodos. Opción que le permite consultar, y de ser el caso, ajustar las fechas\nde inicio y de fin de los períodos mensuales a declarar.\n- Administración de usuarios. Opción habilitada sólo para el usuario \"Administrador\" y permite\ncrear nuevos usuarios que puedan acceder a la información del empleador en el PDT, así como\ninicializar las contraseñas y eliminar usuarios.\n- Cambiar contraseña. A través de esta opción, los usuarios que acceden al aplicativo \"Sin clave",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 32,
+    "total_chunks": 119,
+    "char_count": 565,
+    "word_count": 90
+  },
+  {
+    "id": "e3aef89f-7123-4b71-8a7e-aab4c62b6b0e",
+    "text": "de esta opción, los usuarios que acceden al aplicativo \"Sin clave SOL\" podrán cambiar la contraseña de su cuenta de usuario del PDT.\nAyudas\nEn esta sección encontrará los textos de ayuda que contienen el detalle de las funcionalidades de\ncada opción del PDT.\n8. ¿Cómo se ingresan en el PDT PLAME los datos del Empleador?\nLos datos del empleador que se ingresan en el PDT PLAME son:\nDatos del empleador en el PDT PLAME Origen de los datos\n- RUC del empleador.\n- Razón social o nombre del empleador.\n- Tipo de empleador. Se obtienen del T-REGISTRO",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 33,
+    "total_chunks": 119,
+    "char_count": 545,
+    "word_count": 98
+  },
+  {
+    "id": "a16ea50a-f5dd-4db1-9aaf-96bbde2c5e98",
+    "text": "nombre del empleador. - Tipo de empleador. Se obtienen del T-REGISTRO - Indicador de microempresa inscrita en el REMYPE(*).\n- Indicador de aportar al SENATI.\n- Indicador de convenio IES y tasa.(*) Se ingresa en el PDT PLAME\n(*) Estos campos no aplican para empleadores del \"sector público\".\nCuando ingrese por primera vez al PDT deberá ingresar los datos del Empleador, según la opción de\nacceso que seleccionó para su ingreso:\n- Con clave SOL: Al ingresar el número de RUC, código de usuario y clave SOL válidos, el aplicativo se",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 34,
+    "total_chunks": 119,
+    "char_count": 530,
+    "word_count": 91
+  },
+  {
+    "id": "ff96699e-f41b-4f7c-a79e-082184115faf",
+    "text": "RUC, código de usuario y clave SOL válidos, el aplicativo se ubicará en la opción \"Nuevo\" del módulo \"Empleador\", y luego de pulsar el botón \"Sincronizar\" el\naplicativo verifica si el empleador se encuentra inscrito en el T-REGISTRO, de estar inscrito sus datos\nse descargan en línea (automáticamente) al PDT PLAME. Esta opción será utilizada si tiene conexión\na internet.\n- Sin clave SOL: Ingrese su N.de RUC, código de usuario y contraseña de PDT, y para obtener los\ndatos del empleador ingresará a \"Utilitarios\" del PDT y seleccionará la opción \"Importar archivo",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 35,
+    "total_chunks": 119,
+    "char_count": 565,
+    "word_count": 93
+  },
+  {
+    "id": "aee6e62f-2364-41fd-ad9d-145c7413f838",
+    "text": "ingresará a \"Utilitarios\" del PDT y seleccionará la opción \"Importar archivo personalizado del T-REGISTRO\" aquí efectuará la importación del archivo previamente generado en\nSOL.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 36,
+    "total_chunks": 119,
+    "char_count": 177,
+    "word_count": 24
+  },
+  {
+    "id": "b0d7670a-fa0a-48a2-acd1-41e71b373c42",
+    "text": "T-REGISTRO\" aquí efectuará la importación del archivo previamente generado en SOL. Para obtener el \"Archivo Personalizado del T-REGISTRO\" a importar al PDT PLAME, ingrese a\nSOL, a la opción \"Mis declaraciones y pagos\"/\"Utilitarios para mis declaraciones y pagos\" y obtenga\nsu archivo con información actualizada.\nDicha opción SOL le permite registrar su pedido del \"Archivo Personalizado del T-REGISTRO\", y una\nvez atendido, podrá descargar el archivo generado. Previamente al registro del pedido, asegúrese",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 37,
+    "total_chunks": 119,
+    "char_count": 507,
+    "word_count": 73
+  },
+  {
+    "id": "0792f821-3dad-490f-bd47-7d957eae59e4",
+    "text": "podrá descargar el archivo generado. Previamente al registro del pedido, asegúrese que la información del T-REGISTRO se encuentre debidamente actualizada, a fin de que elabore su\ndeclaración con los datos correctos.\nEl \"Archivo Personalizado del T-REGISTRO\" contiene datos del empleador, así como de sus\nprestadores inscritos en el T-REGISTRO.\nCualquier modificación de los datos del empleador que se obtienen del T-REGISTRO para la elaboración\ndel PDT PLAME, debe realizarla en el T-REGISTRO, y posteriormente actualizar los datos en el PDT PLAME",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 38,
+    "total_chunks": 119,
+    "char_count": 547,
+    "word_count": 81
+  },
+  {
+    "id": "d5159d01-0bdd-4586-a2e6-f7ef6c7d916f",
+    "text": "el T-REGISTRO, y posteriormente actualizar los datos en el PDT PLAME ejecutando el botón \"Sincronizar\" en el módulo Empleador, o con la \"Importación del Archivo\nPersonalizado del T-REGISTRO\" actualizado.\nPara el ingreso de datos del empleador en el PDT PLAME se tienen 3 secciones: Identificación del\nempleador, Mantenimiento de Conceptos y Convenio. Verifique sus datos y efectúe el registro de la\ninformación o actualización, según corresponda.\nEn la sección Identificación del Empleador, los empleadores cuyo tipo sea \"Sector privado\" y que tienen",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 39,
+    "total_chunks": 119,
+    "char_count": 550,
+    "word_count": 82
+  },
+  {
+    "id": "44e4f677-53bf-42fb-8b93-0630c23dbc1a",
+    "text": "Empleador, los empleadores cuyo tipo sea \"Sector privado\" y que tienen suscrito un convenio de estabilidad y/o exoneración, deberán marcar este indicador a fin de que el PDT\nhabilite la sección Convenio.\nMantenimiento de conceptos\nEn esta sección podrá seleccionar los conceptos, ingresos y descuentos que utilizará para elaborar la\nPLAME y la declaración de tributos y aportes vinculados a sus trabajadores y/o pensionistas.\nSólo para los empleadores del \"sector público\" u \"Otras entidades\" se habilitan los conceptos del rubro\n2000.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 40,
+    "total_chunks": 119,
+    "char_count": 535,
+    "word_count": 81
+  },
+  {
+    "id": "cae41597-2810-4952-ad13-83190a5867f9",
+    "text": "público\" u \"Otras entidades\" se habilitan los conceptos del rubro 2000. Por cada rubro de ingresos se muestra el detalle de los conceptos, así como su afectación, conforme a lo\nestablecido en la Tabla 22 del Anexo 2 de la Planilla Electrónica, aprobada mediante R.M N 121-2011-TR\ny modificado en fecha posterior por SUNAT, conforme se muestra en el modulo Orientación Tributaria\nPlanilla Electrónica.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 41,
+    "total_chunks": 119,
+    "char_count": 400,
+    "word_count": 64
+  },
+  {
+    "id": "af66636d-1b4b-4b6e-8640-778287d15ef1",
+    "text": "SUNAT, conforme se muestra en el modulo Orientación Tributaria Planilla Electrónica. De efectuar el pago de algún concepto no previsto en la Tabla 22 del Anexo 2 de la Planilla Electrónica,\nutilice el rubro \"Otros conceptos\" (1000) para ingresar un nuevo concepto y la afectación del mismo.\nConvenio\nSi el empleador señaló tener convenio de estabilidad, debe ingresar la tasa establecida en su convenio\npor el IES, la misma que será utilizada para elaborar su declaración.\nEsta sección cuenta con opciones para modificar ( ) o eliminar ( ) las tasas registradas.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 42,
+    "total_chunks": 119,
+    "char_count": 562,
+    "word_count": 92
+  },
+  {
+    "id": "ce2b1723-235f-4ea0-80d9-d0720fece31e",
+    "text": "para modificar ( ) o eliminar ( ) las tasas registradas. 9. ¿Cómo se obtienen los datos de los trabajadores, pensionistas, personal en\nFormación y personal de terceros del T-REGISTRO al PDT PLAME?\nEl PDT PLAME se elabora a partir de la información del T-REGISTRO, para tal efecto el empleador debe\nobtener la relación de trabajadores, pensionistas, personal en formación y personal de terceros, y los datos\nque se requieren para la elaboración de la declaración, estos son:\nCategoría Datos obtenidos del T-REGISTRO\nTrabajador - Tipo y número de documento de identidad.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 43,
+    "total_chunks": 119,
+    "char_count": 568,
+    "word_count": 92
+  },
+  {
+    "id": "65398437-3f21-41e4-8e40-03a4762dd0f2",
+    "text": "del T-REGISTRO Trabajador - Tipo y número de documento de identidad. - Apellidos y nombres.\n- Fecha de nacimiento.\n- Tipo de trabajador (*).\n- Régimen pensionario (*).\n- Régimen de salud (*).\n- Indicador de aportes al SCTR Salud y Pensión (*).\n- Situación del trabajador (*).\nPensionista - Tipo y número de documento de identidad.\n- Apellidos y nombres.\n- Fecha de nacimiento.\n- Tipo de pensionista (*).\n- Régimen pensionario (del que proviene la pensión). (*)\n- Situación del pensionista (*).\nPersonal en formación - Tipo y número de documento de identidad.\n- Apellidos y nombres.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 44,
+    "total_chunks": 119,
+    "char_count": 581,
+    "word_count": 99
+  },
+  {
+    "id": "0c517659-b853-493b-a96e-418759236aba",
+    "text": "Tipo y número de documento de identidad. - Apellidos y nombres. - Fecha de nacimiento.\nPersonal de terceros - Tipo y número de documento de identidad.\n- Apellidos y nombres.\n- Fecha de nacimiento.\n- Indicador de aporte al SCTR Salud con EsSalud.\n(*) Se obtiene del T-REGISTRO la información vigente e histórica, incluyendo las fechas de inicio y de fin\ndel régimen y período de vínculo, lo que permite determinar la información correspondiente al período\nde la declaración que se elabore.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 45,
+    "total_chunks": 119,
+    "char_count": 488,
+    "word_count": 82
+  },
+  {
+    "id": "bb5a857c-d4b2-401f-b931-1c6ef912a132",
+    "text": "la información correspondiente al período de la declaración que se elabore. Para que se muestre en el PDT PLAME la información del T-REGISTRO, el empleador podrá hacer uso de\nalguno de los siguientes procesos:\nSincronización de datos con T-REGISTRO.\nImportación de Archivo Personalizado del T-REGISTRO.\nCualquier modificación o actualización de los datos señalados en la tabla anterior, deberá efectuarla en\nel T-REGISTRO y para reflejar dichos cambios en su declaración podrá hacerlo utilizando la opción",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 46,
+    "total_chunks": 119,
+    "char_count": 505,
+    "word_count": 75
+  },
+  {
+    "id": "e0a3fb09-09c3-48f0-b85f-291eeda2dfa4",
+    "text": "reflejar dichos cambios en su declaración podrá hacerlo utilizando la opción \"Sincronizar datos con T-REGISTRO\" (opción con Clave SOL), o efectuando la importación del \"Archivo\nPersonalizado del T-REGISTRO\" actualizado a través de la opción habilitada en el módulo Utilitarios y\nluego en la declaración en elaboración deberá ejecutar la opción \"Utilizar datos T-REGISTRO\".\nSincronización de datos con el T-REGISTRO\nLa sincronización es un proceso en línea, a través de internet, que permite actualizar en el PDT PLAME las",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 47,
+    "total_chunks": 119,
+    "char_count": 521,
+    "word_count": 78
+  },
+  {
+    "id": "cb9b8266-04a9-4aa8-b9fb-c36a4f1f5764",
+    "text": "través de internet, que permite actualizar en el PDT PLAME las novedades del T-REGISTRO (nuevos registros, actualizaciones o bajas), respecto a los datos necesarios\npara la elaboración de las declaraciones mensuales.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 48,
+    "total_chunks": 119,
+    "char_count": 216,
+    "word_count": 31
+  },
+  {
+    "id": "06231caa-4e80-4e45-a1b4-1e1315d4e2a4",
+    "text": "a los datos necesarios para la elaboración de las declaraciones mensuales. Este proceso podrá ser ejecutado desde el módulo Declaraciones Juradas del PDT, al momento de\nelaborar su declaración o modificar la misma. La opción se encuentra en la sección \"Información\nGeneral\" de su declaración.\nAl sincronizar con el T-REGISTRO, luego de validar la clave SOL y que el usuario se encuentre habilitado a\nla opción \"Mis declaraciones y pagos\" del menú SOL, el proceso realiza los siguientes pasos:",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 49,
+    "total_chunks": 119,
+    "char_count": 492,
+    "word_count": 79
+  },
+  {
+    "id": "b021a960-2b95-4727-b5f1-fde733b11ecc",
+    "text": "y pagos\" del menú SOL, el proceso realiza los siguientes pasos: 1 Descarga automáticamente (en línea) o sincroniza con el T-REGISTRO los datos del PDT, incluyendo\nla de aquellos sujetos que no tienen incidencia en la declaración que se elabora, y efectúa la carga\ncompleta del registro hacia el PDT.\n2 A partir de la información cargada al PDT, se identifican y cargan a la declaración en elaboración los\ndatos de los trabajadores, pensionistas, personal en formación y personal de terceros cuyo vínculo",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 50,
+    "total_chunks": 119,
+    "char_count": 503,
+    "word_count": 83
+  },
+  {
+    "id": "9294c89d-d9de-40e0-ac25-d7e4b0ce8d47",
+    "text": "trabajadores, pensionistas, personal en formación y personal de terceros cuyo vínculo con el empleador se inicia, mantiene o finaliza entre las fechas de inicio y fecha de fin del período\nde la declaración. Dichas fechas podrán ser consultadas o modificadas ingresando a la opción\n\"Utilitarios\"/\"Mantenimiento de períodos\".\nConcluído dicho proceso, podrá ingresar a la sección \"Detalle de Declaración\" donde se muestran los\ndatos obtenidos del T-REGISTRO.\nCabe señalar que con el paso 1, se realiza una carga completa de los datos del T-REGISTRO al PDT",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 51,
+    "total_chunks": 119,
+    "char_count": 552,
+    "word_count": 85
+  },
+  {
+    "id": "a6c17adc-48bf-4fe5-8726-82af29724616",
+    "text": "realiza una carga completa de los datos del T-REGISTRO al PDT PLAME, lo que permitirá que la información sea utilizada para modificar o rectificar declaraciones de\notros períodos utilizando la opción \"Utilizar datos del T-REGISTRO al <fecha de última actualización en el\nPDT>\" desde la sección \"Información General\" de la declaración.\nIMPORTANTE:\nPara el caso de empleadores con gran volumen de información*, el primer proceso de carga de datos\ndel T-REGISTRO al PDT PLAME deberá efectuarse a través de la importación del \"Archivo Personalizado",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 52,
+    "total_chunks": 119,
+    "char_count": 544,
+    "word_count": 84
+  },
+  {
+    "id": "e15dcc7b-2603-4414-9585-1d827223d3c7",
+    "text": "PLAME deberá efectuarse a través de la importación del \"Archivo Personalizado del T-REGISTRO\". Luego de ello, cualquier actualización de datos podrá efectuarse a través de la opción\n\"Sincronizar datos con T-REGISTRO\".\n*Más de 1,000 prestadores (trabajadores, pensionistas, personal en formación y de terceros.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 53,
+    "total_chunks": 119,
+    "char_count": 309,
+    "word_count": 43
+  },
+  {
+    "id": "9055e106-c5a7-4ae8-a7f0-97fed11e34c7",
+    "text": "de 1,000 prestadores (trabajadores, pensionistas, personal en formación y de terceros. Importación de Archivo Personalizado del T-REGISTRO\nEl empleador también podrá efectuar la carga de los datos del T-REGISTRO al PDT PLAME a través de la\nimportación del \"Archivo Personalizado del T-REGISTRO\".\nPara efectuar dicha importación siga los siguientes pasos:\n1 Ingrese a SUNAT Operaciones en Línea. Verifique si su cuenta de usuario SOL tiene habilitada la\nopción \"Presento mis Declaración y Pagos\" / \"Utilitarios para mis declaraciones y pagos\". De",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 54,
+    "total_chunks": 119,
+    "char_count": 545,
+    "word_count": 81
+  },
+  {
+    "id": "ff08f854-1894-4809-80b6-973e869bd9bd",
+    "text": "Declaración y Pagos\" / \"Utilitarios para mis declaraciones y pagos\". De encontrarse habilitado, ingrese y genere un pedido del \"Archivo Personalizado del T-REGISTRO\".\nGenerado el Archivo Personalizado, podrá descargarlo para ser importado al PDT PLAME.\n2 Obtenido el Archivo Personalizado del T-REGISTRO, ingrese al PDT PLAME, módulo \"Utilitarios\" y\nseleccione \"Importar archivo personalizado del T-REGISTRO\", ubique el archivo e importe.\nEl Archivo personalizado del T-REGISTRO contiene datos del empleador, así como de sus",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 55,
+    "total_chunks": 119,
+    "char_count": 524,
+    "word_count": 73
+  },
+  {
+    "id": "fd296e0f-af61-47ea-8768-36129ea232e4",
+    "text": "personalizado del T-REGISTRO contiene datos del empleador, así como de sus trabajadores, pensionistas, personal en formación y personal de terceros. En ese sentido, si ya\nefectuó la importación de su archivo, el PDT ya cuenta con los datos de los mencionados sujetos a\nla fecha de generación del archivo de importación. Para utilizar dicha información en la elaboración\nde su declaración, haga uso de la opción \"Utilizar datos del T-REGISTRO al <fecha de última\nactualización en el PDT> y pulse \"Ejecutar\".",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 56,
+    "total_chunks": 119,
+    "char_count": 506,
+    "word_count": 81
+  },
+  {
+    "id": "6adf13dd-3f6d-40df-834e-7e4e43fefd0f",
+    "text": "al <fecha de última actualización en el PDT> y pulse \"Ejecutar\". Cualquier modificación o actualización de los datos del T-REGISTRO que son utilizados por el PDT\nPLAME y que forman parte de la declaración, debe realizarla en el T-REGISTRO y posteriormente\nactualizar la información del PDT PLAME, a través de la opción sincronización o la importación un\nnuevo Archivo Personalizado del T-REGISTRO.\n10. Elaborar una Nueva declaración\nPara elaborar una nueva declaración ingrese al módulo Declaraciones Juradas, opción \"Nueva declaración\"",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 57,
+    "total_chunks": 119,
+    "char_count": 536,
+    "word_count": 80
+  },
+  {
+    "id": "d30659ae-4b0e-4f3a-8565-a42d80b0a120",
+    "text": "una nueva declaración ingrese al módulo Declaraciones Juradas, opción \"Nueva declaración\" y complete los datos de las 3 secciones de la declaración: Información General, Detalle de Declaración y\nDeterminación de Deuda.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 58,
+    "total_chunks": 119,
+    "char_count": 218,
+    "word_count": 31
+  },
+  {
+    "id": "205388b2-412b-474d-b603-f0fad25a6da0",
+    "text": "la declaración: Información General, Detalle de Declaración y Determinación de Deuda. En la declaración cuenta con 2 botones que le permiten conocer el estado de su declaración:\n- Validar: Opción que valida los datos registrados en su declaración una vez concluido el llenado de\nla misma, y de existir inconsistencias, muestra el detalle para su corrección.\n- Guardar: Guarda la información, verifica la consistencia de los datos ingresados y le indica si su\ndeclaración presenta inconsistencias o no. Si la declaración no presenta inconsistencias, en el",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 59,
+    "total_chunks": 119,
+    "char_count": 554,
+    "word_count": 86
+  },
+  {
+    "id": "e90e3889-7fd7-4a58-afb6-cc8a950cb011",
+    "text": "inconsistencias o no. Si la declaración no presenta inconsistencias, en el módulo \"Declaraciones Registradas\" se habilita el ícono para generar el \"Archivo de envío\" que\ncontendrá la declaración que presentará a través de la internet, oficinas de SUNAT o los bancos\nautorizados, según corresponda.\n10.1 Información General\nEn esta sección complete los datos básicos:\nPeríodo tributario (habilitado a partir de 11/2011).\nIndicar si la declaración es sustitutoria o rectificatoria (SI/NO).\nSeleccione la forma de obtención de los registros para elaborar su declaración y",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 60,
+    "total_chunks": 119,
+    "char_count": 568,
+    "word_count": 83
+  },
+  {
+    "id": "d6a5b8d6-094a-4945-ac25-8e1745303b21",
+    "text": "forma de obtención de los registros para elaborar su declaración y \"ejecutar\" el proceso seleccionado.\nForma de obtención de los registros\nPara obtener la nomina de los trabajadores, pensionistas, personal en formación y personal de\nterceros para elaborar la declaración, se cuenta con 2 opciones:\nSincronizar datos con T-REGISTRO\nSi ingresó al aplicativo con su clave SOL, podrá ejecutar la sincronización a fin de contar\ncon los datos actualizados del T-REGISTRO en el PDT PLAME y con los datos que\ncorrespondan al período de la declaración que se encuentra elaborando.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 61,
+    "total_chunks": 119,
+    "char_count": 571,
+    "word_count": 90
+  },
+  {
+    "id": "cfa5784f-bdb1-4478-aeba-b5d8a0479cd6",
+    "text": "que correspondan al período de la declaración que se encuentra elaborando. Utilizar datos del T-REGISTRO a <fecha de última actualización en el PDT>\nEsta opción le permite utilizar los datos del T-REGISTRO que han sido actualizados en el\nPDT PLAME a través de una sincronización anterior o la importación de un Archivo\nPersonalizado del T-REGISTRO. La fecha que se muestra en dicha opción corresponde a\nla última sincronización efectuada o la fecha de la información del Archivo personalizado\ndel T-REGISTRO importado.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 62,
+    "total_chunks": 119,
+    "char_count": 518,
+    "word_count": 81
+  },
+  {
+    "id": "a32d73ee-b421-4ab0-ae8f-a298069de591",
+    "text": "la fecha de la información del Archivo personalizado del T-REGISTRO importado. Al pulsar el botón \"ejecutar\" para obtener los registros para elaborar la declaración, el PDT le\nmostrará la fecha de inicio y fecha fin del período de la declaración, las que serán consideradas\npara determinar el universo de prestadores a declarar en el período. De confirmar dichas fechas,\nse proseguirá con el proceso, caso contrario no continuará. Si las fechas indicadas no\ncorresponden al período de su declaración, antes de ejecutar alguna de las opciones para",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 63,
+    "total_chunks": 119,
+    "char_count": 546,
+    "word_count": 87
+  },
+  {
+    "id": "33b19c0c-c595-45e9-8da6-ebf4f1e40820",
+    "text": "de su declaración, antes de ejecutar alguna de las opciones para obtener los datos del T-REGISTRO, deberá realizar el mantenimiento de períodos ingresando\npara ello a \"Utilitarios\" del PDT, opción \"Mantenimiento de períodos\".\nIMPORTANTE:\nIngrese al Módulo \"Utilitarios\" / \"Mantenimiento de períodos\" para consultar las fechas de inicio y\ncierre mensual que el PDT considera al elaborar sus declaraciones y en caso corresponda, realice la\nactualización de las mismas.\nLos PS 4ta categoría deben ser registrados directamente en el PDT PLAME, conjuntamente con",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 64,
+    "total_chunks": 119,
+    "char_count": 557,
+    "word_count": 83
+  },
+  {
+    "id": "4725edc1-3694-471b-bc7c-789d63d0cace",
+    "text": "categoría deben ser registrados directamente en el PDT PLAME, conjuntamente con el detalle de los comprobantes que paga en el mes de la declaración.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 65,
+    "total_chunks": 119,
+    "char_count": 148,
+    "word_count": 24
+  },
+  {
+    "id": "eb6f5e4f-bbe5-4283-b56c-1e2acef5f137",
+    "text": "de los comprobantes que paga en el mes de la declaración. 10.2 Detalle de declaración\nLuego de obtener los datos de los trabajadores, pensionistas, personal en formación y personal\nde terceros en el PDT PLAME, ingrese a la Sección \"Detalle de declaración\" a fin de registrar los\ndatos mensuales de cada uno de los sujetos antes señalados, así como los datos de los PS 4ta.\nCategoría, de corresponder.\nPara completar el detalle de la declaración, el empleador puede hacerlo de 2 maneras:\nCarga individual. Pulse el ícono \"Editar detalle\" y complete uno a uno los datos",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 66,
+    "total_chunks": 119,
+    "char_count": 567,
+    "word_count": 96
+  },
+  {
+    "id": "77b02025-88d6-4484-84a0-924c726a5c05",
+    "text": "el ícono \"Editar detalle\" y complete uno a uno los datos solicitados por el PDT PLAME.\nCarga masiva. Podrá realizar la importación del detalle de la declaración a través de la\nopción \"Importar archivo\". La elaboración de los archivos a importar, se realizará de\nacuerdo a lo establecido en el Anexo 3 Estructuras de los Archivos de Importación,\naprobados mediante R.M. N 121-2011-TR, en adelante \"Anexo 3\".\nTRABAJADORES\nLos datos de sus trabajadores que debe informar mensualmente son:\nTrabajador Detalle de la declaración",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 67,
+    "total_chunks": 119,
+    "char_count": 522,
+    "word_count": 83
+  },
+  {
+    "id": "7d91f9ad-d9b2-4064-acaf-a41f576676e2",
+    "text": "trabajadores que debe informar mensualmente son: Trabajador Detalle de la declaración Datos del Trabajador - Datos básicos obtenidos del T-REGISTRO.\n- Indicador de aporte a +Vida.\n- Indicador de aporte a Asegura tu pensión.\n- Indicador de aporte al FDSA (en caso de artistas).\n- Indicador de percibir otras rentas 5ta categoría.\n- Indicador de domiciliado LIR.\n- Tasa SCTR, en caso aporte al EsSalud.\n- Tasa de convenio IES (sólo para convenios de estabilidad).\nJornada Laboral - Días laborados.\n- Días subsidiados (tipo y número de días).",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 68,
+    "total_chunks": 119,
+    "char_count": 539,
+    "word_count": 88
+  },
+  {
+    "id": "73dd02e7-b978-4c46-8db8-c06d5ad0669d",
+    "text": "- Días laborados. - Días subsidiados (tipo y número de días). - Días no laborados y no subsidiados (tipo y número de días).\n- Horas ordinarias.\n- Horas en sobretiempo.\nIngresos - Códigos de ingreso o remuneración.\n- Montos de ingresos o remuneraciones devengados.\n- Montos de ingresos o remuneraciones pagados.\nDescuentos - Códigos de descuentos.\n- Montos de descuentos.\nTributos y aportes - Bases de cálculo de tributos y aportes.\n- Montos de tributos y aportes.\nSi realiza una carga individual al PDT PLAME (uno a uno) de los datos antes señalados, ingrese a",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 69,
+    "total_chunks": 119,
+    "char_count": 560,
+    "word_count": 95
+  },
+  {
+    "id": "55f0ad40-0113-4032-866a-32a0cd24ed05",
+    "text": "PLAME (uno a uno) de los datos antes señalados, ingrese a la sección Trabajadores, ubique el trabajador respecto del cual va a registrar datos y presione el\nícono \"Editar detalle\".",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 70,
+    "total_chunks": 119,
+    "char_count": 180,
+    "word_count": 30
+  },
+  {
+    "id": "dc45646c-979c-4859-a25e-9c520fc85d19",
+    "text": "cual va a registrar datos y presione el ícono \"Editar detalle\". DETALLE DE LA DECLARACIÓN/TRABAJADOR\nDeberá ingresar los datos que solicita el PDT en cada una de las secciones: Datos del\ntrabajador, Jornada laboral, Ingresos, Descuentos y Tributos y aportes, y luego presione el\nbotón \"Grabar\". El aplicativo mostrará si los datos grabados son consistentes ( ) o\ninconsistentes ( ). Los datos de tributos y aportes se actualizan cuando se graban los datos del\ntrabajador.\nEl aplicativo mostrará los datos que sincroniza del T-Registro, debiendo completa el indicador de",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 71,
+    "total_chunks": 119,
+    "char_count": 569,
+    "word_count": 90
+  },
+  {
+    "id": "d2f4f306-813d-44a8-b216-900ec6c80f9e",
+    "text": "los datos que sincroniza del T-Registro, debiendo completa el indicador de + Vida Seguro de Accidentes, Tasa SCTR, Asegura Tu Pensión, según corresponda.\nDatos tributarios:\nCondición de domicilio según IR, por defecto el aplicativo le muestra que No.\n¿Tiene otros ingresos de quinta categoría? Deberá responder que \"Sí\" aquel empleador al\nque corresponda efectuar la retención del IR de quinta categoría por ser el que abona la mayor\nrenta de quinta. Esto en aquellos casos que el trabajador le informe percibir otros ingresos de",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 72,
+    "total_chunks": 119,
+    "char_count": 529,
+    "word_count": 84
+  },
+  {
+    "id": "3e256088-7110-4399-a9a0-0df64cbc835c",
+    "text": "aquellos casos que el trabajador le informe percibir otros ingresos de 5ta de otros empleadores (en cumplimiento de lo dispuesto en el literal b) del artículo 44 del\nReglamento de la LIR). Los ingresos de los otros empleadores deberán ser registrados en la\nsección Tributos y Aportes, casilla auxiliar en el concepto 0605 Renta Quinta Categoría\nRetenciones.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 73,
+    "total_chunks": 119,
+    "char_count": 357,
+    "word_count": 57
+  },
+  {
+    "id": "6d029a02-6a0b-4512-adba-0e51ea52451c",
+    "text": "Aportes, casilla auxiliar en el concepto 0605 Renta Quinta Categoría Retenciones. Para salir a la pantalla donde se muestra la relación de trabajadores, presione \"Cerrar detalle\" y\ncontinúe con el llenado hasta completar los datos de todos sus trabajadores.\nPara realizar una carga masiva de los datos de los trabajadores en el PDT PLAME, deberá\nelaborar los archivos planos de acuerdo a lo establecido en el \"Anexo 3\". Los archivos que\nelabore con los datos de la declaración de trabajadores son:\nNombre del archivo Estructura N.\n- Trabajador: Datos de la jornada Laboral 14",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 74,
+    "total_chunks": 119,
+    "char_count": 575,
+    "word_count": 94
+  },
+  {
+    "id": "e6b5c305-0648-401c-ac13-b8c3ba788bfd",
+    "text": "archivo Estructura N. - Trabajador: Datos de la jornada Laboral 14 - Trabajador: Otras condiciones 26\n- Trabajaor: Días subsidiados y otros no laborados. 15\n- Trabajador: Detalle de los ingresos, tributos y descuentos. 18\n- Trabajador: Otras Rentas de 5ta categoría (*). 12\n- Trabajador: Tasas SCTR-EsSalud y/o convenio IES (**). 25\n(*) Sólo si el empleador cuenta con trabajadores que perciben otras rentas de quinta categoría de\notros empleadores.\n(**) Sólo si el empleador debe pagar el SCTR al EsSalud o tiene convenio IES por sus trabajadores.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 75,
+    "total_chunks": 119,
+    "char_count": 548,
+    "word_count": 89
+  },
+  {
+    "id": "a5781d32-4105-4459-ad10-abc0dda9d864",
+    "text": "el SCTR al EsSalud o tiene convenio IES por sus trabajadores. Para importar estos archivos ingrese a la sección Detalle de Declaración / Trabajadores y\npresione el botón \"Importar archivo\".\nPENSIONISTAS\nLos datos de los pensionistas que debe informar mensualmente son:\nPensionista Detalle de la declaración\nDatos del pensionista - Datos básicos obtenidos del T-REGISTRO.\n- Indicador de aporte a +Vida.\nIngresos - Código de ingreso o pensiones.\n- Montos de ingresos o pensiones devengados.\n- Montos de ingresos o pensiones pagados.\nDescuentos - Códigos de descuentos.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 76,
+    "total_chunks": 119,
+    "char_count": 566,
+    "word_count": 87
+  },
+  {
+    "id": "b02fb66b-24ae-4e7a-8a9d-f1f3ba1ecea6",
+    "text": "Montos de ingresos o pensiones pagados. Descuentos - Códigos de descuentos. - Montos de descuentos.\nTributos y aportes - Bases de cálculo de tributos y aportes.\n- Montos de tributos y aportes.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 77,
+    "total_chunks": 119,
+    "char_count": 192,
+    "word_count": 32
+  },
+  {
+    "id": "b5f95b9e-1d89-4a2a-8501-4cb8afd49837",
+    "text": "cálculo de tributos y aportes. - Montos de tributos y aportes. Si realiza una carga individual de los datos antes señalados, ingrese a la sección Pensionistas,\nubique el pensionista respecto del cual va a registrar datos y presione el ícono \"Editar detalle\".\nDeberá ingresar los datos que solicita el PDT en las secciones: Datos del pensionista, Ingresos,\nDescuentos y Tributos y aportes, y luego presione el botón \"Grabar\". El aplicativo mostrará si los\ndatos grabados están consistentes ( ) o inconsistentes ( ). Los datos de tributos y aportes se",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 78,
+    "total_chunks": 119,
+    "char_count": 549,
+    "word_count": 90
+  },
+  {
+    "id": "82ba49da-e9ce-432d-ab05-4edbf0f1979b",
+    "text": "o inconsistentes ( ). Los datos de tributos y aportes se actualizan cuando se graban los datos del pensionista.\nPara salir a la pantalla donde se muestra la relación de pensionistas, presione \"Cerrar detalle\" y\ncontinúe con el llenado hasta completar los datos de todos sus pensionistas.\nPara realizar una carga masiva de los datos de los pensionistas en el PDT PLAME, deberá\nelaborar los archivos planos de acuerdo a lo establecido en el \"Anexo 3\". Los correspondientes a\ndatos de la declaración de pensionistas son:\nNombre del archivo Estructura N.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 79,
+    "total_chunks": 119,
+    "char_count": 550,
+    "word_count": 91
+  },
+  {
+    "id": "0ea49d5c-9aed-4330-943d-76c337124a92",
+    "text": "de la declaración de pensionistas son: Nombre del archivo Estructura N. - Pensionista: Otras condiciones (*) 27\n- Pensionista: Detalle de los ingresos, tributos y descuentos 19\n(*) Sólo si cuenta con pensionistas que aportan al +Vida Seguro de Accidentes.\nPara importar estos archivos ingrese a la sección Detalle de Declaración / Pensionistas y presione\nel botón \"Importar archivo\".\nPERSONAL EN FORMACIÓN\nLos datos del Personal en formación que debe informar mensualmente son:\nPersonal en formación Detalle de la declaración",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 80,
+    "total_chunks": 119,
+    "char_count": 525,
+    "word_count": 80
+  },
+  {
+    "id": "2539a600-cfb6-4da0-ab5d-c2c04f888cfc",
+    "text": "debe informar mensualmente son: Personal en formación Detalle de la declaración Datos del Personal en - Datos básicos obtenidos del T-REGISTRO.\nformación - Monto pagado de la subvención económica o estipendio\nSi realiza una carga individual del monto pagado de la subvención económica o estipendio,\ntenga en cuenta que al concluir con el llenado debe \"Grabar\". El aplicativo mostrará si los datos\ngrabados están consistentes ( ) o inconsistentes ( ). Para salir a la pantalla donde se muestra\nla relación del Personal en formación, presione \"Cerrar detalle\" y continúe con el llenado hasta",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 81,
+    "total_chunks": 119,
+    "char_count": 589,
+    "word_count": 94
+  },
+  {
+    "id": "6835527a-fed7-4ae9-afbe-3c16b200e300",
+    "text": "en formación, presione \"Cerrar detalle\" y continúe con el llenado hasta completar los datos de todo su personal en formación.\nPara realizar una carga masiva del monto pagado de la subvención o estipendio al PDT, deberá\nelaborar un archivo plano de acuerdo a lo establecido en el \"Anexo 3\". El archivo que elabore\ncon los datos de la declaración de personal en formación es:\nNombre del archivo Estructura N.\nPersonal en formación: Monto pagado 21\nPara importar este archivo ingrese a la sección Detalle de Declaración / Personal en Formación y\npresione el botón \"Importar archivo\".",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 82,
+    "total_chunks": 119,
+    "char_count": 580,
+    "word_count": 96
+  },
+  {
+    "id": "f3df9cc2-7184-4d2d-9e5c-ff186ede15dc",
+    "text": "Declaración / Personal en Formación y presione el botón \"Importar archivo\". PERSONAL DE TERCEROS\nLos datos del Personal de terceros que debe informar mensualmente son:",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 83,
+    "total_chunks": 119,
+    "char_count": 167,
+    "word_count": 25
+  },
+  {
+    "id": "044f138d-35dd-489b-939f-61511c4744e1",
+    "text": "Los datos del Personal de terceros que debe informar mensualmente son: Personal de terceros Detalle de la declaración\nDatos del Personal de - Datos básicos obtenidos del T-REGISTRO.\nterceros - Base de cálculo del aporte al SCTR EsSalud\n- Aporte al SCTR EsSalud.\nSi realiza una carga individual de los datos antes señalados, ingrese a la sección Personal de\nterceros, ubique al sujeto respecto del cual va a efectuar el pago de su aporte al SCTR EsSalud y\npresione el ícono \"Editar detalle\". Deberá ingresar los datos que solicita el PDT y luego presione",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 84,
+    "total_chunks": 119,
+    "char_count": 553,
+    "word_count": 94
+  },
+  {
+    "id": "6ed568a2-a1c0-4a8e-b3f7-e3364d623030",
+    "text": "Deberá ingresar los datos que solicita el PDT y luego presione el botón \"Grabar\". El aplicativo mostrará si los datos grabados están consistentes ( ) o\ninconsistentes ( ). Para salir a la pantalla donde se muestra la relación del personal de terceros,\npresione \"Cerrar detalle\" y continúe con el llenado hasta completar los datos de todo el personal\nde terceros.\nTenga en cuenta que solo se descarga al PDT la relación del personal de terceros cuya cobertura\nde salud sea brindada por el EsSalud.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 85,
+    "total_chunks": 119,
+    "char_count": 496,
+    "word_count": 85
+  },
+  {
+    "id": "0b70f0de-4c96-4375-a8fe-8b58a0cf7abe",
+    "text": "de terceros cuya cobertura de salud sea brindada por el EsSalud. Para realizar una carga masiva de los datos del aporte al SCTR-EsSalud correspondiente al\nPersonal de terceros, deberá elaborar los archivos planos de acuerdo a lo establecido en el\n\"Anexo 3\". El archivo que elabore con los datos del personal de terceros es:\nNombre del archivo Estructura N.\nPersonal de terceros SCTR EsSalud 22\nPara importar este archivo ingrese a la sección Detalle de Declaración / Personal de Terceros y\npresione el botón \"Importar archivo\".\nPRESTADORES DE SERVICIOS 4TA CATEGORÍA",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 86,
+    "total_chunks": 119,
+    "char_count": 566,
+    "word_count": 91
+  },
+  {
+    "id": "dd7624c3-a540-4922-a036-5d9f42abe878",
+    "text": "y presione el botón \"Importar archivo\". PRESTADORES DE SERVICIOS 4TA CATEGORÍA Los datos de los PS 4ta Categoría que debe informar mensualmente son:\nPrestador de servicio Detalle de la declaración\nDatos del PS- 4ta categoría - Tipo y número de documento del prestador de servicio.\n- Apellidos y nombres.\n- Indicador de domiciliado según Ley Impuesto a la Renta.\n- Indicador de convenio para evitar la doble tributación.\nDetalle del comprobante - Tipo de comprobante, serie y número.\n- Fecha de emisión.\n- Fecha de pago.\n- Monto total de la retribución del servicio.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 87,
+    "total_chunks": 119,
+    "char_count": 565,
+    "word_count": 94
+  },
+  {
+    "id": "9f932fde-7f66-42ba-9a9d-f13291306668",
+    "text": "Fecha de pago. - Monto total de la retribución del servicio. - Indicador de retención del IR de 4ta categoría.\n- Monto retenido del IR de 4ta categoría.\nHasta el período diciembre de 2012, para empleadores del \"Sector Público\" u \"Otras entidades\" y\nque cuenten con trabajadores CAS (tipo 67), el PDT descargará descargaba del T-Registro su\ninformación a esta sección de la declaración para que se efectúe el registro del comprobante de\npago emitido, así como de la retención del impuesto a la renta de cuarta categoría, de\ncorresponder.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 88,
+    "total_chunks": 119,
+    "char_count": 536,
+    "word_count": 90
+  },
+  {
+    "id": "075f2a5a-1774-43db-8209-6897674950c2",
+    "text": "retención del impuesto a la renta de cuarta categoría, de corresponder. A partir del período enero de 2013, se exceptúa a los trabajadores CAS de la obligación de emitir\nRecibo por Honorarios por los servicios que presten bajo la modalidad CAS. Por ello el PDT\nPLAME fue modificado (Versión 2.4) a fin de que la retención del Impuesto a la Renta de Cuarta",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 89,
+    "total_chunks": 119,
+    "char_count": 355,
+    "word_count": 63
+  },
+  {
+    "id": "cad4f6e5-ceaf-4f01-9012-33ad0d8257ba",
+    "text": "de que la retención del Impuesto a la Renta de Cuarta Categoría sea informada en la Casilla 618 - Renta Cuarta Categoría Retenciones CAS, esto\ndentro de la categoría TRABAJADOR.\nEs de indicar que la Casilla 618 calcula en automático el 10% de la Renta Bruta, sin embargo,\nesta puede ser editada (ajustar el monto) ingresando el monto correspondiente del impuesto a\nla renta de cuarta categoría. (Ajuste de febrero de 2013).\nSi realiza una carga individual de los PS 4ta categoría, presione el botón \"Nuevo\" para registrar",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 90,
+    "total_chunks": 119,
+    "char_count": 521,
+    "word_count": 88
+  },
+  {
+    "id": "23355516-c6ad-4aaa-b0f0-4e2e64905ef1",
+    "text": "de los PS 4ta categoría, presione el botón \"Nuevo\" para registrar los datos del prestador, y luego de grabar podrá registrar datos del Detalle del comprobante.\nPara salir a la pantalla donde se muestra la relación de los PS 4ta Categoría, presione \"Cerrar\ndetalle\" y continúe con el llenado hasta completar los datos de aquellos a quienes les pagó en el\nperíodo de la declaración. El aplicativo mostrará si los datos grabados están consistentes ( ) o\ninconsistentes ( ).\nSi ingreso al PDT con su clave SOL podrá realizar la descarga de los apellidos y nombres del",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 91,
+    "total_chunks": 119,
+    "char_count": 563,
+    "word_count": 98
+  },
+  {
+    "id": "4e3f6751-5c90-4834-9f78-188b2bd24d9c",
+    "text": "SOL podrá realizar la descarga de los apellidos y nombres del sistema RUC, para ello ingrese el N. de RUC y luego pulse \"Validar RUC\":\nPara realizar una carga masiva de los datos de los PS 4ta Categoría en el PDT PLAME, deberá\nelaborar los archivos planos de acuerdo a lo establecido en el Anexo 3 Estructura de los\nArchivos de Importación.\nLos archivos que elabore con los datos de la declaración de PS 4ta Categoría son:\nNombre del archivo Estructura N\n- Prestador de servicios con rentas de cuarta categoría 7",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 92,
+    "total_chunks": 119,
+    "char_count": 512,
+    "word_count": 92
+  },
+  {
+    "id": "c73b7f40-e385-486d-9e49-2522326ce254",
+    "text": "N - Prestador de servicios con rentas de cuarta categoría 7 - Prestador de servicios con rentas de cuarta categoría: Detalle de 20\ncomprobantes.\nPara importar los archivos que ha elaborado ingrese a la sección Detalle de Declaración/ PS 4ta\nCategoría (ffffaaaamm############.ps4) y presione el botón \"Importar archivo\". Primero\ndeberá importar el archivo con los datos de los prestadores y luego el archivo con el detalle de\nlos comprobantes (ffffaaaamm###########.4ta).\n10.3 Determinación de la deuda",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 93,
+    "total_chunks": 119,
+    "char_count": 501,
+    "word_count": 75
+  },
+  {
+    "id": "4f1bb27c-5905-42dc-bd8d-a1356d45b474",
+    "text": "el detalle de los comprobantes (ffffaaaamm###########.4ta). 10.3 Determinación de la deuda Culminado el llenado de \"Detalle de declaración\", verifique que todos los trabajadores,\npensionistas y demás prestadores tengan estado consistente ( ). De encontrarse consistente,\ningrese a \"Determinación de la deuda\", complete los datos de esta sección de la declaración,\nvalide su declaración y guarde la misma.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 94,
+    "total_chunks": 119,
+    "char_count": 404,
+    "word_count": 57
+  },
+  {
+    "id": "852586c8-77f4-4ff5-8e07-05f43471507e",
+    "text": "sección de la declaración, valide su declaración y guarde la misma. Crédito EPS\nDe tener trabajadores que son asegurados regulares del EsSalud y se encuentren afiliados a una\nEntidad Prestadora de Salud - EPS (Regímenes de salud tipo \"01\" ó \"03\" de la Tabla N 32 del\nAnexo 2), para el registro de la(s) factura(s) pagada(s) a la EPS ingresará la información necesaria\nen las casillas 602, 612, 408 y/o 428, según corresponda al período de declaración o a períodos\nanteriores.\n11. Declaraciones Registradas",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 95,
+    "total_chunks": 119,
+    "char_count": 505,
+    "word_count": 84
+  },
+  {
+    "id": "53fdbb2e-5689-4e9e-9153-0a2342c14be1",
+    "text": "al período de declaración o a períodos anteriores. 11. Declaraciones Registradas En el módulo \"Declaraciones Registradas\" se muestra la relación de las declaraciones generadas en el PDT\nPLAME, la fecha de actualización, así como su estado (consistente, inconsistente o pendiente de\nvalidación). En dicho módulo se cuenta con opciones que le permiten modificar, eliminar, copiar y generar\nel archivo de envío de una declaración.\nModificar una declaración\nAl ingresar a esta opción, podrá consultar los datos registrados en las tres secciones de la declaración:",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 96,
+    "total_chunks": 119,
+    "char_count": 559,
+    "word_count": 84
+  },
+  {
+    "id": "6065a2a7-39e5-4bcd-8b75-f96a2c940f6e",
+    "text": "consultar los datos registrados en las tres secciones de la declaración: Información general, Detalle de declaración y Determinación de la deuda, asimismo podrá modificar y/o\nefectuar las actualizaciones que correspondan a dichos datos. Efectuada la modificación y/o actualización\nde datos, recuerde \"Guardar\" su declaración.\nEliminar una declaración\nEsta opción le permite eliminar o borrar una declaración. El aplicativo le solicita una confirmación para\neliminar la declaración seleccionada. Una vez eliminada, ésta será borrada definitivamente del PDT.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 97,
+    "total_chunks": 119,
+    "char_count": 556,
+    "word_count": 76
+  },
+  {
+    "id": "758b8be1-2fcb-43c2-82c6-5b34c6e30bfa",
+    "text": "declaración seleccionada. Una vez eliminada, ésta será borrada definitivamente del PDT. Copiar una declaración\nPara copiar el detalle de una declaración (período origen) al período inmediato siguiente (período\ndestino), primero deberá generar y grabar los datos de la sección \"Información General\" de la declaración\ndel período destino, que incluye la relación de los trabajadores, pensionistas, personal en formación y\npersonal de terceros, respecto de los cuales se copiarán los datos del período origen.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 98,
+    "total_chunks": 119,
+    "char_count": 506,
+    "word_count": 73
+  },
+  {
+    "id": "ef0a7727-9918-4ed9-8a9d-b485e2d6352f",
+    "text": "respecto de los cuales se copiarán los datos del período origen. Al ejecutar dicho proceso, se procederá a copiar el detalle de la declaración origen que corresponda a los\ntrabajadores, pensionistas, personal en formación y personal de terceros que se encuentren en la\ndeclaración del período destino.\nLos datos que serán copiados son:\n- Trabajadores: Indicadores de aporte a +Vida, Asegura tu Pensión, tasa del SCTR-EsSalud, Aporte\nal Fondo de Derechos Sociales del Artista, Otras rentas de 5ta categoría, Condición de",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 99,
+    "total_chunks": 119,
+    "char_count": 519,
+    "word_count": 81
+  },
+  {
+    "id": "a495fbe9-4d4e-4790-a4f6-54d24b87fe10",
+    "text": "Derechos Sociales del Artista, Otras rentas de 5ta categoría, Condición de domiciliado y si le aplica el convenio IES, siempre que sean consistentes con los datos del tipo de\ntrabajador, régimen de salud, régimen pensionario y cobertura SCTR correspondiente al período\na declarar. Asimismo, se copian los datos de ingresos y descuentos. No se copian los datos de\nJornada laboral ni otros ingresos de 5ta categoría, ya que éstos son propios de cada período.\n- Pensionistas: Indicador de aporte a +Vida y los datos de ingresos y descuentos.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 100,
+    "total_chunks": 119,
+    "char_count": 538,
+    "word_count": 88
+  },
+  {
+    "id": "956fa661-d80b-4402-9e0d-5d01382ff3f2",
+    "text": "de aporte a +Vida y los datos de ingresos y descuentos. - Personal en formación: Monto pagado de la subvención económica o estipendio.\n- Personal de terceros: Monto de la base de cálculo y tasa del SCTR-EsSalud.\n- PS 4ta categoría: Datos de identificación (tipo y número de documento, así como apellidos y\nnombres), condición de domiciliado e indicador de tener convenio para evitar doble imposición.\nNo se copian los datos de los comprobantes ya que éstos son propios de cada período.\nGenerar el \"Archivo de envío\" para presentar su declaración",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 101,
+    "total_chunks": 119,
+    "char_count": 545,
+    "word_count": 91
+  },
+  {
+    "id": "ac6902b5-be83-4f60-a315-b35a3ffcf04c",
+    "text": "cada período. Generar el \"Archivo de envío\" para presentar su declaración Cuando la declaración se grabó satisfactoriamente y no presenta inconsistencias, podrá generar el\nArchivo de envío de su declaración desde la opción \"Declaraciones registradas\" pulsando el ícono\n\"Archivo de envío\".\nPara generar el \"Archivo de envío\" debe indicar si la declaración será presentada por las ventanillas de\nSUNAT o Bancos autorizados, o por Internet SUNAT Operaciones en línea. Tratándose de la primera\nopción el PDT solicitará se ingrese el Código de envío.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 102,
+    "total_chunks": 119,
+    "char_count": 545,
+    "word_count": 83
+  },
+  {
+    "id": "d2ef6120-4647-4a87-985b-a3b317a24cf0",
+    "text": "primera opción el PDT solicitará se ingrese el Código de envío. Luego de señalar la unidad y directorio donde se grabará el archivo de envío, y pulsar el botón \"Generar\",\nse procederá a generar y grabar el archivo de envío en la ruta señalada, el cual podrá ser presentado a la\nSUNAT a través de la opción que indicó al momento de la generación.\n12. Registrar declaraciones enviadas\nEn este módulo el empleador podrá ubicar los archivos de envío generados a través del PDT PLAME.\nRegistrar número de orden",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 103,
+    "total_chunks": 119,
+    "char_count": 505,
+    "word_count": 89
+  },
+  {
+    "id": "c385df37-c497-4ef2-9a3f-c8dc661e89ec",
+    "text": "envío generados a través del PDT PLAME. Registrar número de orden Una vez efectuada la presentación de su declaración podrá registrar en el PDT PLAME el número de orden\nde la misma.\nRecuperar declaración\nEl aplicativo cuenta con la opción para \"recuperar\" los datos de los archivos de envío generados. Al pulsar\nel ícono \"recuperar\", se verifica que en \"Declaraciones Registradas\" no exista declaración para el período\ndel archivo a recuperar, de no existir procede a cargar la información y usted podrá ingresar al módulo",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 104,
+    "total_chunks": 119,
+    "char_count": 522,
+    "word_count": 85
+  },
+  {
+    "id": "6ffc73a1-aa5f-4a70-bf7b-4bb2e887336a",
+    "text": "procede a cargar la información y usted podrá ingresar al módulo \"Declaraciones Registradas\" para consultar o modificar su declaración.\n13. Importación del Archivo Personalizado del T-REGISTRO\nEn el módulo Utilitarios contará con la opción \"Importar Archivo Personalizado T-REGISTRO\" que le\npermitirá importar el archivo generado en SOL.\nEste archivo contiene datos del empleador, así como de sus trabajadores, pensionistas, personal en\nformación y personal de terceros. De tener información del T-REGISTRO en el PDT PLAME (por",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 105,
+    "total_chunks": 119,
+    "char_count": 527,
+    "word_count": 76
+  },
+  {
+    "id": "ef26ad56-4821-4e63-9b53-3b4dc80ab9c8",
+    "text": "terceros. De tener información del T-REGISTRO en el PDT PLAME (por sincronización o la importación de un archivo personalizado anterior), al importar un nuevo Archivo\nPersonalizado del T-REGISTRO se reemplazará totalmente los datos del T-REGISTRO que se encuentren en\nel PDT PLAME.\nPara obtener el \"Archivo Personalizado del T-REGISTRO\" a importar, ingrese a SOL, a la opción \"Mis\ndeclaraciones y pagos\" / \"Utilitarios para mis declaraciones y pagos\" y genere su archivo con información\nactualizada.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 106,
+    "total_chunks": 119,
+    "char_count": 499,
+    "word_count": 75
+  },
+  {
+    "id": "84e56bb3-cc50-4eac-9bf2-253d658c8b0e",
+    "text": "mis declaraciones y pagos\" y genere su archivo con información actualizada. 14. Mantenimiento de períodos\nA través de esta opción el empleador puede consultar las fechas de inicio y de fin de cada período, por\ndefecto la fecha de inicio del período es el primer día del mes calendario y la fecha fin es el último día del\nmes calendario, pudiendo ser modificadas por el empleador, según sea el caso. Es de indicar que el plazo\nentre la fecha de inicio y cierre mensual de la PLAME no podrá exceder de 31 días calendario.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 107,
+    "total_chunks": 119,
+    "char_count": 519,
+    "word_count": 94
+  },
+  {
+    "id": "e77f1ea5-4a69-402d-b82f-c037a0de6e63",
+    "text": "mensual de la PLAME no podrá exceder de 31 días calendario. Para la elaboración de la declaración mensual en el PDT PLAME, las opciones \"sincronizar datos del T-\nREGISTRO\" o \"Utilizar datos del T-REGISTRO al <fecha de última actualización en el PDT>\" le permite\nobtener en forma automática la relación de los trabajadores, pensionistas, personal en formación y\npersonal de terceros cuyo vínculo con el empleador se haya iniciado, mantenido o cesado en el rango de\nfechas comprendidas para cada período.\n15. Generar y restaurar copias de seguridad",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 108,
+    "total_chunks": 119,
+    "char_count": 546,
+    "word_count": 88
+  },
+  {
+    "id": "695ed06f-a203-4b01-9f65-9e1f6e584588",
+    "text": "comprendidas para cada período. 15. Generar y restaurar copias de seguridad A través de estas funcionalidades, el empleador podrá generar una copia de seguridad (\"archivo backup\")\ncon toda la información correspondiente a su número de RUC, y restaurar la información de dicho archivo\nen el PDT PLAME.\nGenerar copia de seguridad\nPermite generar una copia de seguridad (back-up) de los datos del empleador registrados en el PDT.\nDicha copia de seguridad será generada por la totalidad de la información de cada RUC.\nPor RUC",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 109,
+    "total_chunks": 119,
+    "char_count": 521,
+    "word_count": 84
+  },
+  {
+    "id": "c14cc574-fed3-47c8-84bb-d7bd3a301927",
+    "text": "por la totalidad de la información de cada RUC. Por RUC El sistema genera una copia integral de la información del número de RUC del usuario y permite guardar\nen un archivo toda la información existente del mencionado RUC.\nRestaurar copia de seguridad\nA través de esta opción el empleador podrá restaurar una copia de seguridad generada. Al restaurar una\ncopia de seguridad, se elimina cualquier información que previamente se tenga almacenada en el PDT\npara el número de RUC, quedando solamente la información restaurada.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 110,
+    "total_chunks": 119,
+    "char_count": 522,
+    "word_count": 85
+  },
+  {
+    "id": "ae8e76a1-251c-4f2e-9a53-39f32df60071",
+    "text": "PDT para el número de RUC, quedando solamente la información restaurada. 16. Administración de Usuarios y cambio de contraseñas\nEl PDT PLAME cuenta con opciones que permiten administrar los usuarios y contraseñas de los usuarios\nque acceden al PDT \"Sin clave SOL\". Dichas opciones se encuentran en el módulo \"Utilitarios\" del PDT.\nAdministrador de Usuarios",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 111,
+    "total_chunks": 119,
+    "char_count": 356,
+    "word_count": 55
+  },
+  {
+    "id": "32a663c8-34f2-42b2-a1cc-efcee4240068",
+    "text": "se encuentran en el módulo \"Utilitarios\" del PDT. Administrador de Usuarios A través de esta opción el usuario Administrador podrá generar nuevas cuentas de usuarios del PDT,\neliminar cuentas, así como inicializar clave o contraseña. Cuando se inicializa la contraseña, el usuario\npodrá acceder al PDT con su usuario y consignando como contraseña la misma cuenta de usuario, una vez\nque acceda al PDT deberá efectuar el cambio de contraseña, por seguridad.\nCambio de contraseña\nPara el cambio de contraseña, deberá ingresar su contraseña antigua y seguidamente ingresará su nueva",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 112,
+    "total_chunks": 119,
+    "char_count": 579,
+    "word_count": 90
+  },
+  {
+    "id": "08ac039f-f4de-4348-b90f-eab3cfe2d081",
+    "text": "contraseña, deberá ingresar su contraseña antigua y seguidamente ingresará su nueva contraseña y la confirmación de la misma.\n17. Reportes que se generan en el PDT PLAME\nGenerar Reportes\nPermite al usuario generar reportes con los datos consignados en sus declaraciones.\nLos reportes que genera el aplicativo son:\nTrabajadores y CAS\nR01 Trabajadores Datos de ingresos, tributos y aportes.\nR02 - Trabajadores - Tipos de ingreso.\nR03 - Trabajadores - Base de cálculo, Tributos y aportes.\nR04 - Trabajadores Tributos y aportes a cargo del trabajador.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 113,
+    "total_chunks": 119,
+    "char_count": 547,
+    "word_count": 86
+  },
+  {
+    "id": "8e1d9fa4-483c-4a2b-b0eb-4d373c32242b",
+    "text": "aportes. R04 - Trabajadores Tributos y aportes a cargo del trabajador. R05 - Trabajadores Tributos y aportes a cargo del empleador.\nR06 - Trabajadores - Jornada Laboral.\nR07 - Trabajadores Motivos de Suspensión de Labores.\nR08 Información por Trabajador (contiene datos de una Boleta de Pago).\nR15 Determinación de la deuda.\nPensionistas\nR10 - Pensionistas - Datos de Ingresos, Tributos y aportes.\nR11 - Pensionistas Bases de cálculo de tributos y aportes.\nOtros prestadores\nR12 - Rentas de Cuarta Categoría Comprobantes.\nR13 - Personal de Terceros - Base de Cálculo del Aporte.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 114,
+    "total_chunks": 119,
+    "char_count": 578,
+    "word_count": 92
+  },
+  {
+    "id": "306dadeb-37c6-4ca2-ba5c-26536d1d9611",
+    "text": "R13 - Personal de Terceros - Base de Cálculo del Aporte. R14 Personal en Formación - Monto subvención económica.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 115,
+    "total_chunks": 119,
+    "char_count": 112,
+    "word_count": 19
+  },
+  {
+    "id": "bf2f2e17-cfb0-48b8-9fdb-18ade4431ee0",
+    "text": "R14 Personal en Formación - Monto subvención económica. 18. Ayudas\nEn el módulo Ayuda, encontrará información detallada sobre la funcionalidad del aplicativo así como la\ndescripción y detalle de cada uno de los datos que debe consignar en el PDT PLAME para la elaboración de\nsus declaraciones. Para el acceso a las ayudas puede hacerlo por la opción de \"Ayuda\" o en todas las\n?\npantallas del PDT a través del ícono\nCentral de Consultas\nSr. Empleador, con la finalidad que usted pueda realizar sus consultas tributarias y de manejo de los",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 116,
+    "total_chunks": 119,
+    "char_count": 537,
+    "word_count": 92
+  },
+  {
+    "id": "580db507-847b-4df0-ae27-122af8ffb4aa",
+    "text": "usted pueda realizar sus consultas tributarias y de manejo de los aplicativos T-REGISTRO y PDT PLAME con mayor facilidad, ponemos a su disposición nuestra Central de\nConsultas Tributarias marcando:\nDesde teléfonos fijos:\n0-801-12-100\n(al costo de una llamada local)\nDesde Celulares:\n(01) 315-0730",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 117,
+    "total_chunks": 119,
+    "char_count": 296,
+    "word_count": 43
+  },
+  {
+    "id": "27a56549-4159-445d-99bf-dc49b52aa2ae",
+    "text": "0-801-12-100 (al costo de una llamada local) Desde Celulares: (01) 315-0730 Horario de Atención:\nLunes a Viernes de 8 a.m. a 8 p.m.\nSábados: de 8 a.m. a 2 p.m.",
+    "source": "CARTILLA_PDT_PLAME_12FEB2013.txt",
+    "chunk_index": 118,
+    "total_chunks": 119,
+    "char_count": 159,
+    "word_count": 30
+  }
+]

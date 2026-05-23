@@ -1,0 +1,785 @@
+[
+  {
+    "id": "c1544dc8-06d1-45bf-91f4-b26310228a53",
+    "text": "Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nNómina del Personal\nVersión Fecha Puntos Modificados\n01 5/12/2023 Se actualiza integralmente el procedimiento para consolidar las\ndisposiciones de pago de remuneraciones, declaración y pago de impuestos\nPDT PLAME, AFP, liquidaciones de beneficios sociales, entre otros, antes\ndefinidas en procedimientos independientes.\nÁreas Responsables Nombres y Cargos\nElaborado: Marlene Baéz Mendoza\nEspecialista en Administración",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 0,
+    "total_chunks": 87,
+    "char_count": 498,
+    "word_count": 63
+  },
+  {
+    "id": "6ef531ce-a1a6-4eca-9ae6-b7b9a8363672",
+    "text": "Responsables Nombres y Cargos Elaborado: Marlene Baéz Mendoza Especialista en Administración Oficina de Gestión Humana de Personal\nRevisado:\nRaquel Mendoza Torres\nJefe de Oficina de Gestión Humana\nOficina de Gestión Humana\nMiguel Tito Ascue\nJefe de la Oficina de Planeamiento y\nHomologado:\nMejora Continua\nOficina de Planeamiento y\nDeymer Barturén Huamán\nMejora Continua\nEspecialista en Calidad y Mejora de\nProcesos\nAprobado:\nAntonio Montenegro Criado\nGerente General\nGerencia General\nEste documento es propiedad de Activos Mineros S.A.C. Queda prohibida su reproducción sin su autorización escrita.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 1,
+    "total_chunks": 87,
+    "char_count": 599,
+    "word_count": 84
+  },
+  {
+    "id": "9807a0f0-97c2-41c3-9389-79e0b569a00c",
+    "text": "Activos Mineros S.A.C. Queda prohibida su reproducción sin su autorización escrita. Es una copia auténtica imprimible de un documento electrónico emitido por Activos Mineros S.A.C. Es responsabilidad\ndel usuario asegurarse que corresponde a la versión vigente publicada en la red interna y/o página web institucional.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 2,
+    "total_chunks": 87,
+    "char_count": 317,
+    "word_count": 45
+  },
+  {
+    "id": "ab86014f-ebda-4f05-9ae7-7714f59de9da",
+    "text": "versión vigente publicada en la red interna y/o página web institucional. Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nI. OBJETIVO\nEstablecer el procedimiento para la elaboración, aprobación y validación del progreso de pago de\nla planilla de remuneraciones, así como de las nóminas especiales, la Declaración y Pago de AFP\ny de impuestos mensuales y el pago de la Liquidación de Beneficios Sociales del personal de\nActivos Mineros S.A.C. (en adelante AMSAC).\nII. ALCANCE",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 3,
+    "total_chunks": 87,
+    "char_count": 506,
+    "word_count": 77
+  },
+  {
+    "id": "31f94286-b19f-4151-8ae2-aee05fc101ea",
+    "text": "del personal de Activos Mineros S.A.C. (en adelante AMSAC). II. ALCANCE Es para beneficio de todos los trabajadores de AMSAC, amparados por las disposiciones legales\nvigentes.\nEl presente procedimiento es de cumplimiento obligatorio por parte del personal de la Oficina de\nGestión Humana.\nEn pago de remuneraciones: Abarca desde la elaboración, aprobación y validación del proceso\nde pago de la planilla de remuneraciones del personal de AMSAC\nEn nóminas especiales: Abarca desde la revisión de la información para calcular montos y",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 4,
+    "total_chunks": 87,
+    "char_count": 532,
+    "word_count": 81
+  },
+  {
+    "id": "ff7b753d-b7a4-4f70-8004-36c483a2fcdc",
+    "text": "Abarca desde la revisión de la información para calcular montos y proceder con el pago de las vacaciones, CTS, bonos, prestamos entre otros.\nEn AFP: Abarca la afiliación, la declaración, pago, y el retiro parcial o total de la AFP.\nEn pago de impuestos PDT PLAME: Abarca desde la información consignada en el Registro\nde Información Laboral (T-Registro) hasta la declaración y pago de los impuestos mensuales\nexigidos por SUNAT.\nEn Liquidación de Beneficios Sociales: Abarca desde la revisión de la información para calcular",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 5,
+    "total_chunks": 87,
+    "char_count": 524,
+    "word_count": 84
+  },
+  {
+    "id": "68435d6e-cdc5-4872-8a03-887e45e950ff",
+    "text": "Beneficios Sociales: Abarca desde la revisión de la información para calcular montos y elaborar la liquidación hasta el archivo de copias de documentos que se entregan al\npersonal cesante en su legajo personal.\nIII. DOCUMENTOS DE REFERENCIA\nEn general:\n- Directiva Corporativa de Gestión Empresarial de FONAFE.\n- Reglamento Interno de Trabajo (RIT).\n- D.S. N 001-96-TR Reglamento de la Ley de Fomento al Empleo.\n- Texto Único Ordenado del D. Legislativo. N 728, D.S. N 003-97-TR Ley de Productividad y\nCompetitividad Laboral.\nPago de remuneraciones:",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 6,
+    "total_chunks": 87,
+    "char_count": 549,
+    "word_count": 86
+  },
+  {
+    "id": "657a2c6a-86cd-41ca-b5ae-53fdea58209e",
+    "text": "N 003-97-TR Ley de Productividad y Competitividad Laboral. Pago de remuneraciones: - Ley N 28518 Ley sobre Modalidades Laborales.\n- D.S. N 001-98-TR Normas reglamentarias relativas a la obligación de los empleadores a llevar\nplanillas de pago\n- D.S. N003-2010-TR Que modifica el D.S. N 001-98-TR Que establece normas reglamentarias\nrelativas a la obligación de los empleadores de llevar planillas de pago.\n- D.S. N 011-98-TR Ampliación de pago para la adecuación de planilla de pago autorizado a lo\ndispuesto en el Decreto Supremo.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 7,
+    "total_chunks": 87,
+    "char_count": 531,
+    "word_count": 84
+  },
+  {
+    "id": "84a1be6f-3922-485c-9fae-dc775edfedc3",
+    "text": "planilla de pago autorizado a lo dispuesto en el Decreto Supremo. - Procedimiento S5.3.1.P4 Control de Asistencia y Permanencia de Personal\nNóminas especiales:\n- Texto Único Ordenado de la Ley de Compensación por Tiempo de Servicios (Decreto Supremo\nN 001 -97-TR) y sus modificatorias.\n- Reglamento de la Ley de Compensación por Tiempo de Servicios (Decreto Supremo N 00497-\nTR) y sus modificatorias.\nPágina: 2 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 8,
+    "total_chunks": 87,
+    "char_count": 416,
+    "word_count": 67
+  },
+  {
+    "id": "c56bece8-0298-4db2-8974-d68fa5a7cc76",
+    "text": "Supremo N 00497- TR) y sus modificatorias. Página: 2 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nAFP:\n- Texto Único Ordenado de la Ley del Sistema Privado de Pensiones (DS 054-97-EF).\n- Ley N 30425 Ley que modifica el Texto Único Ordenado de la Ley del Sistema Privado de\nAdministración de Fondos de Pensiones, que amplía la vigencia del Régimen Especial de\nJubilación Anticipada.\nPago de impuestos PDT PLAME:\n- Decreto Legislativo N 774 Ley del Impuesto a la Renta, su T.U.O. aprobado mediante Decreto",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 9,
+    "total_chunks": 87,
+    "char_count": 544,
+    "word_count": 90
+  },
+  {
+    "id": "5e13aa3e-c9a3-4d5b-9c3d-5c0687214026",
+    "text": "Ley del Impuesto a la Renta, su T.U.O. aprobado mediante Decreto Supremo N 179-2004-EF, su reglamento aprobado mediante Decreto Supremo N 122-94-EF,\ny sus respectivas modificaciones.\n- Decreto Supremo N 018-2007-TR Establecen disposiciones relativas al uso del documento\ndenominado \"Planilla Electrónica\".\n- Decreto Supremo N 015-2010-TR Modifican Decreto Supremo N. 018-2007-TR, mediante el\ncual se establecen disposiciones relativas al uso del documento denominado \"Planilla\nElectrónica\".\n- Decreto Supremo N 008-2011-TR Aprueban Normas de Adecuación al T-REGISTRO y\nPLAME.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 10,
+    "total_chunks": 87,
+    "char_count": 575,
+    "word_count": 78
+  },
+  {
+    "id": "c66fa959-082c-43cb-a002-c5c182ba3df3",
+    "text": "Supremo N 008-2011-TR Aprueban Normas de Adecuación al T-REGISTRO y PLAME. - Resolución Ministerial N 121-2011-TR Aprueban la información de la planilla electrónica, las\ntablas paramétricas, la estructura de los archivos de importación y se dictan medidas\ncomplementarias, y sus normas modificatorias.\nLiquidación de beneficios sociales:\n- Procedimiento de Desvinculación de Personal.\nIV. VIGENCIA\nEste procedimiento entrará en vigencia a partir del primer día hábil después de la fecha de\naprobación derogándose su precedente Versión 00 de fecha 27.dic.2018.\nV. CONTENIDO",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 11,
+    "total_chunks": 87,
+    "char_count": 572,
+    "word_count": 81
+  },
+  {
+    "id": "b0f4a864-2093-4a37-8b5f-2021cd6a9670",
+    "text": "aprobación derogándose su precedente Versión 00 de fecha 27.dic.2018. V. CONTENIDO 1. DEFINICIONES / CONSIDERACIONES\n1.1. Aportaciones a la AFP: El Sistema Privado de Administración de Fondos de Pensiones\n(SPP) está conformado por las Administradoras Privadas de Fondos de Pensiones (AFP), las\ncuales administran los fondos de pensiones bajo la modalidad de cuentas individuales de\ncapitalización y otorgan obligatoriamente a sus afiliados las prestaciones de jubilación,\ninvalidez, sobrevivencia y gastos de sepelio.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 12,
+    "total_chunks": 87,
+    "char_count": 517,
+    "word_count": 72
+  },
+  {
+    "id": "dcd2aeb8-e3b4-4688-9e74-f56e5470de28",
+    "text": "afiliados las prestaciones de jubilación, invalidez, sobrevivencia y gastos de sepelio. 1.2. Superintendencia Nacional de Aduanas y Administración Tributaria (SUNAT): Es un\norganismo técnico especializado adscrito al Ministerio de Economía y Finanzas, que tiene,\nentre otras, la función de administrar, recaudar y fiscalizar los tributos internos del Gobierno\nNacional, con excepción de las municipales, así como las aportaciones al Seguro Social de\nSalud (ESSALUD) y a la Oficina de Normalización Previsional (ONP), y otros cuya recaudación\nse le encargue de acuerdo a ley.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 13,
+    "total_chunks": 87,
+    "char_count": 574,
+    "word_count": 83
+  },
+  {
+    "id": "24c027f1-8cfb-416c-bd31-b7fbcddb628e",
+    "text": "y otros cuya recaudación se le encargue de acuerdo a ley. 1.3. T Registro: Es el registro de información laboral de los empleadores, trabajadores,\npensionistas, prestadores de servicios, personal en formación modalidad formativa laboral y\notros (practicantes), personal de terceros y derechohabientes. Comprende información laboral,\nde seguridad social y otros datos sobre el tipo de ingresos de los sujetos registrados.\nContiene información de:\n- Trabajador: remuneraciones e ingresos devengados y/o pagados, datos de la jornada",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 14,
+    "total_chunks": 87,
+    "char_count": 529,
+    "word_count": 75
+  },
+  {
+    "id": "720dc0e0-7311-4360-856f-74f9b951e3d2",
+    "text": "Trabajador: remuneraciones e ingresos devengados y/o pagados, datos de la jornada laboral, descuentos, tributos, aportes y contribuciones.\n- Personal de Servicios: el monto pagado y datos del comprobante electrónico.\n- Personal en Formación: el monto pagado de la subvención económica.\nPágina: 3 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 15,
+    "total_chunks": 87,
+    "char_count": 301,
+    "word_count": 44
+  },
+  {
+    "id": "f4265f61-07c5-4480-bdfe-521e0afc8abf",
+    "text": "el monto pagado de la subvención económica. Página: 3 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n1.4. Planilla Mensual de Pagos (PLAME): Es el componente de la planilla electrónica que se\nelabora a partir del T- REGISTRO, y que se debe presentar mensualmente de acuerdo con el\ncronograma que establece la SUNAT. La PLAME contiene la siguiente información mensual,\nsegún la categoría del prestador:\n- Trabajador: Las remuneraciones e ingresos devengados y/o pagados, así como datos de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 16,
+    "total_chunks": 87,
+    "char_count": 526,
+    "word_count": 82
+  },
+  {
+    "id": "bdb1b74e-d6cf-419b-a762-186cfac61cca",
+    "text": "Las remuneraciones e ingresos devengados y/o pagados, así como datos de la jornada laboral, descuentos, tributos, aportes y contribuciones.\n- Pensionista: Los ingresos devengados y/o pagados, descuentos, tributos, aportes y\ncontribuciones.\n- Prestador de servicio con rentas de cuarta categoría (PS 4ta categoría): el monto pagado\npor el servicio, así como los datos del comprobante.\n- Personal en formación: el monto pagado de la subvención económica o estipendio.\n- Personal de terceros: base de cálculo del aporte al Seguro Complementario de Trabajo de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 17,
+    "total_chunks": 87,
+    "char_count": 555,
+    "word_count": 83
+  },
+  {
+    "id": "619d63f3-ec70-4b4a-8ae8-420e657d2069",
+    "text": "base de cálculo del aporte al Seguro Complementario de Trabajo de Riesgo (SCTR) a cargo de ESSALUD, la tasa y el aporte al SCTR contratado con EsSalud.\nEl detalle de la información del PLAME por cada categoría se encuentra en el Anexo 1 aprobado\npor la R.M. N 121-2011-TR y norma modificatoria.\n1.5. PDT Planilla Electrónica PLAME: Es el medio informático aprobado por la SUNAT para\ncumplir con la presentación de la PLAME y con la declaración de las obligaciones que se\ngeneren a partir del mes de noviembre de 2011 a través del Formulario Virtual N 0601, y que",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 18,
+    "total_chunks": 87,
+    "char_count": 562,
+    "word_count": 100
+  },
+  {
+    "id": "eabbc930-d771-40a1-a212-4f9f995152af",
+    "text": "de 2011 a través del Formulario Virtual N 0601, y que deben ser presentadas y efectuar el pago que corresponda, por los siguientes conceptos:\n- PLAME, la que debe contener la información establecida en la R.M. N 121-2011-TR\n- Retenciones del Impuesto a la Renta de cuarta y quinta categoría.\n- Información de los sujetos perceptores de rentas de cuarta categoría pagadas aún cuando\nAMSAC no tenga la obligación de efectuar retenciones por dichas rentas.\n- Contribuciones al EsSalud, respecto de las remuneraciones que correspondan a los\ntrabajadores.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 19,
+    "total_chunks": 87,
+    "char_count": 550,
+    "word_count": 88
+  },
+  {
+    "id": "724733d1-3d5d-4ca7-a449-93d68143ea31",
+    "text": "al EsSalud, respecto de las remuneraciones que correspondan a los trabajadores. - Contribuciones a la ONP bajo el régimen del Decreto Ley N 19990\n1.6. Conceptos a declarar y pagar: Los conceptos que se declaran y pagan mediante el PLAME\nson:\n- Retenciones de rentas de cuarta categoría\n- Retenciones de rentas de quinta categoría\n- Contribuciones a ESSALUD como asegurados regulares\n- Contribuciones a la ONP bajo el régimen del Decreto Ley N 19990\n1.7. Compensación por tiempo de trabajo (CTS): Tiene como propósito fundamental prever el",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 20,
+    "total_chunks": 87,
+    "char_count": 538,
+    "word_count": 88
+  },
+  {
+    "id": "783bffaf-40d9-4672-8bb2-e0d986242058",
+    "text": "por tiempo de trabajo (CTS): Tiene como propósito fundamental prever el riesgo que origina el cese de una relación laboral y la consecuente pérdida de ingresos en la\nvida de una persona y su familia.\nEste beneficio social es depositado por el empleador en la primera quincena de los meses de\nmayo y noviembre de cada año, respectivamente.\nLa compensación por tiempo de servicios se devenga desde el primer mes de iniciado el\nvínculo laboral; cumplido este requisito toda fracción laborada dentro del mes se computa por\ntreintavos.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 21,
+    "total_chunks": 87,
+    "char_count": 530,
+    "word_count": 88
+  },
+  {
+    "id": "1dce2303-5640-4fd9-8f8a-b99c4b203e26",
+    "text": "requisito toda fracción laborada dentro del mes se computa por treintavos. 1.8. Liquidación de Beneficios Sociales: Es el documento en el que se plasma las prestaciones\nsociales y otros beneficios económicos, derivados de la relación laboral a que tiene derecho\nel trabajador, una vez que ha terminado el contrato de trabajo por cualquier causa,\ngarantizando que los conceptos y cálculos de pago sean correctos según tabla, fórmulas y\nnormas orientadas para este procedimiento.\n1.9. Nóminas Especiales: Se refiere al tratamiento de las Vacaciones, CTS, bonos, préstamos\nentre otros.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 22,
+    "total_chunks": 87,
+    "char_count": 582,
+    "word_count": 88
+  },
+  {
+    "id": "2e4ffbd4-c06d-4df1-8078-e1fb7a8ba306",
+    "text": "refiere al tratamiento de las Vacaciones, CTS, bonos, préstamos entre otros. Página: 4 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 23,
+    "total_chunks": 87,
+    "char_count": 92,
+    "word_count": 15
+  },
+  {
+    "id": "25799e6f-c170-4e40-802e-5833c98315cc",
+    "text": "Página: 4 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n1.10. Asegurados obligatorios: Son los trabajadores que ingresen a laborar en AMSAC, es decir\nlos trabajadores dependientes que desempeñen sus labores cualquiera sea la naturaleza del\ntrabajo que desarrollen.\nCuando un trabajador no afiliado al SPP ingresa a laborar a AMSAC, se le debe afiliar\nobligatoriamente a la AFP, salvo que expresamente y por escrito en un plazo improrrogable",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 24,
+    "total_chunks": 87,
+    "char_count": 480,
+    "word_count": 73
+  },
+  {
+    "id": "57d34810-41a8-4ec0-8443-50d70c5df144",
+    "text": "AFP, salvo que expresamente y por escrito en un plazo improrrogable de 10 días naturales manifieste su deseo de permanecer o incorporarse al Sistema Nacional\nde Pensiones (SNP).\n1.11. Remuneraciones asegurables: Se consideran remuneraciones asegurables las que son\ncomputables para efectos del cálculo de la CTS, inclusive los subsidios de carácter temporal\nque perciba el trabajador, cualquiera sea su naturaleza, las mismas que se encuentran afectos\na los aportes al SPP.\nAsimismo, se incluirán las gratificaciones que se otorguen en periodos regulares y estables en",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 25,
+    "total_chunks": 87,
+    "char_count": 568,
+    "word_count": 85
+  },
+  {
+    "id": "6ab930d9-a481-471c-8280-e6bc32118139",
+    "text": "las gratificaciones que se otorguen en periodos regulares y estables en el tiempo y deben incluirse junto con las remuneraciones mensuales, en la planilla de pago de\naportes previsionales de dichos periodos.\nLos reintegros de remuneraciones están afectos al pago de aportaciones solo cuando el\ntrabajador haya estado afiliado a una AFP durante el período al que correspondan dichos\nreintegros y éstos serán declarados como parte de la remuneración asegurable del mes en\nque se paguen. Los aportes por tales reintegros no generan intereses moratorios.\n1.12. Base imponible y aportes",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 26,
+    "total_chunks": 87,
+    "char_count": 581,
+    "word_count": 90
+  },
+  {
+    "id": "696aef1c-ce0b-4aa1-80c0-d69e6a786559",
+    "text": "tales reintegros no generan intereses moratorios. 1.12. Base imponible y aportes Los aportes obligatorios y voluntarios de los trabajadores dependientes son declarados,\nretenidos y pagados por AMSAC a la AFP a la que se encuentre afiliado el trabajador.\nEl aporte comprende:\n- El 10% de la remuneración asegurable.\n- Un porcentaje de la remuneración asegurable (determinado por cada AFP), que está\ndestinado a financiar las prestaciones de invalidez, sobrevivencia y gastos de sepelio.\n- Los montos y/o porcentajes sobre la remuneración asegurable que cobren las AFP como",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 27,
+    "total_chunks": 87,
+    "char_count": 571,
+    "word_count": 87
+  },
+  {
+    "id": "d8caf3ab-59bd-470a-86b8-ac7feaf35d6a",
+    "text": "y/o porcentajes sobre la remuneración asegurable que cobren las AFP como retribución por los servicios que prestan, que pueden ser Comisión sobre la remuneración\n(flujo) o Comisión sobre saldo, los cuales son elegidos por el trabajador.\nPágina: 5 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 28,
+    "total_chunks": 87,
+    "char_count": 252,
+    "word_count": 40
+  },
+  {
+    "id": "a12bb1fb-b9bd-49a8-bd0a-d62267dd3580",
+    "text": "los cuales son elegidos por el trabajador. Página: 5 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n2. DESCRIPCIÓN\n2.1 Disposiciones Generales\nEl Jefe de Oficina de Gestión Humana, como dueño del proceso, es responsable de que el\nproceso de nómina del personal cumpla los plazos y las disposiciones previstas en la\nnormativa laboral y tributaria aplicable y en el presente procedimiento.\n2.2 AFP\na) El Especialista en Administración de Personal es el responsable de calcular las",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 29,
+    "total_chunks": 87,
+    "char_count": 517,
+    "word_count": 81
+  },
+  {
+    "id": "5e7b684f-2f34-4c6a-b199-e4f6eb9d4757",
+    "text": "Especialista en Administración de Personal es el responsable de calcular las aportaciones de los trabajadores de AMSAC, de la elaboración del archivo a ser exportado\na la AFPNet y su respectiva validación de la información a registrarse.\nb) El Especialista de Tesorería habilita los fondos de transferencia a la AFP.\n2.3 Pago de remuneraciones:\na) El Especialista en Administración de Personal es el responsable de que la elaboración de\nla planilla de remuneraciones de empleados y practicantes cumpla los plazos y las",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 30,
+    "total_chunks": 87,
+    "char_count": 518,
+    "word_count": 82
+  },
+  {
+    "id": "ed5517af-2e2a-4fb6-87bf-119be4d49db8",
+    "text": "de remuneraciones de empleados y practicantes cumpla los plazos y las disposiciones previstas en la normativa laboral y tributaria aplicable y en el presente\nprocedimiento.\nb) La gestión de la planilla de remuneraciones se ejecuta a través del ERP SPRING Módulo\nde Planillas, en las que se ejecutan los siguientes procesos:\nPlanilla de Quincena de Empleados: Cálculo del 35% de la remuneración mensual de\ncada empleado, que se procesa previa validación por las áreas respectivas (Contabilidad\ny Tesorería).",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 31,
+    "total_chunks": 87,
+    "char_count": 506,
+    "word_count": 78
+  },
+  {
+    "id": "2fa18629-79f0-4e2f-8c0e-a08426489b2a",
+    "text": "se procesa previa validación por las áreas respectivas (Contabilidad y Tesorería). Planilla Mensual de Empleados: Cálculo de la remuneración del trabajador, deduciendo\nlos descuentos establecidos por ley (AFP, SNP, impuesto a la renta de 5ta. categoría, entre\notros), por razones administrativas o por mandato judicial.\nPlanilla Mensual de Practicantes: Subvención mensual de los practicantes profesionales\ny preprofesionales que cuentan con convenio vigente en AMSAC.\nc) Para el cálculo de la planilla de remuneraciones, el Especialista de Administración de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 32,
+    "total_chunks": 87,
+    "char_count": 558,
+    "word_count": 78
+  },
+  {
+    "id": "1150c8c9-276c-4fa7-b34d-101dcd6eecab",
+    "text": "cálculo de la planilla de remuneraciones, el Especialista de Administración de Personal utiliza la información registrada en los reportes de asistencia de personal\n(Plataforma de Asistencia Virtual), reporte de descanso y turnos de trabajo (Roster Digital),\nreporte de descansos médicos, sanciones y registro de ausentismo laboral.\n2.4 Pago de impuestos PDT PLAME:\na) El Especialista en Administración de Personal es el responsable de que el proceso de\ndeterminación de los tributos y aportaciones derivados del PLAME cumpla los plazos y las",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 33,
+    "total_chunks": 87,
+    "char_count": 541,
+    "word_count": 81
+  },
+  {
+    "id": "6b919529-7f3a-491f-8e00-f4c8c393274e",
+    "text": "tributos y aportaciones derivados del PLAME cumpla los plazos y las disposiciones previstas en la normativa tributaria aplicable.\nb) El Jefe de Tesorería es el responsable del pago de tributos dentro del plazo máximo\nestablecido en el cronograma de pagos aprobado por SUNAT.\nc) El Especialista en Administración de Personal emite la Planilla de Remuneraciones en el\nERP Módulo de Nóminas y Liquidaciones y realiza la emisión del PDT PLAME (Planilla\nElectrónica Mensual), el cálculo por impuesto a la renta de cuarta y quinta categoría,\nESSALUD y ONP.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 34,
+    "total_chunks": 87,
+    "char_count": 550,
+    "word_count": 88
+  },
+  {
+    "id": "c4cfa4e8-6d11-4fab-a70b-8a46a3ff652f",
+    "text": "a la renta de cuarta y quinta categoría, ESSALUD y ONP. d) El Especialista en Administración de Personal ha sido designado por la Oficina de Gestión\nHumana para el uso de la Clave SOL para el registro de información de los trabajadores,\npracticantes y prestadores de servicios de Renta de Cuarta Categoría.\nPágina: 6 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 35,
+    "total_chunks": 87,
+    "char_count": 322,
+    "word_count": 56
+  },
+  {
+    "id": "37d21a5d-d6f4-44d2-a83e-ca7b4dc73c06",
+    "text": "de servicios de Renta de Cuarta Categoría. Página: 6 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\ne) La presentación del PDT PLAME se realizará de acuerdo al cronograma de vencimientos\nmensuales de las obligaciones tributarias aprobado por SUNAT cada año. En el caso de\nAMSAC, le corresponde la fecha designada por el último digito de N de RUC 1, de ser el\ncaso, se considerará, la fecha del estado del buen contribuyente.\n2.5 Liquidación de beneficios sociales:",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 36,
+    "total_chunks": 87,
+    "char_count": 503,
+    "word_count": 82
+  },
+  {
+    "id": "3e3a390e-c7bc-4449-9754-46011a461f44",
+    "text": "fecha del estado del buen contribuyente. 2.5 Liquidación de beneficios sociales: a) El cálculo de la liquidación de los beneficios sociales de un trabajador se realiza en el\nMódulo de Planillas del ERP SPRING, en el proceso de control de liquidaciones, que\npermite el registro y emisión de la hoja de cálculo de la liquidación, que es el documento\nque contiene el detalle de los beneficios sociales que le corresponden a cada trabajador\n(remuneración, compensación por el tiempo de servicios (CTS), gratificaciones,\nvacaciones, descuentos de ley y aportaciones)",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 37,
+    "total_chunks": 87,
+    "char_count": 561,
+    "word_count": 88
+  },
+  {
+    "id": "971e106c-8783-4ebe-ac8a-4253dcd9649e",
+    "text": "tiempo de servicios (CTS), gratificaciones, vacaciones, descuentos de ley y aportaciones) b) Previo al pago de la liquidación de los beneficios sociales a los trabajadores de AMSAC,\nse requiere de manera obligatoria el documento que acredite la desvinculación del\npersonal: el cargo de la carta de respuesta a la renuncia voluntaria o el cargo de la carta\nde despido o cese, de acuerdo a lo establecido en el procedimiento de Desvinculación de\nPersonal.\n3. PROCEDIMIENTOS\n3.1. AFILACIÓN, DECLARACIÓN, PAGO Y RETIRO DE AFP\n3.1.1. AFILIACIÓN A LA AFP",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 38,
+    "total_chunks": 87,
+    "char_count": 548,
+    "word_count": 88
+  },
+  {
+    "id": "be62cb8c-52ef-435c-a7ba-fbfa701cd8ff",
+    "text": "DECLARACIÓN, PAGO Y RETIRO DE AFP 3.1.1. AFILIACIÓN A LA AFP En caso un trabajador nuevo no esté afiliado a una AFP, AMSAC le brindará la orientación\nsobre los beneficios de las AFP y las facilidades necesarias para su afiliación mediante\nAFPnet, herramienta que la Asociación de AFP ofrece a los empleadores para\npreparar, declarar y pagar las planillas de los aportes previsiones de los\ntrabajadores a todas las AFP, vía internet. También puede efectuarse mediante\ncorreo electrónico a la AFP.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 39,
+    "total_chunks": 87,
+    "char_count": 495,
+    "word_count": 81
+  },
+  {
+    "id": "3cab67fe-fd06-483b-bafd-3858dda41555",
+    "text": "vía internet. También puede efectuarse mediante correo electrónico a la AFP. La afiliación del trabajador se perfecciona con la suscripción del contrato de afiliación a una\nAFP. Luego de suscrito dicho contrato, la AFP otorga el Código Único de Identificación SPP\n(CUSPP), a partir del cual se generan los derechos y obligaciones de los afiliados. Este código\nse mantendrá durante la vida del trabajador, independientemente de los traspasos de AFP que\nrealice.\nEjecutor Actividad\nAfiliación mediante AFPNet\nEspecialista 1. Descarga el archivo de Afiliaciones desde el portal web de la AFP",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 40,
+    "total_chunks": 87,
+    "char_count": 588,
+    "word_count": 91
+  },
+  {
+    "id": "57fd026f-4ce2-4e0d-b532-98bc0af7ab92",
+    "text": "el archivo de Afiliaciones desde el portal web de la AFP de correspondiente.\nAdministración 2. Registra los datos del trabajador nuevo en el archivo de Afiliaciones,\nde Personal completando los campos: número de documento de identidad, nombres y\napellidos, fecha de nacimiento del afiliado, etc.\n3. Remite el archivo de Afiliaciones vía AFPnet.\nAFP 4. Realiza la afiliación del trabajador nuevo a la AFP.\n5. Gestiona la suscripción del contrato de afiliación a la AFP con el trabajador\nnuevo.\n3.1.2. DECLARACIÓN Y PAGO DE AFP AFP NET",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 41,
+    "total_chunks": 87,
+    "char_count": 533,
+    "word_count": 87
+  },
+  {
+    "id": "5c7d5631-395d-497c-b961-bb164ac2d598",
+    "text": "el trabajador nuevo. 3.1.2. DECLARACIÓN Y PAGO DE AFP AFP NET La declaración de retención y pago de AFP se realiza dentro de los cinco (5) días hábiles del\nmes siguiente a aquel en que se devengaron las remuneraciones afectas, utilizando el portal\nweb de AFPnet.\nPágina: 7 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 42,
+    "total_chunks": 87,
+    "char_count": 278,
+    "word_count": 50
+  },
+  {
+    "id": "e5789e91-900e-41d8-b6ba-5694df05a15e",
+    "text": "afectas, utilizando el portal web de AFPnet. Página: 7 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nLa AFPnet genera automáticamente todas las planillas de AFP necesarias, colocando a cada\ntrabajador donde corresponde sin que el empleador tenga necesidad de especificar la AFP ni\nlos porcentajes, intereses u otros parámetros.\nEjecutor Actividad\nEspecialista 1. Preparar un archivo Excel o TXT con los datos mínimos de sus\nde trabajadores afiliados.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 43,
+    "total_chunks": 87,
+    "char_count": 490,
+    "word_count": 73
+  },
+  {
+    "id": "9ce88294-f91e-4dd9-82cd-ff6ad355d930",
+    "text": "o TXT con los datos mínimos de sus de trabajadores afiliados. Administración 2. Cargar el archivo Excel o de texto en el portal de AFPnet, el cual valida la\nde Personal información, genera las planillas de AFP, colocando automáticamente a\ncada trabajador en la AFP que corresponde y calculando los aportes.\n3. Envíar las planillas de AFP en el portal de AFPnet, hasta el quinto día hábil\ndel mes de pago.\nEste envío es la declaración de los aportes previsionales, sin pago.\nEn caso las planillas de AFP sean enviadas oportunamente, estarán",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 44,
+    "total_chunks": 87,
+    "char_count": 539,
+    "word_count": 92
+  },
+  {
+    "id": "51a6f08c-a110-474b-b0aa-a6f7c2993d44",
+    "text": "pago. En caso las planillas de AFP sean enviadas oportunamente, estarán afectas a intereses reducidos durante los 30 días hábiles siguientes.\n4. Realizar el pago de las planillas de todas las AFP, en forma inmediata, con\ncargo a una cuenta bancaria que indique el área de Tesorería.\nAMSAC tiene registradas las cuentas bancarias en el sistema de AFPnet.\nJefe de 5. Verificar mensualmente que la declaración y el pago de AFP se efectúe\nOficina de cumpliendo los plazos y procedimientos establecidos.\nGestión 6. De corresponder, informar inmediatamente a la Gerencia de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 45,
+    "total_chunks": 87,
+    "char_count": 567,
+    "word_count": 91
+  },
+  {
+    "id": "7c0121b3-b158-48cf-a6d1-028d82bec783",
+    "text": "establecidos. Gestión 6. De corresponder, informar inmediatamente a la Gerencia de Humana Administración y Finanzas el incumplimiento de los plazos y\nprocedimientos establecidos para la declaración y el pago de AFP.\n3.2. RETIRO PARCIAL O TOTAL DE HASTA 95.5% DEL FONDO DE PENSIONES AFP\nDe acuerdo a la Ley N 30425 los trabajadores que tengan las siguientes condiciones pueden\nacogerse al Retiro de hasta el 95.5% de su fondo previsional:\n- Tener 65 años o más edad\n- Que accedan a la jubilación anticipada (JA)",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 46,
+    "total_chunks": 87,
+    "char_count": 510,
+    "word_count": 85
+  },
+  {
+    "id": "1be939de-5e80-4746-9ed3-7d2088f47743",
+    "text": "o más edad - Que accedan a la jubilación anticipada (JA) El trabajador que solicite el retiro de fondos previsionales, cumpliendo con estas condiciones,\nejecuta dicha decisión de la siguiente manera:\n- Retiro Parcial, en un porcentaje menor al 95,5% del saldo de su Cuenta Individual de\nCapitalización (CIC), en cuyo caso el afiliado mantiene su condición de pensionista.\n- Retiro Total, del 95,5% del saldo de su CIC, en cuyo caso el afiliado ya no mantiene la\ncondición de pensionista. La AFP transfiere directamente el 4,5% restante a EsSalud.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 47,
+    "total_chunks": 87,
+    "char_count": 546,
+    "word_count": 90
+  },
+  {
+    "id": "d04451ce-468c-455d-9fa2-b809f6e2aa67",
+    "text": "de pensionista. La AFP transfiere directamente el 4,5% restante a EsSalud. Cuando el trabajador se acoge a esta norma, ya no se le efectúa la retención de AFP y\npor lo tanto se le declara sin importe.\nEjecutor Actividad\nTrabajador 1. Acudir a su AFP para que le brinden asesoría integral sobre las opciones\ninteresado disponibles de retiro parcial o total del saldo de su CIC para que pueda\ntomar una decisión informada.\n2. Suscribir el formato de decisión de opción de retiro y/o pensión, de su\nrespectiva AFP.\n3. Comunicar a la Oficina de Gestión Humana mediante carta que se acogió",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 48,
+    "total_chunks": 87,
+    "char_count": 584,
+    "word_count": 102
+  },
+  {
+    "id": "dddc8f6e-7e43-4f78-8766-ede005486675",
+    "text": "a la Oficina de Gestión Humana mediante carta que se acogió a una opción de retiro parcial o total del saldo de su CIC, de acuerdo a la\nLey N 30425, adjuntando el formato de decisión de opción de retiro y/o\npensión, de su respectiva AFP.\nEspecialista 4. Considerar la carta del trabajador interesado en la elaboración de las\nde planillas de AFP.\nAdministración 5. Archivar la carta del trabajador interesado en la que comunica que se\nde Personal acogió a una opción de retiro parcial o total del saldo de su CIC y el formato",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 49,
+    "total_chunks": 87,
+    "char_count": 524,
+    "word_count": 96
+  },
+  {
+    "id": "e5e393f8-76e3-4ce3-8bc5-e012586cb78c",
+    "text": "parcial o total del saldo de su CIC y el formato de decisión de opción de retiro y/o pensión, de su respectiva AFP, en el\nlegajo personal correspondiente.\nPágina: 8 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 50,
+    "total_chunks": 87,
+    "char_count": 170,
+    "word_count": 32
+  },
+  {
+    "id": "8a9491e4-02f0-4550-a32b-84d34d34e5fa",
+    "text": "respectiva AFP, en el legajo personal correspondiente. Página: 8 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n3.3. PLANILLA DE REMUNERACIONES\n3.3.1. Planilla de Quincena de Empleados:\nEjecutor Actividad\n1. Registrar en el ERP Spring Módulo de Planilla los ingresos de\npersonal realizados durante los 07 primeros días del mes.\nEspecialista de 2. Generar el proceso de Quincena considerando el 35% de la\nAdministración de remuneración base de los trabajadores incluidos en este proceso.\nPersonal",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 51,
+    "total_chunks": 87,
+    "char_count": 534,
+    "word_count": 79
+  },
+  {
+    "id": "a2f5179f-df6e-40c1-882b-fe0440638c15",
+    "text": "de remuneración base de los trabajadores incluidos en este proceso. Personal 3. Realizar cambio de % de pago de Quincena en el caso de retenciones\njudiciales u otros descuentos.\nJefe de Oficina 4. Aprobar la planilla de Quincena de empleados\nde Gestión\nHumana\n5. Generar la obligación de pago de la Planilla de Quincena, en el\nMódulo de Planillas del ERP Spring para que el área de tesorería\nEspecialista de pueda efectuar el pago.\nAdministración de\nPersonal 6. Generar los archivos TXT que contiene las cuentas bancarias y el\nimporte neto a pagar a cada trabajador.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 52,
+    "total_chunks": 87,
+    "char_count": 566,
+    "word_count": 96
+  },
+  {
+    "id": "ee40e19e-abe0-497b-8b2e-724485d364bb",
+    "text": "cuentas bancarias y el importe neto a pagar a cada trabajador. 7. Validar las obligaciones generadas en el Módulo de Cuentas por\nEspecialista en\nPagar\nControl Previo\n8. Validar el archivo TXT en la plataforma de la entidad bancaria para\nvalidar los montos y cuentas bancarias del personal.\nEspecialista de\nTesorería\n9. Habilitar los fondos para el pago de quincena.\n10. Revisar lo validado por el Especialista de Tesorería.\nJefe de Tesorería\nEspecialista de 11. Realizar la transferencia bancaria a la cuenta de los trabajadores.\nTesorería\nPágina: 9 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 53,
+    "total_chunks": 87,
+    "char_count": 555,
+    "word_count": 90
+  },
+  {
+    "id": "aca30b9b-b3de-4391-8ac2-b708e3f2f5f3",
+    "text": "a la cuenta de los trabajadores. Tesorería Página: 9 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n3.3.2. Planilla Mensual de Empleados y Practicantes:\nEjecutor Actividad\n1. Informar y registrar su información sobre las ausencias por cualquier motivo,\nTrabajador\nlas cuales se registran y aprueban en el registro de asistencia virtual.\n2. Registrar en la herramienta Roster Digital la programación de la jornada\nlaboral de los empleados o practicantes de cada base operativa, según\naplique, de acuerdo a su programación.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 54,
+    "total_chunks": 87,
+    "char_count": 560,
+    "word_count": 84
+  },
+  {
+    "id": "299550eb-d46b-42c0-8392-7bc9eefa2088",
+    "text": "de cada base operativa, según aplique, de acuerdo a su programación. 3. Revisar los registros de los trabajadores referida al movimiento de personal\nen la plataforma Visual Asist.\n4. Revisar la información registrada en la herramienta Roster Digital que se\nactualiza mensualmente para los empleados o practicantes de Bases\nOperativas, según aplique.\nEspecialista de\n5. Registrar en el ERP Spring Módulo de Planilla los movimientos del personal\nAdministración de\nrealizados durante el mes de proceso.\nPersonal",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 55,
+    "total_chunks": 87,
+    "char_count": 508,
+    "word_count": 76
+  },
+  {
+    "id": "cb64d081-94eb-4bd5-be12-9280a36d7851",
+    "text": "del personal Administración de realizados durante el mes de proceso. Personal 6. Verificar que los datos registrados en el Módulo de Planillas coincidan con los\ningresados (ver Anexo N 1 para empleados y Anexo N 2 para practicantes).\n7. Solo aplica a empleados:\nGenerar los cálculos por deducciones de ley (Impuesto a la Renta de 5ta\ncategoría, AFP, ONP, etc.) y aportaciones (ESSALUD), retenciones\njudiciales, descuentos de cuotas de préstamos personales y otros.\n8. Realizar el proceso de la planilla de empleados o practicantes en el módulo\nde Planillas del ERP Spring.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 56,
+    "total_chunks": 87,
+    "char_count": 572,
+    "word_count": 92
+  },
+  {
+    "id": "507aa380-7896-4175-8aa2-bfd994ea6061",
+    "text": "empleados o practicantes en el módulo de Planillas del ERP Spring. Jefe de Oficina de 9. Aprobar la planilla de los empleados o practicantes.\nGestión Humana\n10. Realizar si fuera requerido el reproceso de la planilla de empleados o\npracticantes con las modificaciones que se generen.\nEspecialista en\n11. Realizar el cierre del periodo de la planilla, lo que significa que no se\nAdministración de\nrealizarán modificaciones.\nPersonal\n12. Generar el voucher contable para la planilla de empleados o practicantes, con",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 57,
+    "total_chunks": 87,
+    "char_count": 513,
+    "word_count": 81
+  },
+  {
+    "id": "d5f86ef3-11b8-48ab-b3e9-693fc30dc3d0",
+    "text": "el voucher contable para la planilla de empleados o practicantes, con la asignación de cuentas contables y se envía al Módulo de Contabilidad.\n13. Validar el voucher contable generado desde el Módulo de Planillas y de estar\nEspecialista en\nconforme, lo aprueba para que el Especialista de Administración de Personal\nControl Previo\ngenere la obligación al pago.\n14. Aprobar el voucher de planilla que está registrado en el Módulo de\nContador\nContabilidad, a fin de proceder al pago.\n15. Generar la obligación de pago de la Planilla de Empleados o practicantes en",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 58,
+    "total_chunks": 87,
+    "char_count": 561,
+    "word_count": 92
+  },
+  {
+    "id": "61c41b3a-862d-4042-97d3-779b8e415a9c",
+    "text": "obligación de pago de la Planilla de Empleados o practicantes en Especialista en el Módulo de Planillas del ERP Spring para que el área de tesorería pueda\nAdministración de efectuar el pago.\nPersonal 16. Generar los archivos TXT que contiene las cuentas bancarias y el importe\nneto a pagar a cada trabajador.\n17. Validar el archivo TXT en la plataforma de la entidad bancaria para confirmar\nEspecialista de\nlos montos y cuentas bancarias de los trabajadores o practicantes.\nTesorería\n18. Habilitar los fondos para el pago de planillas.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 59,
+    "total_chunks": 87,
+    "char_count": 535,
+    "word_count": 88
+  },
+  {
+    "id": "22df134f-39ac-4a73-af54-77a044e5ad69",
+    "text": "practicantes. Tesorería 18. Habilitar los fondos para el pago de planillas. Jefe de Tesorería 19. Revisar lo validado por el Especialista de Tesorería.\nEspecialista de 20. Realizar la transferencia bancaria a la cuenta de los trabajadores o\nTesorería practicantes.\nSolo aplica a empleados:\n21. Generar las boletas de remuneraciones de los trabajadores del Módulo de\nPlanillas del Spring en archivos pdf.\nEspecialista en Solo aplica a empleados:\nAdministración de 22. Cargar las boletas de remuneraciones de los trabajadores en el Sistema de\nPersonal Envío Rápido eSigTek.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 60,
+    "total_chunks": 87,
+    "char_count": 571,
+    "word_count": 86
+  },
+  {
+    "id": "8b29241c-2b3c-4c9c-9882-72cbe2059f0c",
+    "text": "de los trabajadores en el Sistema de Personal Envío Rápido eSigTek. Solo aplica a empleados:\n23. Enviar a través del Sistema de Envío Rápido eSigTek a los correos\nelectrónicos de los trabajadores incluidos en el proceso del mes.\nPágina: 10 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 61,
+    "total_chunks": 87,
+    "char_count": 245,
+    "word_count": 42
+  },
+  {
+    "id": "76ee57c6-07d8-41a8-afb5-7baa5c53e99d",
+    "text": "trabajadores incluidos en el proceso del mes. Página: 10 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nSolo aplica a empleados:\nTrabajador 24. Recepcionar, firmar y descargar de la plataforma Sistema de Envío Rápido\neSigTek la Boleta de remuneraciones.\n3.4. NÓMINAS ESPECIALES\nEjecutor Actividad\n1. Procesar las nóminas especiales (Vacaciones, Gratificaciones, CTS,\nbonos, préstamos, entre otros).\n2. Analizar, revisar y validar que la información y los cálculos son\ncorrectos.\nEspecialista de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 62,
+    "total_chunks": 87,
+    "char_count": 533,
+    "word_count": 75
+  },
+  {
+    "id": "dac36ef5-ec97-4e0f-a74a-c86e9347c31b",
+    "text": "validar que la información y los cálculos son correctos. Especialista de 3. Generar los archivos TXT de pago por banco.\nAdministración de\nPersonal\n4. Registrar en el portal de las entidades bancarias los archivos TXT de\npago de planilla.\n5. Modificar de forma sincroniza datos que serán actualizados en el\nPDT, excepto los que son tomados del T-REGISTRO.\n3.5. PAGO DE IMPUESTOS PDT - PLAME\nEjecutor Actividad\nMódulo Empleador del PDT PLAME\n1. Acceder al Módulo Empleador del PDT PLAME. con la Clave SOL.\n2. Actualizar los parámetros del PDT Planilla Electrónica PLAME,",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 63,
+    "total_chunks": 87,
+    "char_count": 568,
+    "word_count": 93
+  },
+  {
+    "id": "34795b39-c2ac-4067-8284-ce8a64f32531",
+    "text": "Clave SOL. 2. Actualizar los parámetros del PDT Planilla Electrónica PLAME, Formulario Virtual N 0601.\nEspecialista en 3. Validar a AMSAC como inscrito en el T-REGISTRO, descargando los\nAdministración de datos del empleador.\nPersonal 4. Actualizar los conceptos remunerativos, ingresos (ganancias) y\ndescuentos en la sección Mantenimiento de Conceptos.\n5. Modificar de forma sincronizada los datos que serán actualizados en\nel PDT, excepto los que son tomados del T-REGISTRO.\nDeclaración Jurada del PLAME\n6. Acceder al Módulo Declaración Jurada del PLAME, con la Clave SOL",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 64,
+    "total_chunks": 87,
+    "char_count": 572,
+    "word_count": 85
+  },
+  {
+    "id": "0dce19ed-4805-4adb-97f6-ad7e9f7ee3d9",
+    "text": "Acceder al Módulo Declaración Jurada del PLAME, con la Clave SOL 7. Elaborar las declaraciones juradas PLAME con información del T-\nREGISTRO o importando el archivo desde la misma fuente.\n8. Registrar la información del personal en formación.\nLos prestadores de servicios se registran directamente en el PDT.\n9. Importar y validar la información del módulo de Planillas del ERP\nEspecialista en\nSpring.\nAdministración de\n10. Determinar la deuda tributaria del periodo.\nPersonal\n11. Emitir los reportes del PDT y los envia al Especialista de Control",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 65,
+    "total_chunks": 87,
+    "char_count": 547,
+    "word_count": 86
+  },
+  {
+    "id": "e3bd34e3-8a7c-4cde-9eec-7132966989b3",
+    "text": "los reportes del PDT y los envia al Especialista de Control Previo 2 días antes de la fecha de vencimiento de las obligaciones\ntributarias correspondientes al último digito de RUC N 1\n12. Generar el archivo de envío a SUNAT\n13. Registrar las obligaciones de impuestos en el módulo de cuentas por\npagar del SPRING.\nJefe de Oficina de 14. Supervisar el cumplimiento de los plazos establecidos en\nGestión Humana coordinación con el área de Contabilidad y Tesorería.\n15. Revisar y validar los Reportes del PDT para confirmar que la\nEspecialista de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 66,
+    "total_chunks": 87,
+    "char_count": 543,
+    "word_count": 92
+  },
+  {
+    "id": "f1230c96-1125-437f-bdac-18af6c52d1f9",
+    "text": "validar los Reportes del PDT para confirmar que la Especialista de obligación de pago de tributos se haya generado correctamente en el\nControl Previo\nmódulo contable.\n16. Aprobar los reportes del PDT para confirmar que la obligación de\nContador pago de tributos se haya generado correctamente en el módulo\ncontable.\nEspecialista en 17. Habilitar los fondos para el pago de impuestos PLAME cuando la\nTesorería declaración jurada no registre inconsistencia alguna.\nPágina: 11 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 67,
+    "total_chunks": 87,
+    "char_count": 479,
+    "word_count": 75
+  },
+  {
+    "id": "90844c27-a44f-4ea6-8c6d-69dc1a694b31",
+    "text": "Tesorería declaración jurada no registre inconsistencia alguna. Página: 11 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n18. Proceder con la declaración y pago de impuestos PLAME utilizando\nla Clave SOL (Operaciones en Línea de la SUNAT) asegurando de\nque se efectué dentro del plazo máximo establecido en el cronograma\nJefe de Tesorería\nde pagos aprobado por SUNAT.\n19. Enviar la constancia de pago al Especialista en Administración de\nPersonal.\n3.6. LIQUIDACIÓN DE BENEFICIOS SOCIALES\nEjecutor Actividad",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 68,
+    "total_chunks": 87,
+    "char_count": 545,
+    "word_count": 81
+  },
+  {
+    "id": "eefbf804-48b9-423d-8d7e-54234f4e967f",
+    "text": "en Administración de Personal. 3.6. LIQUIDACIÓN DE BENEFICIOS SOCIALES Ejecutor Actividad 1. Recibir el documento que acredite la desvinculación del personal (ver\n2.5 b).\nEspecialista de\n2. Confirmar la fecha del último día de trabajo que le servirá para\nAdministración de\ncalcular el pago y/o deducciones por los conceptos fijados por ley.\nPersonal\n3. Elaborar el proyecto de Liquidación de Beneficios Sociales en el\nMódulo de Planillas del ERP SPRING.\nJefe de Oficina 4. Revisar el proyecto de Liquidación de Beneficios Sociales.\nde Gestión Si tuviera observaciones, las comunica al Especialista de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 69,
+    "total_chunks": 87,
+    "char_count": 600,
+    "word_count": 92
+  },
+  {
+    "id": "22688c66-fede-4c16-8c03-c0fd4a70205a",
+    "text": "Sociales. de Gestión Si tuviera observaciones, las comunica al Especialista de Humana Administración de Personal para que su corrección.\nEspecialista de 5. Emitir la Liquidación de Beneficios Sociales y consignar su VB,\nAdministración de previa verificación del cumplimiento de la entrega y recepción de\nPersonal cargo.\nEspecialista de 6. Generar el comprobante (voucher) contable previa conciliación con\nAdministración de las cuentas contables.\nPersonal\n7. Revisar la liquidación generada en el Módulo de Contabilidad del ERP\nSPRING.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 70,
+    "total_chunks": 87,
+    "char_count": 534,
+    "word_count": 76
+  },
+  {
+    "id": "b85eebc8-c72e-4cd9-9b9d-f4a42f5e4ce8",
+    "text": "la liquidación generada en el Módulo de Contabilidad del ERP SPRING. Especialista en 8. De estar conforme, autorizar y aprobar el comprobante (voucher)\nContabilidad contable y comunicar al Especialista de Administración de Personal.\nSi tuviera observaciones, comunicar al Especialista de Administración\nde Personal para su corrección.\nEspecialista de 9. Generar las obligaciones correspondientes a la Liquidación de\nAdministración de Beneficios Sociales y comunicar al Especialista de Tesorería,\nPersonal enviándole los documentos que justifican el cese laboral.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 71,
+    "total_chunks": 87,
+    "char_count": 562,
+    "word_count": 76
+  },
+  {
+    "id": "24f0ef97-32c9-449b-a634-2e2a74490951",
+    "text": "de Tesorería, Personal enviándole los documentos que justifican el cese laboral. 10. Aprobar la obligación de la Liquidación de Beneficios Sociales.\n11. Desembolsar el dinero mediante transferencia a favor del ex\nEspecialista de trabajador por el importe a pagar de la Liquidación de Beneficios\nTesorería Sociales y lo envía al Especialista de Administración de Personal.\n12. Archivar el cargo de la Liquidación de Beneficios Sociales aprobado\ny autorizado, y del respectivo comprobante (voucher) de pago, en el\nlegajo personal correspondiente.\nPágina: 12 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 72,
+    "total_chunks": 87,
+    "char_count": 561,
+    "word_count": 84
+  },
+  {
+    "id": "d86d8c66-1d16-470c-942b-99a289dae4d5",
+    "text": "de pago, en el legajo personal correspondiente. Página: 12 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n4. ALCANCES FUNCIONALES\n4.1. Gerente General\n- Aprobar el presente procedimiento.\n4.2. Jefe de Oficina de Gestión Humana\n- Conducir el proceso de Nómina de personal, cumpliendo los plazos y las disposiciones\nprevistas en la normativa legal aplicable y el presente procedimiento.\n- Velar por el cumplimiento del presente procedimiento.\n- Velar porque el procedimiento se mantenga vigente, siendo responsable de",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 73,
+    "total_chunks": 87,
+    "char_count": 554,
+    "word_count": 82
+  },
+  {
+    "id": "f7fe28fd-63dc-42f0-9ee8-040704d61be4",
+    "text": "- Velar porque el procedimiento se mantenga vigente, siendo responsable de realizar revisiones y actualizaciones periódicas, así como de la difusión y\nconocimiento del mismo por parte del equipo de trabajo y áreas vinculadas.\nAprobar las Aportaciones mensuales de la AFP.\n- Aprobar las planillas de remuneraciones.\n- Visar la liquidación de beneficios sociales.\n4.3. Especialista de Administración de Personal\n- Efectuar el pago de las planillas y generar los archivos de pago, los vouchers contables y\nla obligación de pago asi como de enviar las boletas virtuales de remuneraciones.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 74,
+    "total_chunks": 87,
+    "char_count": 584,
+    "word_count": 90
+  },
+  {
+    "id": "84e27095-f4cb-42bd-b4b0-c7ed5c8131e7",
+    "text": "de pago asi como de enviar las boletas virtuales de remuneraciones. - Elaborar y validar la información a registrarse en la AFPNet, así como realizar la\npresentación y pago de las AFP en forma mensual.\n- Realizar las comunicaciones a la AFP de cambios en el sistema pensionario del trabajador.\n- Generar el cálculo de las Aportaciones de la AFP de los trabajadores y de la Liquidación\nde los Beneficios Sociales.\n- Validar los datos de AMSAC como empleador inscrito en el T REGISTRO.\n- Elaborar las declaraciones juradas y generar los reportes del PDT PLAME.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 75,
+    "total_chunks": 87,
+    "char_count": 558,
+    "word_count": 96
+  },
+  {
+    "id": "d5f7e305-95f4-4315-a3e1-91c77cdd118b",
+    "text": "Elaborar las declaraciones juradas y generar los reportes del PDT PLAME. - Generar el archivo personalizado de envio a SUNAT.\n- Emitir los documentos del término del vinculo laboral.\n- Realizar la entrega de los beneficios sociales al trabajador.\n4.4. Especialista en Control Previo\n- Validar los vouchers contables y los reportes del PDT PLAME.\n4.5. Contador\n- Aprobar los vouchers contables y los reportes del PDT PLAME.\n4.6. Especialista en Tesorería\n- Habilitar los fondos para el pago de planillas, de impuestos y validar los archivos de pago",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 76,
+    "total_chunks": 87,
+    "char_count": 547,
+    "word_count": 89
+  },
+  {
+    "id": "84495f25-6027-42e1-9c4a-352914cd2f07",
+    "text": "pago de planillas, de impuestos y validar los archivos de pago - Habilitación de fondos para el pago mediante transferencia a la AFP y gestionar la\ntransferencia para el pago de la liquidación de beneficios sociales.\n4.7. Jefe de Tesorería\n- Conducir el proceso de pago de planillas de personal y de impuestos.\n5. REGISTROS / ANEXOS\n- Módulo de Planillas del ERP Spring: El Manual para el registro de información para el\nproceso de planillas se ubica en el siguiente link: https://amsacpe-\nmy.sharepoint.com/:f:/r/personal/marlene_baez_amsac_pe/Documents/Ma",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 77,
+    "total_chunks": 87,
+    "char_count": 557,
+    "word_count": 84
+  },
+  {
+    "id": "40594d83-90bd-49d7-a2a6-a528a010c38c",
+    "text": "proceso de planillas se ubica en el siguiente link: https://amsacpe- my.sharepoint.com/:f:/r/personal/marlene_baez_amsac_pe/Documents/Ma nual%20Planilla%20ERP%20Spring?csf=1&web=1&e=UlPsLj\n- Sistema de Envío Virtual de Boletas de Remuneraciones: https://amsac.ecotek.pe/\n- Acceso al Roster Digital http://roster.amsac.pe/amsac/\n- Anexo N 1 Conceptos a ingresar al Módulo de Planillas de Empleados.\nPágina: 13 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 78,
+    "total_chunks": 87,
+    "char_count": 414,
+    "word_count": 45
+  },
+  {
+    "id": "fb257376-49bb-43b6-9ecd-3dd112a3cbd6",
+    "text": "ingresar al Módulo de Planillas de Empleados. Página: 13 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\n- Anexo N 2 Conceptos a ingresar al Módulo de Planillas de Practicantes.\n- Modelo de Carta en que se comunica decisión de retiro parcial o total del saldo de la\nCIC.\n- Declaración y Pago de AFP.\n- Liquidación y Pago de Beneficios Sociales\nLos reportes que genera del PDT son los siguientes:\nTrabajadores\nR01 Trabajadores Datos de ingresos, tributos y aportes.\nR02 - Trabajadores - Tipos de ingreso.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 79,
+    "total_chunks": 87,
+    "char_count": 541,
+    "word_count": 91
+  },
+  {
+    "id": "bd31fe4a-4cb5-4d63-b574-3a04039ad26b",
+    "text": "ingresos, tributos y aportes. R02 - Trabajadores - Tipos de ingreso. R03 - Trabajadores - Base de cálculo, Tributos y aportes.\nR04 - Trabajadores Tributos y aportes a cargo del trabajador.\nR05 - Trabajadores Tributos y aportes a cargo del empleador.\nR06 - Trabajadores - Jornada Laboral.\nR07 - Trabajadores Motivos de Suspensión de Labores.\nR08 Información por Trabajador (contiene datos de una Boleta de Pago).\nR15 Determinación de la deuda.\nPensionistas\nR10 - Pensionistas - Datos de Ingresos, Tributos y aportes.\nR11 - Pensionistas Bases de cálculo de tributos y aportes.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 80,
+    "total_chunks": 87,
+    "char_count": 574,
+    "word_count": 92
+  },
+  {
+    "id": "edad4b5f-3545-463c-965a-cb17a3f9d5ce",
+    "text": "aportes. R11 - Pensionistas Bases de cálculo de tributos y aportes. Otros prestadores\nR12 - Rentas de Cuarta Categoría Comprobantes.\nR13 - Personal de Terceros - Base de Cálculo del Aporte.\nR14 Personal en Formación - Monto subvención económica\nPágina: 14 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 81,
+    "total_chunks": 87,
+    "char_count": 261,
+    "word_count": 43
+  },
+  {
+    "id": "2c344ee8-bf52-42ea-9b91-f5e681b580d0",
+    "text": "Personal en Formación - Monto subvención económica Página: 14 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nANEXO N 1\nCONCEPTOS A INGRESAR AL MÓDULO DE PLANILLAS DE EMPLEADOS\nEn el Registro Maestro de Empleados, del ERP Spring Módulo de Planillas, se registran los siguientes\ncampos:\n- Nombres y apellidos,\n- Número del Documento de Identidad,\n- Cargo,\n- Categoría,\n- Área o centro de costo\n- Otros de acuerdo a la respectiva Ficha de datos personales\nLos campos incluidos posibles de ser usados son:",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 82,
+    "total_chunks": 87,
+    "char_count": 540,
+    "word_count": 89
+  },
+  {
+    "id": "56eedb88-90e7-48b3-a65e-34b917a03d3c",
+    "text": "de datos personales Los campos incluidos posibles de ser usados son: - Remuneración Básica: la vigente de acuerdo a su puesto de trabajo.\n- Encargatura: por asumir temporalmente un puesto por ausencia del titular o puesto vacante.\n- Permisos y Licencias con goce de remuneraciones: según autorización legal o administrativa.\n- Vacaciones: de acuerdo a los días autorizados y registrados en el Control de Vacaciones.\n- Permisos sin goce de remuneraciones: de acuerdo a los días autorizados.\n- Suspensión: de acuerdo al memorando respectivo.\n- Cese del Personal: según corresponda.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 83,
+    "total_chunks": 87,
+    "char_count": 579,
+    "word_count": 90
+  },
+  {
+    "id": "b9173309-26a9-4b41-b54b-8093ec89eda0",
+    "text": "de acuerdo al memorando respectivo. - Cese del Personal: según corresponda. - Prestaciones Alimentarias Suministro Indirecto\n- Condiciones de Trabajo\n- Prestamos de Personal\n- Retenciones Judiciales\n- Descuentos de Vales pendientes de efectuar rendición\n- Subvención Económica: para practicantes profesionales y pre profesionales.\n- Aportaciones y Contribuciones: ESSALUD, SNP y 5ta categoría, de acuerdo a ley.\nAportaciones Previsionales al SPP (AFP): de acuerdo a ley.\nPágina: 15 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 84,
+    "total_chunks": 87,
+    "char_count": 487,
+    "word_count": 70
+  },
+  {
+    "id": "cee6c075-85ec-46d4-a558-36a68a456c82",
+    "text": "al SPP (AFP): de acuerdo a ley. Página: 15 de 16 Código: S5.3.P3\nNómina del Personal\nVersión: 01\nProcedimiento\nFecha: 27/12/2023\nANEXO N 2\nCONCEPTOS A INGRESAR AL MÓDULO DE PLANILLAS DE PRACTICANTES\nEn el Registro Maestro de Practicantes del ERP Spring Módulo de Planillas, se registran los\nsiguientes campos:\n- Nombres y apellidos,\n- Número del documento de identidad,\n- Cargo,\n- Categoría,\n- Área o centro de costo,\n- Otros de acuerdo a la respectiva Ficha de datos personales.\nLos campos incluidos posibles de ser usados son:\n- Subvención económica vigente.",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 85,
+    "total_chunks": 87,
+    "char_count": 560,
+    "word_count": 93
+  },
+  {
+    "id": "a4304745-dd9c-4e96-b54b-4450ece778e9",
+    "text": "campos incluidos posibles de ser usados son: - Subvención económica vigente. - Subvención a los 06 meses.\nPágina: 16 de 16",
+    "source": "S5.3.P3-Procedimiento-de-Nomina-de-Personal-v.01-FinalRRRR.txt",
+    "chunk_index": 86,
+    "total_chunks": 87,
+    "char_count": 122,
+    "word_count": 21
+  }
+]
