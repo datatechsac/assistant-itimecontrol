@@ -9,7 +9,7 @@ Uso:
 from pathlib import Path
 
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, GenerationConfig, pipeline
 
 from src.rag.retriever import Retriever
 from src.utils.helpers import load_config
@@ -22,6 +22,8 @@ SYSTEM_PROMPT = (
     "Usa la información de contexto provista para responder con precisión. "
     "Si la información no es suficiente, indícalo."
 )
+
+_USE_4BIT = not torch.cuda.is_available()
 
 
 class RAGPipeline:
@@ -40,15 +42,31 @@ class RAGPipeline:
         self.retriever = Retriever(config)
 
         # Cargar modelo fine-tuned
-        model_dir = self._resolve_model_dir(config)
-        logger.info(f"Cargando modelo desde: {model_dir}")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True)
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_dir,
-            torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        model_source, is_adapter = self._resolve_model_dir(config)
+        logger.info(f"Cargando modelo desde: {model_source} (adapter={is_adapter})")
+
+        quant_cfg = (
+            BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.float16)
+            if _USE_4BIT else None
+        )
+        load_kwargs = dict(
+            dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
             device_map="auto" if torch.cuda.is_available() else "cpu",
             trust_remote_code=True,
         )
+        if quant_cfg:
+            load_kwargs["quantization_config"] = quant_cfg
+
+        if is_adapter:
+            from peft import PeftModel
+            base_model_id = config["model"]["base_model"]
+            self.tokenizer = AutoTokenizer.from_pretrained(model_source, trust_remote_code=True)
+            base = AutoModelForCausalLM.from_pretrained(base_model_id, **load_kwargs)
+            self.model = PeftModel.from_pretrained(base, model_source)
+        else:
+            self.tokenizer = AutoTokenizer.from_pretrained(model_source, trust_remote_code=True)
+            self.model = AutoModelForCausalLM.from_pretrained(model_source, **load_kwargs)
+
         self.generator = pipeline(
             "text-generation",
             model=self.model,
@@ -56,24 +74,35 @@ class RAGPipeline:
         )
         logger.info("RAG Pipeline listo.")
 
-    def _resolve_model_dir(self, config: dict) -> str:
-        """Determina la ruta del modelo a usar (fine-tuned o base)."""
+    def _resolve_model_dir(self, config: dict) -> tuple[str, bool]:
+        """
+        Devuelve (ruta, is_adapter).
+        is_adapter=True  → directorio con adapter LoRA (requiere PEFT).
+        is_adapter=False → modelo completo/merged o modelo base.
+        """
         checkpoints_dir = Path(config["paths"]["models_dir"])
+
+        # Prioridad 1: modelo fusionado listo para inferencia directa
+        merged_dir = checkpoints_dir / "merged"
+        if merged_dir.exists():
+            return str(merged_dir), False
+
+        # Prioridad 2: adapter LoRA — se carga con PeftModel sobre el modelo base
         final_dir = checkpoints_dir / "final"
-
         if final_dir.exists():
-            return str(final_dir)
+            logger.info("Cargando adapter LoRA desde 'final/' con PEFT.")
+            return str(final_dir), True
 
-        # Buscar el último checkpoint disponible
+        # Prioridad 3: último checkpoint disponible
         checkpoints = sorted(checkpoints_dir.glob("checkpoint-*"))
         if checkpoints:
             logger.warning(f"Usando checkpoint: {checkpoints[-1]}")
-            return str(checkpoints[-1])
+            return str(checkpoints[-1]), True
 
-        # Fallback al modelo base
+        # Fallback al modelo base sin fine-tuning
         base_model = config["model"]["base_model"]
         logger.warning(f"No se encontró modelo fine-tuned. Usando base: {base_model}")
-        return base_model
+        return base_model, False
 
     def build_prompt(self, question: str, context: str) -> str:
         """Construye el prompt con contexto RAG en formato ChatML."""
@@ -106,20 +135,16 @@ class RAGPipeline:
         prompt = self.build_prompt(question, context)
 
         # Generar respuesta
-        max_tokens = self.api_cfg.get("max_new_tokens", 512)
-        temperature = self.api_cfg.get("temperature", 0.7)
-        top_p = self.api_cfg.get("top_p", 0.9)
-        rep_penalty = self.api_cfg.get("repetition_penalty", 1.1)
-
-        output = self.generator(
-            prompt,
-            max_new_tokens=max_tokens,
-            temperature=temperature,
-            top_p=top_p,
-            repetition_penalty=rep_penalty,
+        gen_config = GenerationConfig(
+            max_new_tokens=self.api_cfg.get("max_new_tokens", 512),
+            temperature=self.api_cfg.get("temperature", 0.7),
+            top_p=self.api_cfg.get("top_p", 0.9),
+            repetition_penalty=self.api_cfg.get("repetition_penalty", 1.1),
             do_sample=True,
             pad_token_id=self.tokenizer.eos_token_id,
         )
+
+        output = self.generator(prompt, generation_config=gen_config)
 
         # Extraer solo la respuesta generada (sin el prompt)
         generated_text = output[0]["generated_text"]

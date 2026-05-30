@@ -51,7 +51,7 @@ def merge_and_save(adapter_dir: str, output_dir: str, base_model: str | None = N
     tokenizer = AutoTokenizer.from_pretrained(adapter_dir, trust_remote_code=True)
     base = AutoModelForCausalLM.from_pretrained(
         base_model,
-        torch_dtype=torch.float16,
+        dtype=torch.float16,
         device_map="auto",
         trust_remote_code=True,
     )
