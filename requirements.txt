@@ -37,6 +37,9 @@ pydantic>=2.6.0
 # --- Interfaz ---
 gradio>=4.20.0
 
+# --- Optimización de hiperparámetros ---
+optuna>=3.6.0
+
 # --- Evaluación ---
 rouge-score>=0.1.2
 sacrebleu>=2.4.0
