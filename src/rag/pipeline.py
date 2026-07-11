@@ -1,15 +1,12 @@
 """
 rag/pipeline.py
-Pipeline RAG completo: recupera contexto + genera respuesta con el modelo fine-tuned.
-
-Uso:
-    python src/rag/pipeline.py
-    (modo interactivo de prueba)
+Pipeline RAG: recupera contexto con FAISS + genera respuesta con Claude API.
+No requiere GPU ni modelo local.
 """
+import os
 from pathlib import Path
 
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, GenerationConfig, pipeline
+import anthropic
 
 from src.rag.retriever import Retriever
 from src.utils.helpers import load_config
@@ -19,177 +16,95 @@ logger = get_logger(__name__)
 
 SYSTEM_PROMPT = (
     "Eres un asistente experto en el sistema iTimeControl. "
-    "Usa la información de contexto provista para responder con precisión. "
-    "Si la información no es suficiente, indícalo."
+    "Usa únicamente la información del contexto provisto para responder con precisión y en español. "
+    "Si la información no es suficiente para responder, indícalo claramente."
 )
-
-_USE_4BIT = not torch.cuda.is_available()
 
 
 class RAGPipeline:
-    """
-    Pipeline que combina recuperación semántica (RAG) con el modelo fine-tuned.
-    """
+    """Pipeline RAG: FAISS retriever + Claude API para generación."""
 
     def __init__(self, config: dict | None = None):
         if config is None:
             config = load_config()
 
         self.config = config
-        self.api_cfg = config.get("api", {})
+        claude_cfg = config.get("claude", {})
+        self.model = claude_cfg.get("model", "claude-haiku-4-5-20251001")
+        self.max_tokens = claude_cfg.get("max_tokens", 512)
+        self.temperature = claude_cfg.get("temperature", 0.3)
 
-        # Cargar retriever
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            raise ValueError(
+                "ANTHROPIC_API_KEY no encontrada. "
+                "Ejecuta: export ANTHROPIC_API_KEY=sk-ant-..."
+            )
+
+        self.client = anthropic.Anthropic(api_key=api_key)
         self.retriever = Retriever(config)
-
-        # Cargar modelo fine-tuned
-        model_source, is_adapter = self._resolve_model_dir(config)
-        logger.info(f"Cargando modelo desde: {model_source} (adapter={is_adapter})")
-
-        quant_cfg = (
-            BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.float16)
-            if _USE_4BIT else None
-        )
-        load_kwargs = dict(
-            dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-            device_map="auto" if torch.cuda.is_available() else "cpu",
-            trust_remote_code=True,
-        )
-        if quant_cfg:
-            load_kwargs["quantization_config"] = quant_cfg
-
-        if is_adapter:
-            from peft import PeftModel
-            base_model_id = config["model"]["base_model"]
-            self.tokenizer = AutoTokenizer.from_pretrained(model_source, trust_remote_code=True)
-            base = AutoModelForCausalLM.from_pretrained(base_model_id, **load_kwargs)
-            self.model = PeftModel.from_pretrained(base, model_source)
-        else:
-            self.tokenizer = AutoTokenizer.from_pretrained(model_source, trust_remote_code=True)
-            self.model = AutoModelForCausalLM.from_pretrained(model_source, **load_kwargs)
-
-        self.generator = pipeline(
-            "text-generation",
-            model=self.model,
-            tokenizer=self.tokenizer,
-        )
-        logger.info("RAG Pipeline listo.")
-
-    def _resolve_model_dir(self, config: dict) -> tuple[str, bool]:
-        """
-        Devuelve (ruta, is_adapter).
-        is_adapter=True  → directorio con adapter LoRA (requiere PEFT).
-        is_adapter=False → modelo completo/merged o modelo base.
-        """
-        checkpoints_dir = Path(config["paths"]["models_dir"])
-
-        # Prioridad 1: modelo fusionado listo para inferencia directa
-        merged_dir = checkpoints_dir / "merged"
-        if merged_dir.exists():
-            return str(merged_dir), False
-
-        # Prioridad 2: adapter LoRA — se carga con PeftModel sobre el modelo base
-        final_dir = checkpoints_dir / "final"
-        if final_dir.exists():
-            logger.info("Cargando adapter LoRA desde 'final/' con PEFT.")
-            return str(final_dir), True
-
-        # Prioridad 3: último checkpoint disponible
-        checkpoints = sorted(checkpoints_dir.glob("checkpoint-*"))
-        if checkpoints:
-            logger.warning(f"Usando checkpoint: {checkpoints[-1]}")
-            return str(checkpoints[-1]), True
-
-        # Fallback al modelo base sin fine-tuning
-        base_model = config["model"]["base_model"]
-        logger.warning(f"No se encontró modelo fine-tuned. Usando base: {base_model}")
-        return base_model, False
-
-    def build_prompt(self, question: str, context: str) -> str:
-        """Construye el prompt con contexto RAG en formato ChatML."""
-        user_message = (
-            f"Contexto de iTimeControl:\n{context}\n\n"
-            f"Pregunta: {question}"
-        ) if context else question
-
-        return (
-            f"<|im_start|>system\n{SYSTEM_PROMPT}<|im_end|>\n"
-            f"<|im_start|>user\n{user_message}<|im_end|>\n"
-            f"<|im_start|>assistant\n"
-        )
+        logger.info(f"RAG Pipeline listo (modelo: {self.model})")
 
     def generate(self, question: str) -> dict:
         """
-        Genera una respuesta a partir de una pregunta.
-
-        Args:
-            question: Pregunta del usuario sobre iTimeControl.
+        Recupera contexto relevante y genera una respuesta con Claude.
 
         Returns:
-            Dict con 'answer', 'context_used', 'sources', 'num_chunks'.
+            Dict con 'answer', 'context_used', 'contexts', 'sources', 'num_chunks'.
         """
-        # Recuperar contexto relevante
         retrieved = self.retriever.search(question)
         context = self.retriever.format_context(retrieved)
 
-        # Construir prompt
-        prompt = self.build_prompt(question, context)
-
-        # Generar respuesta
-        gen_config = GenerationConfig(
-            max_new_tokens=self.api_cfg.get("max_new_tokens", 512),
-            temperature=self.api_cfg.get("temperature", 0.7),
-            top_p=self.api_cfg.get("top_p", 0.9),
-            repetition_penalty=self.api_cfg.get("repetition_penalty", 1.1),
-            do_sample=True,
-            pad_token_id=self.tokenizer.eos_token_id,
+        user_message = (
+            f"Contexto de iTimeControl:\n{context}\n\nPregunta: {question}"
+            if context else question
         )
 
-        output = self.generator(prompt, generation_config=gen_config)
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=self.max_tokens,
+            temperature=self.temperature,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
 
-        # Extraer solo la respuesta generada (sin el prompt)
-        generated_text = output[0]["generated_text"]
-        answer = generated_text[len(prompt):].strip()
-
-        # Limpiar token de fin si aparece
-        for end_token in ["<|im_end|>", "</s>", "[/INST]"]:
-            if end_token in answer:
-                answer = answer.split(end_token)[0].strip()
-
+        answer = response.content[0].text.strip()
         sources = list({r["source"] for r in retrieved})
 
         return {
             "answer": answer,
             "context_used": context,
+            "contexts": [r["text"] for r in retrieved],
             "sources": sources,
             "num_chunks": len(retrieved),
         }
 
 
-def interactive_demo():
+def interactive_demo() -> None:
     """Modo demo interactivo en terminal."""
     config = load_config()
     rag = RAGPipeline(config)
 
     logger.info("\n" + "=" * 60)
-    logger.info("iTimeControl Assistant — Modo demo")
+    logger.info("iTimeControl Assistant — Modo demo (Claude API)")
     logger.info("Escribe 'salir' para terminar")
     logger.info("=" * 60 + "\n")
 
     while True:
-        question = input("🙋 Tu pregunta: ").strip()
+        question = input("Tu pregunta: ").strip()
         if question.lower() in {"salir", "exit", "quit"}:
             break
         if not question:
             continue
 
         result = rag.generate(question)
-        print(f"\n🤖 Respuesta:\n{result['answer']}")
-        print(f"\n📄 Fuentes: {', '.join(result['sources']) or 'N/A'}")
-        print(f"📊 Chunks usados: {result['num_chunks']}\n")
+        print(f"\nRespuesta:\n{result['answer']}")
+        print(f"\nFuentes: {', '.join(result['sources']) or 'N/A'}")
+        print(f"Chunks usados: {result['num_chunks']}\n")
         print("-" * 60)
 
 
-def main():
+def main() -> None:
     interactive_demo()
 
 

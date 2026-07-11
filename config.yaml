@@ -95,7 +95,15 @@ api:
   top_p: 0.9
   repetition_penalty: 1.1
 
+# ----- Claude API -----
+claude:
+  model: "claude-haiku-4-5-20251001"   # modelo de generación RAG
+  judge_model: "claude-haiku-4-5-20251001"  # modelo juez para métricas
+  max_tokens: 512
+  temperature: 0.3
+
 # ----- Evaluación -----
 evaluation:
-  metrics: ["rouge1", "rouge2", "rougeL", "bleu", "exact_match"]
+  metrics: ["rouge1", "rouge2", "rougeL", "bleu", "exact_match", "hit_rate"]
   benchmark_file: "data/datasets/benchmark_questions.json"
+  rag_eval_file: "data/datasets/rag_eval_dataset.json"
