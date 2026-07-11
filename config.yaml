@@ -95,10 +95,27 @@ api:
   top_p: 0.9
   repetition_penalty: 1.1
 
-# ----- Claude API -----
+# ----- Generación RAG -----
+# provider: "groq" | "gemini" | "anthropic"
+generation:
+  provider: "groq"
+
+# Groq (gratuito) — https://console.groq.com/keys
+groq:
+  model: "llama-3.3-70b-versatile"   # alternativa: "gemma2-9b-it"
+  max_tokens: 512
+  temperature: 0.3
+
+# Google Gemini (gratuito) — https://aistudio.google.com/apikey
+gemini:
+  model: "gemini-2.0-flash"
+  max_tokens: 512
+  temperature: 0.3
+
+# Anthropic Claude (pago) — https://console.anthropic.com
 claude:
-  model: "claude-haiku-4-5-20251001"   # modelo de generación RAG
-  judge_model: "claude-haiku-4-5-20251001"  # modelo juez para métricas
+  model: "claude-haiku-4-5-20251001"
+  judge_model: "claude-haiku-4-5-20251001"
   max_tokens: 512
   temperature: 0.3
 

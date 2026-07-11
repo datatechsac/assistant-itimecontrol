@@ -137,11 +137,15 @@ def run_rag_evaluation(
     if output_path is None:
         output_path = logs_dir / "rag_evaluation_results.json"
 
+    provider = config.get("generation", {}).get("provider", "groq")
+    model_name = config.get(provider, {}).get("model", "unknown")
+
     output = {
         "summary": avg_metrics,
         "total_questions": len(predictions),
         "dataset_path": str(dataset_path),
-        "model": config.get("claude", {}).get("model", "claude-haiku-4-5-20251001"),
+        "provider": provider,
+        "model": model_name,
         "results": detailed_results,
     }
     save_json(output, str(output_path))

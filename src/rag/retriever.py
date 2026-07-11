@@ -65,21 +65,36 @@ class Retriever:
         )
         return vector.astype(np.float32)
 
+    # Fuentes del producto iTimeControl — reciben boost en el ranking
+    _ITIMECONTROL_SOURCES = {
+        "FAQ_iTimeControl.txt",
+        "SistemaItimecontrol_Manual_Usuario_v1.0.txt",
+        "SistemaItimecontrol_ServicioWeb.txt",
+    }
+    _SOURCE_BOOST = 1.25   # multiplicador de score para documentos del producto
+
     def search(self, query: str, top_k: int | None = None) -> list[dict]:
         """
         Busca los chunks más similares a la consulta.
 
+        Recupera top_k * 4 candidatos y aplica reranking con boost
+        para fuentes del manual de iTimeControl antes de devolver top_k.
+
         Args:
             query: Pregunta del usuario.
-            top_k: Número de resultados (usa config si es None).
+            top_k: Número de resultados finales (usa config si es None).
 
         Returns:
             Lista de dicts con 'text', 'source', 'score', 'chunk_index'.
         """
         k = top_k or self.top_k
-        query_vector = self.embed_query(query)
+        # Expandir query con prefijo de dominio para mejorar recuperación semántica
+        expanded_query = f"iTimeControl sistema: {query}"
+        query_vector = self.embed_query(expanded_query)
 
-        scores, indices = self.index.search(query_vector, k)
+        # Recuperar más candidatos para poder rerankear
+        candidates = min(k * 4, self.index.ntotal)
+        scores, indices = self.index.search(query_vector, candidates)
 
         results = []
         for score, idx in zip(scores[0], indices[0]):
@@ -88,14 +103,25 @@ class Retriever:
             if score < self.similarity_threshold:
                 continue
             meta = self.metadata[idx]
+            source = meta.get("source", "")
+            # Aplicar boost a documentos del producto
+            boosted_score = float(score)
+            if any(s in source for s in self._ITIMECONTROL_SOURCES):
+                boosted_score *= self._SOURCE_BOOST
+
             results.append({
-                "text": meta["text"],
-                "source": meta["source"],
-                "score": float(score),
+                "text":        meta["text"],
+                "source":      source,
+                "score":       boosted_score,
+                "raw_score":   float(score),
                 "chunk_index": meta.get("chunk_index", idx),
             })
 
-        logger.debug(f"Retriever: {len(results)} resultados para '{query[:60]}...'")
+        # Reranking por score boosted y devolver top_k
+        results.sort(key=lambda x: x["score"], reverse=True)
+        results = results[:k]
+
+        logger.debug(f"Retriever: {len(results)} resultados para '{query[:60]}'")
         return results
 
     def format_context(self, results: list[dict], max_length: int | None = None) -> str:
