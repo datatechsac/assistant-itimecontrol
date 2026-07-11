@@ -85,18 +85,28 @@ def load_evaluation_items(
     return normalized
 
 
+RECALL_K_VALUES = [1, 3, 5, 10]
+# Para Recall@10 necesitamos recuperar al menos 10 chunks durante la evaluación
+EVAL_TOP_K = max(RECALL_K_VALUES)
+
+
 def run_rag_evaluation(
     config: dict,
     dataset_path: str | Path | None = None,
     limit: int | None = None,
     output_path: str | Path | None = None,
 ) -> dict:
-    """Ejecuta evaluación completa del pipeline RAG sobre un dataset."""
+    """Ejecuta evaluación completa del pipeline RAG sobre un dataset.
+
+    Métricas calculadas:
+      Texto:      ROUGE-1/2/L, BLEU, Exact Match
+      Retrieval:  Hit Rate@K, Context Recall, MRR, Recall@1/3/5/10
+    """
     dataset_path = dataset_path or config["evaluation"]["benchmark_file"]
     items = load_evaluation_items(dataset_path, limit=limit)
     logger.info(f"Dataset cargado: {len(items)} ejemplos desde {dataset_path}")
 
-    logger.info("Inicializando pipeline RAG (Claude API)...")
+    logger.info(f"Inicializando pipeline RAG (proveedor: {config.get('generation',{}).get('provider','groq')})...")
     rag = RAGPipeline(config)
 
     predictions: list[str] = []
@@ -111,26 +121,41 @@ def run_rag_evaluation(
             continue
 
         logger.info(f"[{i}/{len(items)}] {question[:80]}...")
-        result = rag.generate(question)
-        prediction = result["answer"]
+
+        # Recuperar EVAL_TOP_K chunks para calcular Recall@10 y MRR correctamente
+        retrieved_eval = rag.retriever.search(question, top_k=EVAL_TOP_K)
+        contexts_eval  = [r["text"] for r in retrieved_eval]
+
+        # Para generación usar solo top_k del config (evita contexto excesivo)
+        gen_top_k  = config["rag"].get("top_k", 5)
+        retrieved_gen = retrieved_eval[:gen_top_k]
+        context_text  = rag.retriever.format_context(retrieved_gen)
+        user_message  = (
+            f"Contexto de iTimeControl:\n{context_text}\n\nPregunta: {question}"
+            if context_text else question
+        )
+        prediction = rag._call_llm(user_message)
 
         predictions.append(prediction)
         references.append(reference)
-        contexts_list.append(result["contexts"])
+        contexts_list.append(contexts_eval)   # lista completa ordenada por rank
 
         detailed_results.append({
-            "question": question,
-            "reference": reference,
+            "question":   question,
+            "reference":  reference,
             "prediction": prediction,
-            "contexts": result["contexts"],
-            "sources": result["sources"],
-            "num_chunks": result["num_chunks"],
+            "contexts":   contexts_eval,
+            "sources":    list({r["source"] for r in retrieved_eval}),
+            "num_chunks": len(retrieved_gen),
         })
 
     if not predictions:
         raise ValueError("No se generaron predicciones para evaluar")
 
-    avg_metrics = evaluate_rag_batch(predictions, references, contexts_list)
+    avg_metrics = evaluate_rag_batch(
+        predictions, references, contexts_list,
+        recall_k_values=RECALL_K_VALUES,
+    )
 
     logs_dir = Path(config["paths"]["logs_dir"])
     logs_dir.mkdir(parents=True, exist_ok=True)

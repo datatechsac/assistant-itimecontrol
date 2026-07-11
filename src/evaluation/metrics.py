@@ -224,30 +224,117 @@ def compute_context_recall(contexts: list[str], reference: str) -> float:
     return round(overlap / len(ref_tokens), 4)
 
 
+def compute_mrr(
+    contexts_ranked: list[str],
+    reference: str,
+    overlap_threshold: float = 0.3,
+) -> float:
+    """
+    MRR (Mean Reciprocal Rank): inverso del rango del primer chunk relevante.
+
+    Recorre la lista ordenada por score y devuelve 1/rank del primer hit.
+    Si ningún chunk alcanza el umbral de overlap, devuelve 0.0.
+
+    Args:
+        contexts_ranked: Chunks en orden descendente de score (rank 1 = primero).
+        reference:       Respuesta de referencia (ground truth).
+        overlap_threshold: Fracción mínima de tokens del reference que debe
+                           compartir el chunk para considerarse relevante.
+    """
+    if not contexts_ranked or not reference:
+        return 0.0
+
+    ref_tokens = set(_tokenize(reference))
+    if not ref_tokens:
+        return 0.0
+
+    for rank, ctx in enumerate(contexts_ranked, start=1):
+        ctx_tokens = set(_tokenize(ctx))
+        overlap = len(ref_tokens & ctx_tokens) / len(ref_tokens)
+        if overlap >= overlap_threshold:
+            return round(1.0 / rank, 4)
+
+    return 0.0
+
+
+def compute_recall_at_k(
+    contexts_ranked: list[str],
+    reference: str,
+    k_values: list[int] | None = None,
+    overlap_threshold: float = 0.3,
+) -> dict:
+    """
+    Recall@K: fracción de consultas en que un chunk relevante aparece en top-K.
+
+    Con 1 documento relevante por consulta, Recall@K = 1.0 si hay hit en
+    los primeros K resultados, 0.0 si no. Se evalúa para cada K en k_values.
+
+    Args:
+        contexts_ranked: Chunks ordenados por score descendente.
+        reference:       Ground truth de la consulta.
+        k_values:        Lista de valores de K a evaluar (default [1, 3, 5, 10]).
+        overlap_threshold: Umbral de overlap léxico para definir relevancia.
+
+    Returns:
+        Dict {"recall@1": float, "recall@3": float, ...}
+    """
+    if k_values is None:
+        k_values = [1, 3, 5, 10]
+
+    if not contexts_ranked or not reference:
+        return {f"recall@{k}": 0.0 for k in k_values}
+
+    ref_tokens = set(_tokenize(reference))
+    if not ref_tokens:
+        return {f"recall@{k}": 0.0 for k in k_values}
+
+    result = {}
+    for k in k_values:
+        hit = 0
+        for ctx in contexts_ranked[:k]:
+            ctx_tokens = set(_tokenize(ctx))
+            overlap = len(ref_tokens & ctx_tokens) / len(ref_tokens)
+            if overlap >= overlap_threshold:
+                hit = 1
+                break
+        result[f"recall@{k}"] = float(hit)
+
+    return result
+
+
 def evaluate_rag_single(
     prediction: str,
     reference: str,
     contexts: list[str],
+    recall_k_values: list[int] | None = None,
 ) -> dict:
     """
     Evalúa una muestra RAG con métricas de texto + métricas de recuperación.
 
     Args:
-        prediction: Respuesta generada por el pipeline RAG.
-        reference:  Respuesta de referencia (ground truth).
-        contexts:   Lista de chunks recuperados por el retriever.
+        prediction:     Respuesta generada por el pipeline RAG.
+        reference:      Respuesta de referencia (ground truth).
+        contexts:       Chunks recuperados en orden de relevancia (rank 1 = primero).
+        recall_k_values: Valores de K para Recall@K (default [1, 3, 5, 10]).
 
     Returns:
-        Dict con ROUGE, BLEU, exact_match, hit_rate y context_recall.
+        Dict con ROUGE, BLEU, exact_match, hit_rate, context_recall, MRR y Recall@K.
     """
-    text_scores = evaluate_single(prediction, reference)
-    hit = compute_hit_rate(contexts, reference)
-    ctx_recall = compute_context_recall(contexts, reference)
+    if recall_k_values is None:
+        recall_k_values = [1, 3, 5, 10]
+
+    text_scores  = evaluate_single(prediction, reference)
+    hit          = compute_hit_rate(contexts, reference)
+    ctx_recall   = compute_context_recall(contexts, reference)
+    mrr          = compute_mrr(contexts, reference)
+    recall_at_k  = compute_recall_at_k(contexts, reference, k_values=recall_k_values)
 
     return {
         **text_scores,
-        "hit_rate": hit,
+        "hit_rate":       hit,
         "context_recall": ctx_recall,
+        "mrr":            mrr,
+        **recall_at_k,
     }
 
 
@@ -255,22 +342,27 @@ def evaluate_rag_batch(
     predictions: list[str],
     references: list[str],
     contexts_list: list[list[str]],
+    recall_k_values: list[int] | None = None,
 ) -> dict:
     """
     Evalúa un batch completo de ejemplos RAG.
 
     Args:
-        predictions:   Respuestas generadas.
-        references:    Ground truths.
-        contexts_list: Lista de listas de chunks recuperados (uno por pregunta).
+        predictions:     Respuestas generadas.
+        references:      Ground truths.
+        contexts_list:   Lista de listas de chunks (rank ordenado) por pregunta.
+        recall_k_values: Valores de K para Recall@K (default [1, 3, 5, 10]).
 
     Returns:
-        Dict con métricas promedio (texto + RAG).
+        Dict con métricas promedio: texto + Hit Rate + Context Recall + MRR + Recall@K.
     """
+    if recall_k_values is None:
+        recall_k_values = [1, 3, 5, 10]
+
     assert len(predictions) == len(references) == len(contexts_list), "Listas de diferente tamaño"
 
     all_scores = [
-        evaluate_rag_single(p, r, c)
+        evaluate_rag_single(p, r, c, recall_k_values=recall_k_values)
         for p, r, c in zip(predictions, references, contexts_list)
     ]
 
