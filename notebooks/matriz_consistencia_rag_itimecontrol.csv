@@ -1,0 +1,5 @@
+﻿codigo,Problema Específico,Objetivo Específico,Hipótesis Específica,Variable / Dimensión,Indicador,Instrumento
+E1,PE1: centralizar el conocimiento operativo disperso,OE1: organizar y centralizar el conocimiento (negocio),He1: base bien estructurada mejora la relevancia,VI / Procesamiento documental,Coef. variacion tamano chunks; nº chunks,Script chunking; reporte distribucion
+E2,PE2: reducir dependencia del soporte tecnico,OE2: proveer respuestas relevantes y oportunas (negocio),He2: mayor relevancia -> mayor utilidad de respuestas,VI / Recuperacion semantica · VD / Relevancia,"Top-k; umbral similitud; Recall@1,3,5",Pipeline retriever; script evaluacion
+E3,PE3: guiar al usuario con respuestas claras,OE3: entregar respuestas claras en lenguaje natural,He3: con contexto -> respuestas mas precisas,VI / Generacion · VD / Precision,Nº fragmentos; ROUGE-1/2/L; BLEU,Modulo generacion; metricas automaticas
+E4,PE4: mejora frente a la busqueda tradicional,OE4: validar la mejora antes de la adopcion,He4: RAG supera al baseline,VD / Eficiencia y comparacion,Diferencia ROUGE/BLEU/Recall@k; latencia,Experimento comparativo; holdout + 5-fold CV
