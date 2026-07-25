@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arquitectura de Solución — Modelo RAG iTimeControl</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #ffffff;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #1a1a1a;
+    padding: 26px 22px 34px;
+  }
+  .board { max-width: 1180px; margin: 0 auto; }
+
+  h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+    border: 2px solid #1a1a1a;
+    border-radius: 4px;
+  }
+
+  /* Cabeceras de fase */
+  .phase-head {
+    grid-row: 1;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 8px;
+    border-bottom: 2px solid #1a1a1a;
+  }
+  .conn-head { grid-row: 1; border-bottom: 2px solid #1a1a1a; }
+
+  /* Columnas de fase (bordes verticales tipo la referencia) */
+  .col1 { border-right: none; }
+  .phase-head, .col-body {
+    border-right: 2px solid #1a1a1a;
+  }
+  .grid > div:nth-child(7)  { border-right: none; } /* último phase-head sin borde derecho extra */
+
+  .col-body {
+    grid-column: span 1;
+    padding: 16px 14px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .conn-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #444;
+    padding-top: 60px;
+  }
+
+  /* badges tipo logo */
+  .badge-row { display: flex; gap: 10px; justify-content: center; margin-bottom: 4px; }
+  .badge {
+    width: 44px; height: 44px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    flex-shrink: 0;
+  }
+  .badge.sm { width: 34px; height: 34px; font-size: 13px; border-radius: 8px; }
+  .badge.pdf   { background: #e2483d; }
+  .badge.py    { background: #2f6f9f; }
+  .badge.json  { background: #1a1a1a; }
+  .badge.clean { background: #6b7280; }
+  .badge.embed { background: #6b3fa0; }
+  .badge.faiss { background: #0064e0; }
+  .badge.llm   { background: #f6821f; }
+  .badge.api   { background: #009485; }
+
+  .down-arrow { font-size: 16px; color: #444; line-height: 1; }
+  .updown-arrow { font-size: 16px; color: #444; line-height: 1; }
+
+  .node {
+    width: 100%;
+    max-width: 235px;
+    border: 1.5px solid #1a1a1a;
+    border-radius: 8px;
+    padding: 9px 10px;
+    text-align: center;
+    background: #fafafa;
+  }
+  .node .t { font-size: 12px; font-weight: 700; display: block; }
+  .node .s { font-size: 10.5px; color: #4b4b4b; display: block; margin-top: 2px; }
+
+  .node.artifact {
+    background: #fff;
+    border-style: solid;
+  }
+
+  /* fila usuario final, ancho completo */
+  .user-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 0 4px;
+    border-top: 2px solid #1a1a1a;
+  }
+  .user-row .arrowpair {
+    font-size: 15px;
+    color: #444;
+  }
+  .user-icon {
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    background: #2b2b2b;
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+  .user-label { font-size: 12px; font-weight: 650; }
+
+  footer {
+    text-align: center;
+    font-size: 11px;
+    color: #6b6b6b;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="board">
+  <h1>Arquitectura de Solución — Modelo RAG aplicado al Sistema iTimeControl</h1>
+
+  <div class="grid">
+    <!-- Encabezados -->
+    <div class="phase-head">Fase 1: Recolección de Datos</div>
+    <div class="conn-head"></div>
+    <div class="phase-head">Fase 2: Generación del Corpus</div>
+    <div class="conn-head"></div>
+    <div class="phase-head">Fase 3: Indexación y Recuperación</div>
+    <div class="conn-head"></div>
+    <div class="phase-head">Fase 4: Generación de Respuesta</div>
+
+    <!-- FASE 1 -->
+    <div class="col-body">
+      <div class="badge-row">
+        <div class="badge pdf">PDF</div>
+      </div>
+      <div class="node">
+        <span class="t">Documentos Fuente</span>
+        <span class="s">Manual de usuario, FAQ, normativa laboral</span>
+      </div>
+      <div class="down-arrow">↓</div>
+      <div class="badge-row">
+        <div class="badge py sm">Py</div>
+      </div>
+      <div class="node">
+        <span class="t">Extracción de Texto</span>
+        <span class="s">pdfplumber (Python)</span>
+      </div>
+      <div class="down-arrow">↓</div>
+      <div class="node artifact">
+        <span class="t">Texto Plano Extraído</span>
+        <span class="s">.txt por documento</span>
+      </div>
+    </div>
+
+    <div class="conn-body">→</div>
+
+    <!-- FASE 2 -->
+    <div class="col-body">
+      <div class="badge-row">
+        <div class="badge clean sm">🧹</div>
+      </div>
+      <div class="node">
+        <span class="t">Limpieza y Normalización</span>
+        <span class="s">Remueve encabezados, espacios, ruido</span>
+      </div>
+      <div class="down-arrow">↓</div>
+      <div class="node">
+        <span class="t">Segmentación en Fragmentos</span>
+        <span class="s">Chunking · 512 tokens / solapamiento 64</span>
+      </div>
+      <div class="down-arrow">↓</div>
+      <div class="badge-row">
+        <div class="badge json sm">{ }</div>
+      </div>
+      <div class="node artifact">
+        <span class="t">Corpus Estructurado</span>
+        <span class="s">JSON · 1,058 fragmentos</span>
+      </div>
+    </div>
+
+    <div class="conn-body">→</div>
+
+    <!-- FASE 3 -->
+    <div class="col-body">
+      <div class="badge-row">
+        <div class="badge embed">🧮</div>
+      </div>
+      <div class="node">
+        <span class="t">Modelo de Embeddings</span>
+        <span class="s">Sentence-Transformers multilingüe (384-d)</span>
+      </div>
+      <div class="updown-arrow">↕</div>
+      <div class="badge-row">
+        <div class="badge faiss sm">FA</div>
+      </div>
+      <div class="node artifact">
+        <span class="t">Base de Datos Vectorial</span>
+        <span class="s">FAISS · búsqueda por similitud coseno</span>
+      </div>
+    </div>
+
+    <div class="conn-body">→</div>
+
+    <!-- FASE 4 -->
+    <div class="col-body">
+      <div class="badge-row">
+        <div class="badge llm">🦙</div>
+      </div>
+      <div class="node">
+        <span class="t">Modelo de Lenguaje (LLM)</span>
+        <span class="s">LLaMA 3.3 70B — API Groq</span>
+      </div>
+      <div class="updown-arrow">↕</div>
+      <div class="badge-row">
+        <div class="badge api sm">API</div>
+      </div>
+      <div class="node artifact">
+        <span class="t">Interfaz Conversacional</span>
+        <span class="s">FastAPI + Chat Web</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="user-row">
+    <div class="arrowpair">↑</div>
+    <div class="user-icon">🧑‍💻</div>
+    <div class="user-label">Usuario Final — Consultas operativas sobre iTimeControl</div>
+    <div class="arrowpair">↓</div>
+  </div>
+
+  <footer>
+    Arquitectura de solución del modelo RAG implementado · Tesis: Implementación de un modelo basado en
+    Retrieval-Augmented Generation (RAG) para mejorar la calidad de las respuestas a consultas operativas del
+    Sistema iTimeControl
+  </footer>
+</div>
+</body>
+</html>

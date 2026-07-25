@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arquitectura General del Modelo RAG — Sistema iTimeControl</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #ffffff;
+    --page:           #f4f5f7;
+    --text-primary:   #14171c;
+    --text-secondary: #4c525c;
+    --text-muted:     #868d99;
+    --border:         rgba(11,11,11,0.09);
+    --mod-data:   #1baf7a;   /* aqua   — datos y preprocesamiento */
+    --mod-index:  #4a3aa7;   /* violet — indexación vectorial */
+    --mod-retr:   #2a78d6;   /* blue   — recuperación */
+    --mod-gen:    #eb6834;   /* orange — generación */
+    --mod-ui:     #898781;   /* gray   — presentación */
+    --mod-data-bg:  #eaf8f2;
+    --mod-index-bg: #efecfa;
+    --mod-retr-bg:  #eaf2fb;
+    --mod-gen-bg:   #fdf0ea;
+    --mod-ui-bg:    #f1f1ef;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text-primary);
+    padding: 30px 20px 44px;
+  }
+  .viz-root { max-width: 980px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 22px; }
+  h1 { font-size: 20px; font-weight: 700; margin: 0 0 5px; letter-spacing: -.01em; }
+  .subtitle { font-size: 13px; color: var(--text-secondary); margin: 0; }
+
+  .layer {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 22px 18px;
+    margin-bottom: 4px;
+    box-shadow: 0 1px 2px rgba(11,11,11,0.03);
+  }
+  .layer-head {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 13px;
+  }
+  .layer-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .layer-name {
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--text-primary);
+  }
+
+  .row {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+  }
+  .box {
+    flex: 1;
+    border-radius: 9px;
+    border: 1.5px solid;
+    padding: 11px 12px;
+    text-align: center;
+  }
+  .box .fn {
+    font-size: 12px;
+    font-weight: 650;
+    color: var(--text-primary);
+    display: block;
+    margin-bottom: 3px;
+  }
+  .box .tool {
+    font-size: 10.8px;
+    color: var(--text-secondary);
+    display: block;
+  }
+  .box.data  { background: var(--mod-data-bg);  border-color: var(--mod-data); }
+  .box.index { background: var(--mod-index-bg); border-color: var(--mod-index); }
+  .box.retr  { background: var(--mod-retr-bg);  border-color: var(--mod-retr); }
+  .box.gen   { background: var(--mod-gen-bg);   border-color: var(--mod-gen); }
+  .box.ui    { background: var(--mod-ui-bg);    border-color: var(--mod-ui); max-width: 320px; margin: 0 auto; }
+
+  .arrow-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 15px;
+    padding: 0 5px;
+    flex: 0 0 auto;
+  }
+  .arrow-v {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 15px;
+    padding: 3px 0;
+  }
+
+  .bridge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 10.5px;
+    color: var(--text-muted);
+    padding: 2px 0 6px;
+  }
+  .bridge .line { width: 60px; height: 0; border-top: 1.5px dashed var(--text-muted); }
+
+  footer.note {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 16px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="viz-root">
+
+  <header>
+    <h1>Arquitectura General del Modelo RAG — Asistente iTimeControl</h1>
+    <p class="subtitle">Retrieval-Augmented Generation aplicado a consultas operativas del sistema</p>
+  </header>
+
+  <!-- CAPA 1: DATOS -->
+  <div class="layer">
+    <div class="layer-head">
+      <span class="layer-dot" style="background:var(--mod-data)"></span>
+      <span class="layer-name">Capa de Datos y Preprocesamiento</span>
+    </div>
+    <div class="row">
+      <div class="box data">
+        <span class="fn">Documentos Fuente</span>
+        <span class="tool">Manuales, FAQ, normativa laboral</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box data">
+        <span class="fn">Extracción de Texto</span>
+        <span class="tool">PyMuPDF · pdfplumber</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box data">
+        <span class="fn">Limpieza y Normalización</span>
+        <span class="tool">Procesamiento de lenguaje natural</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box data">
+        <span class="fn">Segmentación en Fragmentos</span>
+        <span class="tool">Chunking (512 tokens, solapamiento 64)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-v">↓</div>
+
+  <!-- CAPA 2: INDEXACIÓN -->
+  <div class="layer">
+    <div class="layer-head">
+      <span class="layer-dot" style="background:var(--mod-index)"></span>
+      <span class="layer-name">Capa de Indexación Vectorial</span>
+    </div>
+    <div class="row">
+      <div class="box index">
+        <span class="fn">Modelo de Embeddings</span>
+        <span class="tool">Sentence-Transformers (multilingüe, 384 dim.)</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box index">
+        <span class="fn">Base de Datos Vectorial</span>
+        <span class="tool">FAISS — 1,058 fragmentos indexados</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bridge"><span class="line"></span> el índice se consulta en cada búsqueda <span class="line"></span></div>
+  <div class="arrow-v">↓</div>
+
+  <!-- CAPA 3: RECUPERACIÓN -->
+  <div class="layer">
+    <div class="layer-head">
+      <span class="layer-dot" style="background:var(--mod-retr)"></span>
+      <span class="layer-name">Capa de Recuperación (Retrieval)</span>
+    </div>
+    <div class="row">
+      <div class="box retr">
+        <span class="fn">Consulta del Usuario</span>
+        <span class="tool">Pregunta en lenguaje natural</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box retr">
+        <span class="fn">Vectorización de la Consulta</span>
+        <span class="tool">Mismo modelo de embeddings</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box retr">
+        <span class="fn">Búsqueda por Similitud</span>
+        <span class="tool">Similitud coseno sobre FAISS</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box retr">
+        <span class="fn">Priorización de Fuentes</span>
+        <span class="tool">Reranking por relevancia de dominio</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-v">↓</div>
+
+  <!-- CAPA 4: GENERACIÓN -->
+  <div class="layer">
+    <div class="layer-head">
+      <span class="layer-dot" style="background:var(--mod-gen)"></span>
+      <span class="layer-name">Capa de Generación Aumentada</span>
+    </div>
+    <div class="row">
+      <div class="box gen">
+        <span class="fn">Construcción del Contexto</span>
+        <span class="tool">Fragmentos relevantes + cita de fuente</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box gen">
+        <span class="fn">Modelo de Lenguaje Generativo</span>
+        <span class="tool">LLaMA 3.3 70B (API Groq)</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box gen">
+        <span class="fn">Respuesta Generada</span>
+        <span class="tool">Con fuentes documentales citadas</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-v">↓</div>
+
+  <!-- CAPA 5: PRESENTACIÓN -->
+  <div class="layer">
+    <div class="layer-head">
+      <span class="layer-dot" style="background:var(--mod-ui)"></span>
+      <span class="layer-name">Capa de Presentación</span>
+    </div>
+    <div class="row">
+      <div class="box ui">
+        <span class="fn">Interfaz Conversacional Web</span>
+        <span class="tool">Aplicación de chat para el usuario final</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="note">
+  Arquitectura funcional del modelo RAG implementado para el Asistente iTimeControl · Tesis: Implementación de un
+  modelo basado en Retrieval-Augmented Generation (RAG) para mejorar la calidad de las respuestas a consultas
+  operativas del Sistema iTimeControl
+</footer>
+</body>
+</html>

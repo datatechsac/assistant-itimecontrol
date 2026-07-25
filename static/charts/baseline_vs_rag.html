@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baseline vs RAG — Comparación de métricas</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline-axis:  #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-baseline: #2a78d6;  /* slot 1 — Sin RAG */
+    --series-rag:       #eb6834; /* slot 2 — Con RAG */
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text-primary);
+    padding: 32px 16px 60px;
+  }
+  .viz-root { max-width: 880px; margin: 0 auto; }
+
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 32px 24px;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 650;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0 0 22px;
+  }
+
+  /* legend */
+  .legend {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 18px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+  }
+  .legend-item { display: flex; align-items: center; gap: 7px; }
+  .swatch { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+
+  /* chart */
+  .chart {
+    position: relative;
+    height: 260px;
+    margin-left: 34px;
+    border-left: 1px solid var(--baseline-axis);
+    border-bottom: 1px solid var(--baseline-axis);
+    padding-top: 8px;
+  }
+  .gridline {
+    position: absolute;
+    left: 0; right: 0;
+    border-top: 1px solid var(--gridline);
+  }
+  .gridline .tick {
+    position: absolute;
+    left: -34px;
+    top: -7px;
+    width: 28px;
+    text-align: right;
+    font-size: 10.5px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .groups {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 6px;
+  }
+  .group {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2px;
+    height: 100%;
+    position: relative;
+  }
+  .bar {
+    width: 22px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    transition: filter .12s ease;
+    cursor: default;
+  }
+  .bar:hover { filter: brightness(1.08); }
+  .bar.baseline { background: var(--series-baseline); }
+  .bar.rag { background: var(--series-rag); }
+  .bar-value {
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .cat-labels {
+    display: flex;
+    margin-left: 34px;
+    margin-top: 8px;
+  }
+  .cat-label {
+    flex: 1;
+    text-align: center;
+    font-size: 11.5px;
+    color: var(--text-secondary);
+    padding: 0 2px;
+  }
+
+  .bar.single { background: var(--series-rag); width: 30px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 12.5px;
+  }
+  table caption {
+    text-align: left;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+  th, td {
+    text-align: right;
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--gridline);
+    font-variant-numeric: tabular-nums;
+  }
+  th:first-child, td:first-child { text-align: left; font-variant-numeric: normal; }
+  th { color: var(--text-muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .02em; }
+  td.na { color: var(--text-muted); font-style: italic; }
+
+  details { margin-top: 4px; }
+  summary {
+    cursor: pointer;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    padding: 4px 0;
+  }
+
+  footer.note {
+    font-size: 11.5px;
+    color: var(--text-muted);
+    max-width: 880px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="viz-root">
+
+  <!-- Panel A: Baseline vs RAG (métricas comparables) -->
+  <div class="card">
+    <h1>Baseline (sin RAG) vs. RAG completo</h1>
+    <p class="subtitle">Set curado de 30 preguntas naturales · mismo modelo generador (Llama-3.3-70B) · escala 0–1</p>
+
+    <div class="legend">
+      <div class="legend-item"><span class="swatch" style="background:var(--series-baseline)"></span>Sin RAG (baseline)</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--series-rag)"></span>Con RAG</div>
+    </div>
+
+    <div class="chart" id="chartA">
+      <div class="gridline" style="bottom:0%"><span class="tick">0.0</span></div>
+      <div class="gridline" style="bottom:25%"><span class="tick">0.25</span></div>
+      <div class="gridline" style="bottom:50%"><span class="tick">0.5</span></div>
+      <div class="gridline" style="bottom:75%"><span class="tick">0.75</span></div>
+      <div class="gridline" style="bottom:100%"><span class="tick">1.0</span></div>
+
+      <div class="groups" id="groupsA"></div>
+    </div>
+    <div class="cat-labels" id="labelsA"></div>
+
+    <details>
+      <summary>Ver tabla de datos</summary>
+      <table>
+        <caption>Valores exactos usados en el gráfico (escala 0–1)</caption>
+        <thead><tr><th>Métrica</th><th>Sin RAG</th><th>Con RAG</th><th>Δ relativo</th></tr></thead>
+        <tbody id="tableA"></tbody>
+      </table>
+    </details>
+  </div>
+
+  <!-- Panel B: Métricas exclusivas de RAG -->
+  <div class="card">
+    <h1>Métricas exclusivas del pipeline RAG</h1>
+    <p class="subtitle">No aplican al baseline por no existir recuperación de contexto</p>
+
+    <div class="chart" id="chartB">
+      <div class="gridline" style="bottom:0%"><span class="tick">0.0</span></div>
+      <div class="gridline" style="bottom:25%"><span class="tick">0.25</span></div>
+      <div class="gridline" style="bottom:50%"><span class="tick">0.5</span></div>
+      <div class="gridline" style="bottom:75%"><span class="tick">0.75</span></div>
+      <div class="gridline" style="bottom:100%"><span class="tick">1.0</span></div>
+
+      <div class="groups" id="groupsB"></div>
+    </div>
+    <div class="cat-labels" id="labelsB"></div>
+
+    <details>
+      <summary>Ver tabla de datos</summary>
+      <table>
+        <caption>Valores exactos usados en el gráfico (escala 0–1)</caption>
+        <thead><tr><th>Métrica</th><th>Valor (con RAG)</th></tr></thead>
+        <tbody id="tableB"></tbody>
+      </table>
+    </details>
+  </div>
+
+</div>
+
+<footer class="note">
+  Fuente: evaluación real ejecutada sobre <code>data/datasets/curated_eval_set.json</code> (30 preguntas del FAQ
+  oficial de iTimeControl). Baseline = mismo LLM sin recuperación. Relevancy/Correctness/Faithfulness calculadas
+  con LLM-as-judge (Llama-3.3-70B). Ver <code>logs/baseline_evaluation_curated.json</code>,
+  <code>logs/rag_evaluation_curated.json</code> y <code>logs/rag_judge_curated.json</code> para el detalle por pregunta.
+</footer>
+
+<script>
+  const dataA = [
+    { label: "ROUGE-1",     baseline: 0.0655, rag: 0.2124 },
+    { label: "ROUGE-2",     baseline: 0.0121, rag: 0.1338 },
+    { label: "ROUGE-L",     baseline: 0.0512, rag: 0.1882 },
+    { label: "BLEU",        baseline: 0.0037, rag: 0.0903 },
+    { label: "Relevancy",   baseline: 0.5333, rag: 0.6933 },
+    { label: "Correctness", baseline: 0.2133, rag: 0.3700 },
+  ];
+
+  const dataB = [
+    { label: "Faithfulness", value: 0.8200 },
+    { label: "Hit Rate",     value: 0.8667 },
+    { label: "MRR",          value: 0.7611 },
+    { label: "Recall@5",     value: 0.8667 },
+  ];
+
+  function fmt(v) { return v.toFixed(4); }
+
+  function renderGroupedChart(data, groupsElId, labelsElId, tableElId) {
+    const groupsEl = document.getElementById(groupsElId);
+    const labelsEl = document.getElementById(labelsElId);
+    const tableEl = document.getElementById(tableElId);
+
+    data.forEach(d => {
+      const group = document.createElement('div');
+      group.className = 'group';
+
+      const barBase = document.createElement('div');
+      barBase.className = 'bar baseline';
+      barBase.style.height = (d.baseline * 100) + '%';
+      barBase.title = `${d.label} — Sin RAG: ${fmt(d.baseline)}`;
+      const valBase = document.createElement('span');
+      valBase.className = 'bar-value';
+      valBase.textContent = fmt(d.baseline);
+      barBase.appendChild(valBase);
+
+      const barRag = document.createElement('div');
+      barRag.className = 'bar rag';
+      barRag.style.height = (d.rag * 100) + '%';
+      barRag.title = `${d.label} — Con RAG: ${fmt(d.rag)}`;
+      const valRag = document.createElement('span');
+      valRag.className = 'bar-value';
+      valRag.textContent = fmt(d.rag);
+      barRag.appendChild(valRag);
+
+      group.appendChild(barBase);
+      group.appendChild(barRag);
+      groupsEl.appendChild(group);
+
+      const label = document.createElement('div');
+      label.className = 'cat-label';
+      label.textContent = d.label;
+      labelsEl.appendChild(label);
+
+      const row = document.createElement('tr');
+      const delta = d.baseline > 0 ? (((d.rag - d.baseline) / d.baseline) * 100).toFixed(0) + '%' : '—';
+      row.innerHTML = `<td>${d.label}</td><td>${fmt(d.baseline)}</td><td>${fmt(d.rag)}</td><td>${delta.startsWith('-') ? delta : '+' + delta}</td>`;
+      tableEl.appendChild(row);
+    });
+  }
+
+  function renderSingleChart(data, groupsElId, labelsElId, tableElId) {
+    const groupsEl = document.getElementById(groupsElId);
+    const labelsEl = document.getElementById(labelsElId);
+    const tableEl = document.getElementById(tableElId);
+
+    data.forEach(d => {
+      const group = document.createElement('div');
+      group.className = 'group';
+
+      const bar = document.createElement('div');
+      bar.className = 'bar single';
+      bar.style.height = (d.value * 100) + '%';
+      bar.title = `${d.label}: ${fmt(d.value)}`;
+      const val = document.createElement('span');
+      val.className = 'bar-value';
+      val.textContent = fmt(d.value);
+      bar.appendChild(val);
+
+      group.appendChild(bar);
+      groupsEl.appendChild(group);
+
+      const label = document.createElement('div');
+      label.className = 'cat-label';
+      label.textContent = d.label;
+      labelsEl.appendChild(label);
+
+      const row = document.createElement('tr');
+      row.innerHTML = `<td>${d.label}</td><td>${fmt(d.value)}</td>`;
+      tableEl.appendChild(row);
+    });
+  }
+
+  renderGroupedChart(dataA, 'groupsA', 'labelsA', 'tableA');
+  renderSingleChart(dataB, 'groupsB', 'labelsB', 'tableB');
+</script>
+</body>
+</html>

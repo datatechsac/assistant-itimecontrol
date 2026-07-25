@@ -1,0 +1,122 @@
+[
+  {
+    "question": "¿Qué es una marcación de asistencia?",
+    "answer": "Es el registro de la hora en la que un trabajador realiza como ingreso, salida, inicio o fin de refrigerio. Este registro es capturado desde un dispositivo de reloj biométrico (huella o facial) o desde el portal del empleado."
+  },
+  {
+    "question": "¿Qué sucede si un trabajador no marca su ingreso?",
+    "answer": "El sistema puede registrar una falta o generar una incidencia de \"marcación omitida\", dependiendo de la configuración."
+  },
+  {
+    "question": "¿Cómo se valida una marcación duplicada?",
+    "answer": "Se valida comparando el tipo de evento y el rango de tiempo. Si existen dos marcaciones consecutivas del mismo tipo en un intervalo corto, se considera duplicada en el dispositivo biométrico."
+  },
+  {
+    "question": "¿Qué pasa si un trabajador marca fuera de su horario?",
+    "answer": "Se evalúa según reglas: puede considerarse tardanza, horas extras o marcación inválida."
+  },
+  {
+    "question": "¿Se pueden registrar marcaciones manualmente?",
+    "answer": "Sí, mediante un usuario autorizado, quedando registro de auditoría."
+  },
+  {
+    "question": "¿Qué es un horario laboral en iTimeControl?",
+    "answer": "Es la configuración de horas de ingreso, salida, tolerancias y descansos asignados a un trabajador."
+  },
+  {
+    "question": "¿Qué tipos de horarios existen en el sistema iTimeControl?",
+    "answer": "Existen 3 tipos de horarios: fijos, rotativos y flexibles. Los horarios fijos se establecen con una fecha de inicio y una fecha fin. Los horarios rotativos permiten asignar de forma simétrica el orden de los horarios por semana o mensual hasta una fecha final. Los horarios flexibles o indefinidos indican que el trabajador tiene asignado uno o más horarios sin fechas definidas, y el sistema calcula internamente cuál horario es el más próximo para asignarlo en el proceso de marcas."
+  },
+  {
+    "question": "¿Cómo se asigna un horario a un trabajador?",
+    "answer": "Se asigna directamente desde el módulo de Operación y menú asignación de horario. Se puede realizar por una persona o por un filtro de un grupo (local, área, subarea, tipo personal), agregando a las personas y luego seleccionando el tipo de horario (fijos, rotativos y flexibles)."
+  },
+  {
+    "question": "¿Qué es la tolerancia en un horario?",
+    "answer": "Es el tiempo permitido después de la hora de ingreso sin considerar tardanza. La tolerancia debe configurarse en el módulo Administración en el menú Horario."
+  },
+  {
+    "question": "¿Qué ocurre si un trabajador no tiene horario asignado?",
+    "answer": "El sistema iTimeControl tomará al trabajador como que no tiene una responsabilidad fiscalizada, por lo tanto no podrá realizar el cálculo de las horas trabajadas."
+  },
+  {
+    "question": "¿Cómo se calcula una tardanza en iTimeControl?",
+    "answer": "Se calcula como la diferencia entre la hora de ingreso y la hora real de marcación, descontando la tolerancia."
+  },
+  {
+    "question": "¿Cómo se calculan las horas extras en el sistema?",
+    "answer": "Se calcula el tiempo trabajado fuera del horario establecido, validando si está autorizado."
+  },
+  {
+    "question": "¿Las horas extras se calculan automáticamente en iTimeControl?",
+    "answer": "Sí, según reglas de negocio, aunque pueden requerir aprobación."
+  },
+  {
+    "question": "¿Qué es una ausencia en el sistema iTimeControl?",
+    "answer": "Es la falta de marcación en un día laboral sin justificación; el sistema mostrará en el reporte como FALTA."
+  },
+  {
+    "question": "¿Cómo se justifica una ausencia?",
+    "answer": "Mediante permisos, licencias o vacaciones registradas en el sistema."
+  },
+  {
+    "question": "¿Qué tipos de ausencia existen?",
+    "answer": "Justificadas e injustificadas."
+  },
+  {
+    "question": "¿Cómo se gestionan las vacaciones en iTimeControl?",
+    "answer": "Se registran solicitudes aprobadas que bloquean la generación de faltas."
+  },
+  {
+    "question": "¿Qué pasa si un trabajador marca durante sus vacaciones?",
+    "answer": "La marcación puede ser ignorada o generar una alerta."
+  },
+  {
+    "question": "¿Qué es un permiso en el sistema?",
+    "answer": "Es una autorización temporal para no cumplir el horario laboral."
+  },
+  {
+    "question": "¿Qué diferencia hay entre un permiso y una licencia?",
+    "answer": "El permiso suele ser de corto plazo, mientras que la licencia puede ser prolongada."
+  },
+  {
+    "question": "¿Qué son las reglas de cálculo en iTimeControl?",
+    "answer": "Son configuraciones que determinan cómo se procesan marcaciones, tardanzas y horas extras."
+  },
+  {
+    "question": "¿Se pueden personalizar las reglas de cálculo por empresa?",
+    "answer": "Sí, cada empresa puede definir sus propias políticas."
+  },
+  {
+    "question": "¿Qué es un turno nocturno en iTimeControl?",
+    "answer": "Es un horario que cruza medianoche."
+  },
+  {
+    "question": "¿Qué tipos de reportes existen en el sistema?",
+    "answer": "Asistencia diaria, tardanzas, horas extras, ausencias y consolidado mensual."
+  },
+  {
+    "question": "¿Se pueden exportar los reportes de iTimeControl?",
+    "answer": "Sí, en formatos como Excel o PDF."
+  },
+  {
+    "question": "¿Qué pasa si un trabajador marca ingreso pero no marca salida?",
+    "answer": "Se puede completar automáticamente o generar una incidencia."
+  },
+  {
+    "question": "¿Cómo se manejan múltiples marcaciones en un día?",
+    "answer": "Se agrupan por pares de entrada y salida."
+  },
+  {
+    "question": "¿Qué sucede si hay marcaciones desordenadas?",
+    "answer": "El sistema debe reordenarlas cronológicamente antes del cálculo."
+  },
+  {
+    "question": "¿Cómo se calcula la asistencia en días feriados?",
+    "answer": "Puede considerarse como horas extras o ignorarse según configuración."
+  },
+  {
+    "question": "¿Qué pasa si un trabajador tiene dos horarios asignados en un mismo día?",
+    "answer": "Se deben evaluar ambos bloques de tiempo por separado."
+  }
+]

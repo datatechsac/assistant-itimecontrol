@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arquitectura General del Modelo RAG — Asistente iTimeControl</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --border:         rgba(11,11,11,0.10);
+    --mod-prep:   #1baf7a;  /* aqua  — preprocesamiento y datos */
+    --mod-retr:   #2a78d6;  /* blue  — recuperación */
+    --mod-gen:    #eb6834;  /* orange — generación */
+    --mod-prep-bg: #eaf8f2;
+    --mod-retr-bg: #eaf2fb;
+    --mod-gen-bg:  #fdf0ea;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text-primary);
+    padding: 32px 16px 50px;
+  }
+  .viz-root { max-width: 900px; margin: 0 auto; }
+
+  header { margin-bottom: 6px; }
+  h1 { font-size: 19px; font-weight: 650; margin: 0 0 4px; }
+  .subtitle { font-size: 13px; color: var(--text-secondary); margin: 0 0 18px; }
+
+  .legend {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 24px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+  }
+  .legend-item { display: flex; align-items: center; gap: 7px; }
+  .swatch { width: 11px; height: 11px; border-radius: 3px; flex-shrink: 0; }
+
+  .phase {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px 24px 26px;
+    margin-bottom: 18px;
+  }
+  .phase-title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--text-muted);
+    margin: 0 0 3px;
+  }
+  .phase-desc {
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    margin: 0 0 18px;
+  }
+
+  /* horizontal flow (offline) */
+  .flow-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+  .box {
+    border-radius: 10px;
+    border: 1.5px solid;
+    padding: 12px 14px;
+    font-size: 12.5px;
+    line-height: 1.45;
+    min-width: 128px;
+    flex: 1;
+  }
+  .box .icon { font-size: 17px; display: block; margin-bottom: 5px; }
+  .box .title { font-weight: 650; color: var(--text-primary); display: block; margin-bottom: 2px; }
+  .box .meta { color: var(--text-secondary); font-size: 11.3px; }
+
+  .box.prep { background: var(--mod-prep-bg); border-color: var(--mod-prep); }
+  .box.retr { background: var(--mod-retr-bg); border-color: var(--mod-retr); }
+  .box.gen  { background: var(--mod-gen-bg);  border-color: var(--mod-gen); }
+  .box.hub  {
+    background: var(--surface-1);
+    border-color: var(--mod-retr);
+    border-width: 2px;
+    text-align: center;
+  }
+
+  .arrow-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 16px;
+    padding: 0 4px;
+    flex: 0 0 auto;
+  }
+  .arrow-v {
+    display: flex;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 18px;
+    padding: 8px 0;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .col .box { min-width: unset; }
+
+  .hub-wrap { display: flex; justify-content: center; margin: 4px 0 2px; }
+  .hub-wrap .box { max-width: 380px; }
+
+  .note-chip {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 10.5px;
+    background: rgba(11,11,11,0.045);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 2px 8px;
+    color: var(--text-muted);
+  }
+
+  footer.note {
+    font-size: 11.5px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="viz-root">
+
+  <header>
+    <h1>Arquitectura general del modelo RAG — Asistente iTimeControl</h1>
+    <p class="subtitle">FAISS + embeddings multilingües (recuperación) · LLM Llama-3.3-70B (generación aumentada)</p>
+  </header>
+
+  <div class="legend">
+    <div class="legend-item"><span class="swatch" style="background:var(--mod-prep)"></span>Preprocesamiento y datos</div>
+    <div class="legend-item"><span class="swatch" style="background:var(--mod-retr)"></span>Recuperación (retrieval)</div>
+    <div class="legend-item"><span class="swatch" style="background:var(--mod-gen)"></span>Generación aumentada</div>
+  </div>
+
+  <!-- FASE OFFLINE -->
+  <div class="phase">
+    <p class="phase-title">Fase offline — Indexación (una sola vez)</p>
+    <p class="phase-desc">Transforma los documentos fuente del sistema iTimeControl en un índice vectorial consultable.</p>
+
+    <div class="flow-row">
+      <div class="box prep">
+        <span class="icon">📄</span>
+        <span class="title">Documentos PDF</span>
+        <span class="meta">Manual de usuario, FAQ, normativa laboral, guías RRHH</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box prep">
+        <span class="icon">🧹</span>
+        <span class="title">Extracción y limpieza</span>
+        <span class="meta">pdf_extractor.py + text_cleaner.py — normaliza espacios, quita encabezados</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box prep">
+        <span class="icon">✂️</span>
+        <span class="title">Chunking</span>
+        <span class="meta">chunker.py — 512 tokens, overlap 64</span>
+      </div>
+      <div class="arrow-h">→</div>
+      <div class="box prep">
+        <span class="icon">🧮</span>
+        <span class="title">Embeddings</span>
+        <span class="meta">paraphrase-multilingual-MiniLM-L12-v2 (384-d)</span>
+      </div>
+    </div>
+
+    <div class="arrow-v">↓</div>
+
+    <div class="hub-wrap">
+      <div class="box hub">
+        <span class="icon">🗄️</span>
+        <span class="title">Índice FAISS + Metadata</span>
+        <span class="meta">IndexFlatIP (similitud coseno) · 1,058 chunks indexados</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FASE ONLINE -->
+  <div class="phase">
+    <p class="phase-title">Fase online — Por cada consulta del usuario</p>
+    <p class="phase-desc">Recupera el contexto relevante del índice y genera una respuesta fundamentada.</p>
+
+    <div class="col">
+      <div class="box retr" style="max-width:420px">
+        <span class="icon">🧑‍💻</span>
+        <span class="title">Pregunta del usuario</span>
+        <span class="meta">Ej. "¿Cómo se calculan las horas extras?"</span>
+      </div>
+      <div class="arrow-v">↓</div>
+      <div class="box retr" style="max-width:420px">
+        <span class="icon">🔎</span>
+        <span class="title">Expansión de la consulta</span>
+        <span class="meta">Prefijo de dominio: "iTimeControl sistema: {pregunta}"</span>
+      </div>
+      <div class="arrow-v">↓</div>
+      <div class="box retr" style="max-width:420px">
+        <span class="icon">🔗</span>
+        <span class="title">Búsqueda en el índice FAISS</span>
+        <span class="meta">top_k × 4 candidatos por similitud coseno</span>
+        <span class="note-chip">consulta el Índice FAISS ↑</span>
+      </div>
+      <div class="arrow-v">↓</div>
+      <div class="box retr" style="max-width:420px">
+        <span class="icon">⚖️</span>
+        <span class="title">Reranking por dominio</span>
+        <span class="meta">boost ×1.25 a fuentes propias del producto (manual, FAQ, API)</span>
+      </div>
+      <div class="arrow-v">↓</div>
+      <div class="box retr" style="max-width:420px">
+        <span class="icon">📋</span>
+        <span class="title">Construcción del contexto</span>
+        <span class="meta">top_k = 5 chunks finales, ≤ 1,024 caracteres, con cita de fuente</span>
+      </div>
+      <div class="arrow-v">↓</div>
+      <div class="box gen" style="max-width:420px">
+        <span class="icon">🤖</span>
+        <span class="title">Generación aumentada</span>
+        <span class="meta">Prompt (contexto + pregunta) → Llama-3.3-70B / Gemini / Claude</span>
+      </div>
+      <div class="arrow-v">↓</div>
+      <div class="box gen" style="max-width:420px">
+        <span class="icon">✅</span>
+        <span class="title">Respuesta + fuentes citadas</span>
+        <span class="meta">Mostrada al usuario con trazabilidad documental</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="note">
+  Componentes reales del sistema implementado: <code>src/preprocessing/</code> (extracción, limpieza, chunking),
+  <code>src/rag/embedder.py</code> (indexación), <code>src/rag/retriever.py</code> (recuperación y reranking),
+  <code>src/rag/pipeline.py</code> (generación aumentada). Config. base: <code>config.yaml</code> → sección <code>rag</code>.
+</footer>
+</body>
+</html>
